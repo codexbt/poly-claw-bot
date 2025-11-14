@@ -8,6 +8,7 @@ Polymarket BTC & ETH 5-Minute Sniper Bot - v7
 - Vol surge = 2.5x+
 - Blacklist = 600s (10 min)
 - Much tighter LLM prompt
+# Initial LLM integration - 2025-11-14
 """
 
 import asyncio

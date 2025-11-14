@@ -19,3 +19,5 @@ py-clob-client>=0.18.0
 # ── EVM / ABI decoding for advanced Polygon log parsing ──
 eth-abi>=4.0.0
 web3>=6.0.0
+
+# Added basic dependencies - 2025-11-14
