@@ -196,3 +196,4 @@ Licensed under MIT License - see [LICENSE](LICENSE) for details.
 *Built with ❤️ for `codexbt` - Professional trading automation made simple.*
 
 > Updated 2025-11-16: Improve config hints and notes
+> Updated 2025-11-23: Refactor bot startup logging
