@@ -198,3 +198,4 @@ Licensed under MIT License - see [LICENSE](LICENSE) for details.
 > Updated 2025-11-16: Improve config hints and notes
 > Updated 2025-11-23: Refactor bot startup logging
 > Updated 2025-11-25: Update LLM validation note
+> Updated 2025-11-27: Refactor bot startup logging
