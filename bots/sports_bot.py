@@ -7,7 +7,8 @@ FIXES from v7.0:
   ✅ FIX 2: MIN_EDGE lowered to 0.02 (2%) — realistic for prediction markets
   ✅ FIX 3: LLM_CONF_MIN lowered to 55% — was vetoing everything at 60%
   ✅ FIX 4: stat_estimate fixed — returns proper prob even without ESPN data
-  ✅ FIX 5: Game-level grouping fixed — O/U markets no longer blocking ML markets
+   ✅ FIX 5: Game-level grouping fixed — O/U markets no longer blocking ML markets
+# Sports bot improvements - 2025-12-04
   ✅ FIX 6: LLM fallback logic — if LLM fails, stat model makes the call
   ✅ FIX 7: Prob extraction fixed — LLM JSON parsing more robust
   ✅ FIX 8: Volume/depth thresholds relaxed — was rejecting valid markets
