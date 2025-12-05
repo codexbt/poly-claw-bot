@@ -1861,3 +1861,4 @@ if __name__ == "__main__":
             log.exception("Bot crashed unexpectedly: %s", e)
             cprint(f"\n{C.BRED}Bot crashed unexpectedly, restarting in 5s...{C.RESET}")
             time.sleep(5)
+# Updated 2025-12-05: Add inline guidance for dry-run mode
