@@ -1862,3 +1862,4 @@ if __name__ == "__main__":
             cprint(f"\n{C.BRED}Bot crashed unexpectedly, restarting in 5s...{C.RESET}")
             time.sleep(5)
 # Updated 2025-12-05: Add inline guidance for dry-run mode
+# Updated 2025-12-07: Improve config hints and notes
