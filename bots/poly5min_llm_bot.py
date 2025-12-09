@@ -1863,3 +1863,4 @@ if __name__ == "__main__":
             time.sleep(5)
 # Updated 2025-12-05: Add inline guidance for dry-run mode
 # Updated 2025-12-07: Improve config hints and notes
+# Updated 2025-12-10: Refactor bot startup logging
