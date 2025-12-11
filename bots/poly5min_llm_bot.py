@@ -1864,3 +1864,4 @@ if __name__ == "__main__":
 # Updated 2025-12-05: Add inline guidance for dry-run mode
 # Updated 2025-12-07: Improve config hints and notes
 # Updated 2025-12-10: Refactor bot startup logging
+# Updated 2025-12-12: Tighten strategy commentary
