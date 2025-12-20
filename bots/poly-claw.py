@@ -802,3 +802,4 @@ if __name__ == "__main__":
 
 # Updated 2025-12-16: Adjust comments for strategy clarity
 # Updated 2025-12-18: Adjust comments for strategy clarity
+# Updated 2025-12-20: Update LLM validation note
