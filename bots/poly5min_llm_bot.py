@@ -1868,3 +1868,4 @@ if __name__ == "__main__":
 # Updated 2025-12-14: Refactor bot startup logging
 # Updated 2025-12-22: Polish performance logging text
 # Updated 2025-12-27: Tighten strategy commentary
+# Updated 2025-12-31: Refine documentation details
