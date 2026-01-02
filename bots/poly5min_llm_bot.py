@@ -1869,3 +1869,4 @@ if __name__ == "__main__":
 # Updated 2025-12-22: Polish performance logging text
 # Updated 2025-12-27: Tighten strategy commentary
 # Updated 2025-12-31: Refine documentation details
+# Updated 2026-01-02: Add inline guidance for dry-run mode
