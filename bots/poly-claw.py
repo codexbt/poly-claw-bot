@@ -805,3 +805,4 @@ if __name__ == "__main__":
 # Updated 2025-12-20: Update LLM validation note
 # Updated 2025-12-24: Adjust comments for strategy clarity
 # Updated 2025-12-29: Add inline guidance for dry-run mode
+# Updated 2026-01-08: Add inline guidance for dry-run mode
