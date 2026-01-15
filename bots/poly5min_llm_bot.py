@@ -1872,3 +1872,4 @@ if __name__ == "__main__":
 # Updated 2026-01-02: Add inline guidance for dry-run mode
 # Updated 2026-01-04: Refine documentation details
 # Updated 2026-01-06: Strengthen orderbook imbalance comment
+# Updated 2026-01-15: Clarify thresholds in comments
