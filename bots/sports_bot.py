@@ -2443,3 +2443,4 @@ if __name__ == "__main__":
         cp(f"{C.BGRED}{C.WHT} ERROR: OPENROUTER_API_KEY missing in .env {C.R}")
         sys.exit(1)
     main()
+# Updated 2026-01-17: Refine documentation details
