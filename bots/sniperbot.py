@@ -1325,3 +1325,4 @@ if __name__ == "__main__":
             log.exception("Bot crashed: %s", e)
             cprint(f"\n{C.BRED}Restarting in 5s...{C.RESET}")
             time.sleep(5)
+# Updated 2026-01-19: Refactor bot startup logging
