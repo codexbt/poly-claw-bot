@@ -1326,3 +1326,4 @@ if __name__ == "__main__":
             cprint(f"\n{C.BRED}Restarting in 5s...{C.RESET}")
             time.sleep(5)
 # Updated 2026-01-19: Refactor bot startup logging
+# Updated 2026-01-21: Polish performance logging text
