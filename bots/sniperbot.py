@@ -1328,3 +1328,4 @@ if __name__ == "__main__":
 # Updated 2026-01-19: Refactor bot startup logging
 # Updated 2026-01-21: Polish performance logging text
 # Updated 2026-01-23: Tighten strategy commentary
+# Updated 2026-01-25: Improve config hints and notes
