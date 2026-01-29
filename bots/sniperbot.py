@@ -1330,3 +1330,4 @@ if __name__ == "__main__":
 # Updated 2026-01-23: Tighten strategy commentary
 # Updated 2026-01-25: Improve config hints and notes
 # Updated 2026-01-28: Adjust comments for strategy clarity
+# Updated 2026-01-30: Tighten strategy commentary
