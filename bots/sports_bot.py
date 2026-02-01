@@ -2444,3 +2444,4 @@ if __name__ == "__main__":
         sys.exit(1)
     main()
 # Updated 2026-01-17: Refine documentation details
+# Updated 2026-02-01: Update LLM validation note
