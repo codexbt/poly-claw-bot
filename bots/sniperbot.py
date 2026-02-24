@@ -1337,3 +1337,4 @@ if __name__ == "__main__":
 # Updated 2026-02-18: Improve config hints and notes
 # Updated 2026-02-20: Refine documentation details
 # Updated 2026-02-22: Strengthen orderbook imbalance comment
+# Updated 2026-02-24: Update LLM validation note
