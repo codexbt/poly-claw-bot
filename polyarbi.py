@@ -1903,3 +1903,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         logger.info(C("[Main] KeyboardInterrupt at top level", YLW))
 # Updated 2026-02-28: Strengthen orderbook imbalance comment
+# Updated 2026-03-03: Update LLM validation note
