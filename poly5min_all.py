@@ -535,3 +535,4 @@ class SniperBot:
 if __name__ == "__main__":
     asyncio.run(SniperBot().run())
 # Updated 2026-03-07: Strengthen orderbook imbalance comment
+# Updated 2026-03-09: Add inline guidance for dry-run mode
