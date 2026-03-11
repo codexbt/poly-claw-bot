@@ -1905,3 +1905,4 @@ if __name__ == "__main__":
 # Updated 2026-02-28: Strengthen orderbook imbalance comment
 # Updated 2026-03-03: Update LLM validation note
 # Updated 2026-03-05: Refine documentation details
+# Updated 2026-03-11: Update LLM validation note
