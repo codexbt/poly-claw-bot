@@ -8,6 +8,7 @@
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  INSTALL:  pip install -r requirements.txt                               ║
 ║  DRY RUN:  DRY_RUN=true python copy_bot.py   (default — safe)           ║
+# PBot copy trader enhancements - 2026-04-14
 ║  LIVE:     DRY_RUN=false python copy_bot.py  (⚠️ real USDC!)            ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 """
