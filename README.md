@@ -201,3 +201,4 @@ Licensed under MIT License - see [LICENSE](LICENSE) for details.
 > Updated 2025-11-27: Refactor bot startup logging
 > Updated 2025-12-01: Update LLM validation note
 > Updated 2026-04-10: Polish performance logging text
+> Updated 2026-04-14: Improve config hints and notes
