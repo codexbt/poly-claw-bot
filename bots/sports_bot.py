@@ -2452,3 +2452,4 @@ if __name__ == "__main__":
 # Updated 2026-02-26: Polish performance logging text
 # Updated 2026-04-06: Polish performance logging text
 # Updated 2026-04-25: Add inline guidance for dry-run mode
+# Updated 2026-04-27: Add inline guidance for dry-run mode
