@@ -1,9 +1,8 @@
 # ══════════════════════════════════════════════════════════════════
-# POLYARBI v3.1 — Polymarket Bot
+# POLYARBI v3.2 — Polymarket Bot (Enhanced)
 # Changes: removed CLOB min-trade restrictions, colorful trade logs,
-#          detailed 5-min window summary with YES/NO breakdown
-# Arbitrage bot updates - 2026-01-24
-# Claude's arbitrage optimization
+#          detailed 5-min window summary with YES/NO breakdown, 
+#          Added Polymarket pro API integration
 # ══════════════════════════════════════════════════════════════════
 
 import asyncio
