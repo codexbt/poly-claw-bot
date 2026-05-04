@@ -7,7 +7,7 @@
 ╚══════════════════════════════════════════════════════╝
 
 Single-file bot. No SDK black box. Pure Python + py_clob_client.
-
+# Weather bot CLOB integration - 2026-05-04
 FIXES vs previous version:
   ✅ Correct token_id (clobTokenIds) — not Gamma numeric market ID
   ✅ BUY/SELL use py_clob_client constants — not raw strings
