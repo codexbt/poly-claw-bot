@@ -203,3 +203,4 @@ Licensed under MIT License - see [LICENSE](LICENSE) for details.
 > Updated 2026-04-10: Polish performance logging text
 > Updated 2026-04-14: Improve config hints and notes
 > Updated 2026-04-29: Clarify thresholds in comments
+> Updated 2026-05-08: Improve config hints and notes
