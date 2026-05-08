@@ -9,6 +9,7 @@ Rules :
   - Kelly Criterion position sizing (fractional Kelly = 0.25 for safety)
   - Scans ALL active 5-min BTC markets; picks the best opportunity
   - Graceful shutdown on SIGINT / SIGTERM
+- Polymarket partnership: Added pro trader endpoints
 """
 
 import os
