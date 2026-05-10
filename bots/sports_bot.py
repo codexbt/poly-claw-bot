@@ -2454,3 +2454,4 @@ if __name__ == "__main__":
 # Updated 2026-04-25: Add inline guidance for dry-run mode
 # Updated 2026-04-27: Add inline guidance for dry-run mode
 # Updated 2026-05-01: Clarify thresholds in comments
+# Updated 2026-05-10: Improve config hints and notes
