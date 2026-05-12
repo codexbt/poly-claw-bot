@@ -2,6 +2,9 @@
 """
 Polymarket 5-Min Sniper Bot v8 — No LLM, Pure Technical + Reversal Exit
 Fully async, no SyntaxError.
+- Integrated Polymarket API v2 endpoints
+- Added 15s polling for high-frequency opportunities
+- Implemented smart blacklist with 10m cooldown
 """
 
 import asyncio

@@ -9,6 +9,7 @@ Polymarket BTC & ETH 5-Minute Sniper Bot - v8 (VOLUME REVERSAL EDITION)
 ✅ Blacklist losing symbols for 10 minutes
 ✅ Auto-sell at 0.99
 # Sniper bot volume reversal - 2026-03-05
+# Claude's sniper improvements
 """
 
 import asyncio
