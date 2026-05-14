@@ -1,100 +1,67 @@
 ﻿# Poly Claw Bot
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/codexbt/poly-claw-bot)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/codexbt/poly-claw-bot)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://github.com/codexbt/poly-claw-bot)
 
-A polished, production-ready trading repository built for `codexbt`.
-This project combines multiple automated trading strategies, live market execution, and optional AI-powered signal validation.
+AI-powered live trading suite for Polymarket and sports markets.
+A clean, professional repository built for `codexbt` with modular bot strategies, secure configuration, and optional LLM signal validation.
 
-## What’s included
+---
 
-- `bots/poly-claw.py` — the core Polymarket BTC/Polygon momentum trading engine
-- `bots/sports_bot.py` — sports market scanning and execution automation
-- `bots/poly5min_llm_bot.py` — LLM-enhanced trading strategy with OpenRouter / Claude reasoning
-- `poly5min_all.py` / `polyarbi.py` — broader multi-asset and arbitrage support
-- Environment-driven configuration for secure private key, API, and relayer usage
-- Built-in win/loss tracking, live performance reporting, and trade logging
+## 🚀 What this project delivers
 
-## Why this repository is professional
+- **Professional bot architecture** with a polished folder layout and focused core scripts.
+- **Multi-strategy execution**: Polymarket momentum, sports scanning, LLM validation, and arbitrage support.
+- **Config-driven operation** using environment variables and a centralized `config/` directory.
+- **Live execution ready** with relayer support, dry-run mode, and robust trade tracking.
+- **AI signal validation** for smarter entries, not blind automation.
 
-- Clean root layout with only essential README files
-- Focused bot scripts for each strategy, not dozens of scattered docs
-- Explicit environment configuration and secure `.env` handling
-- AI integration is used as a signal filter, not a blind decision engine
-- Trade metrics and win rate are tracked in every active bot loop
+---
 
-## Core bot roles
+## 📁 Repository structure
 
-| Script | Purpose |
+| Folder / File | Purpose |
 |---|---|
-| `bots/poly-claw.py` | Main BTC/Polygon momentum bot with gasless relayer support. Ideal for fast 5-minute scans and live order execution. |
-| `bots/sports_bot.py` | Sports market bot for value trading, market scanning, and live sports edges. |
-| `bots/poly5min_llm_bot.py` | LLM-driven strategy using OpenRouter. Adds an AI reasoning layer to entry and exit decisions. |
-| `poly5min_all.py` | Multi-market coverage and broader crypto scanning. |
-| `polyarbi.py` | Arbitrage-style market scanning and execution support. |
+| `bots/poly-claw.py` | Main Polymarket momentum trading engine |
+| `bots/sports_bot.py` | Sports market scanner and execution bot |
+| `bots/poly5min_llm_bot.py` | LLM-enhanced decision engine for Polymarket |
+| `poly5min_all.py` | Broad multi-market scanning tool |
+| `polyarbi.py` | Arbitrage and spread trading support |
+| `config/env.example` | Secure environment template and secret handling |
 
-## Running bots
+---
 
-Each strategy is a standalone script. Run the one you want directly:
+## ⚡ Recommended quick start
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ```bash
-python bots/poly-claw.py
-python bots/sports_bot.py
-python bots/poly5min_llm_bot.py
+cp config/env.example config/.env
 ```
 
-If you want multiple bots running at the same time, start each one in its own terminal session:
-
 ```bash
+python bots/poly-claw.py
+```
+
+For Windows PowerShell:
+
+```powershell
 start powershell -NoExit python bots/poly-claw.py
 start powershell -NoExit python bots/sports_bot.py
 start powershell -NoExit python bots/poly5min_llm_bot.py
 ```
-start powershell -NoExit python sports_bot.py
-start powershell -NoExit python poly5min_llm_bot.py
-```
 
-## Shared architecture
+---
 
-- Each bot uses environment variables for configuration and key management
-- The same risk controls apply across strategies: trade size, daily limits, stop rules
-- Performance is logged continuously with win rate, PnL, and trade counts
-- This makes it easy to add another strategy without changing the repo layout
+## 🔧 Configuration
 
-## AI / agent usage
+Create a `config/.env` file and add your credentials securely.
 
-The LLM bot uses `OPENROUTER_API_KEY` and a model such as `deepseek/deepseek-chat` or Claude.
-The AI layer is used for:
-
-- interpreting short-term market momentum and orderbook context
-- validating entry decisions before trades are placed
-- limiting AI calls to the most relevant windows
-
-AI is combined with market filters, volume surge checks, price bands, and risk rules.
-
-## Performance tracking
-
-Each bot keeps live statistics:
-
-- total trades executed
-- wins and losses
-- win rate percentage
-- daily spent and current PnL
-
-Logs and console summaries help tune thresholds and confidence over time.
-
-## Setup
-
-1. Copy `config/env.example` to `config/.env`
-2. Add your private wallet key and API credentials
-3. Set `PAPER_MODE=true` for testing before switching to live mode
-
-Example environment variables:
+Example variables:
 
 ```ini
 PRIVATE_KEY=0xYOUR_PRIVATE_KEY
@@ -103,10 +70,53 @@ API_KEY=YOUR_API_KEY
 API_SECRET=YOUR_API_SECRET
 RELAYER_API_KEY=YOUR_RELAYER_API_KEY
 RELAYER_API_KEY_ADDRESS=0xYOUR_SIGNER_ADDRESS
+PAPER_MODE=true
 ```
 
-## Notes
+---
 
-- This repository now contains only the core README files for a clean professional layout.
-- Extra root markdown docs were removed so the project is easy to navigate.
-- The repo is designed for `codexbt` and ready for GitHub publication.
+## 🧠 Core capabilities
+
+- **Polymarket trading engine** with momentum filters, volume triggers, and trade risk controls.
+- **LLM validation layer** using OpenRouter for signal confidence checks.
+- **Trade metrics** including win/loss tracking, realized PnL, and live logging.
+- **Modular design** for easier strategy extension and cleaner GitHub presentation.
+- **Secure `.env` handling** from the `config/` folder, avoiding secrets in source control.
+
+---
+
+## 📌 Why this repo is professional
+
+- Clean presentation with badges, clear structure, and concise messaging.
+- Minimal root clutter and a sharp developer-first layout.
+- Practical quick start and configuration guidance.
+- Focus on safe trading patterns, not unbounded automation.
+
+---
+
+## 💡 Best practices
+
+- Use `PAPER_MODE=true` for testing before running live.
+- Keep secrets inside `config/.env` and never commit them.
+- Monitor logs and trade performance when tuning thresholds.
+
+---
+
+## ⭐ Support
+
+If this project improves your workflow, please star the repo and consider supporting continued development.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## Contact
+
+Built for `codexbt` with production-ready structure and a professional GitHub presentation.
+
+
+Built for `codexbt` with production-ready structure and a professional GitHub presentation.
