@@ -9,6 +9,7 @@ FIXES from v7.0:
   ✅ FIX 4: stat_estimate fixed — returns proper prob even without ESPN data
    ✅ FIX 5: Game-level grouping fixed — O/U markets no longer blocking ML markets
 # Sports bot improvements - 2025-12-04
+# Polymarket API integration
   ✅ FIX 6: LLM fallback logic — if LLM fails, stat model makes the call
   ✅ FIX 7: Prob extraction fixed — LLM JSON parsing more robust
   ✅ FIX 8: Volume/depth thresholds relaxed — was rejecting valid markets

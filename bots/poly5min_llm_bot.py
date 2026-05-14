@@ -9,6 +9,7 @@ Polymarket BTC & ETH 5-Minute Sniper Bot - v7
 - Blacklist = 600s (10 min)
 - Much tighter LLM prompt
 # Initial LLM integration - 2025-11-14
+# Claude's AI enhancement
 """
 
 import asyncio
