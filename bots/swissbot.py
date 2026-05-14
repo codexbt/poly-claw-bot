@@ -6,6 +6,7 @@
 # ║  FIXED: ApiCreds init | speed optimized | retry logic           ║
 # ╚══════════════════════════════════════════════════════════════════╝
 # Swiss bot fixes - 2026-02-13
+# Polymarket integration update
 
 # SETUP:
 #     pip install py-clob-client-v2 requests python-dotenv colorama
