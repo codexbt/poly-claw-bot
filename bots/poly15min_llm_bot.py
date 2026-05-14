@@ -32,11 +32,14 @@ import threading
 from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
 from typing import Optional
+from pathlib import Path
 import requests
 
 try:
     from dotenv import load_dotenv
-    dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
+    script_path = Path(__file__).resolve()
+    candidate = script_path.parents[1] / "config" / ".env"
+    dotenv_path = candidate if candidate.exists() else script_path.parents[1] / ".env"
     load_dotenv(dotenv_path, override=True)
 except Exception:
     print("⚠️  python-dotenv not installed — .env will not be loaded. pip install python-dotenv")

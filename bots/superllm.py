@@ -1,6 +1,10 @@
 """
 Polymarket BTC & ETH 5-Minute Sniper Bot - Speed Optimized
 Two-Layer LLM Decision System using OpenRouter (qwen/qwen3.6-plus)
+
+FIXES:
+1. LLM response ke TURANT BAAD current window mein trade execute hoti hai — koi queue nahi, koi wait nahi
+2. LLM hard wall-clock timeout 25s (streaming + threading) — response guaranteed under 30s
 """
 
 import asyncio
@@ -11,16 +15,19 @@ import os
 import sys
 import re
 import logging
-import random
+import threading
 from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
 from typing import Optional, Dict, List
 from zoneinfo import ZoneInfo
+from pathlib import Path
 import requests
 
 try:
     from dotenv import load_dotenv
-    dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
+    script_path = Path(__file__).resolve()
+    candidate = script_path.parents[1] / "config" / ".env"
+    dotenv_path = candidate if candidate.exists() else script_path.parents[1] / ".env"
     load_dotenv(dotenv_path, override=True)
     log_loaded_dotenv = True
 except Exception:
@@ -44,7 +51,7 @@ OPENROUTER_API_KEY_SOURCE = next(
     (name for name in ("OPENROUTER_API_KEY", "OPENROUTER_KEY", "OR_API_KEY") if os.getenv(name)),
     None
 )
-OPENROUTER_MODEL   = "qwen/qwen3.6-plus"  # Keep as requested
+OPENROUTER_MODEL   = "qwen/qwen3.6-plus"
 FALLBACK_MODEL     = "deepseek/deepseek-r1"
 
 PRIVATE_KEY = os.getenv("PRIVATE_KEY", "") or os.getenv("FUNDING_PRIVATE_KEY", "")
@@ -56,16 +63,18 @@ BINANCE_BASE       = "https://api.binance.com"
 DRY_RUN            = os.getenv("DRY_RUN", "false").lower() == "true"
 INITIAL_BALANCE    = 100.0
 LOOP_INTERVAL      = 10
-LLM_TIMEOUT        = 20  # Keep LLM call time below 25 seconds
 
-# Layer-1 thresholds - STRICTER FOR SPEED
-L1_WINDOW_DELTA_THRESH  = 0.00025   # 0.025%
-L1_MOMENTUM_30S_THRESH  = 0.00035   # 0.035%
-L1_VOL_SURGE_THRESH     = 2.0       # Higher threshold
+# FIX #2: Hard wall-clock LLM timeout — streaming stops after this many seconds
+LLM_HARD_TIMEOUT   = 25   # Wall-clock seconds; LLM will NEVER exceed 30s total
+
+# Layer-1 thresholds
+L1_WINDOW_DELTA_THRESH  = 0.00025
+L1_MOMENTUM_30S_THRESH  = 0.00035
+L1_VOL_SURGE_THRESH     = 2.0
 
 TRADE_SIZES = {(60,79): 1.5, (80,89): 5.0, (90,100): 10.0}
 MIN_TRADE_SIZE = 1.0
-MAX_TRADE_SIZE = 1.0
+MAX_TRADE_SIZE = 10.0
 
 LOG_FILE   = "trades_log.csv"
 LIVE_LOG   = "live_log.txt"
@@ -77,7 +86,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s",
 log = logging.getLogger("bot")
 
 # ─────────────────────────────────────────────
-# DATA STRUCTURES - OPTIMIZED
+# DATA STRUCTURES
 # ─────────────────────────────────────────────
 @dataclass
 class TradeRecord:
@@ -93,12 +102,6 @@ class TradeRecord:
     outcome: str = "OPEN"
     pnl: float = 0.0
 
-@dataclass
-class PendingPrediction:
-    symbol: str
-    market_ts: int
-    decision: dict
-    created_at: float
 
 @dataclass
 class BotStats:
@@ -153,7 +156,6 @@ class BinanceFetcher:
         change_pct = round((closes[-1] - closes[0]) / closes[0] * 100, 3)
         avg_vol = round(sum(volumes) / len(volumes), 2)
 
-        # Simple doji check
         last_o, last_h, last_l, last_c = float(klines[-1][1]), float(klines[-1][2]), float(klines[-1][3]), closes[-1]
         last_body = abs(last_c - last_o)
         last_range = last_h - last_l
@@ -172,10 +174,6 @@ class BinanceFetcher:
 # POLYMARKET PRICE FETCHER
 # ─────────────────────────────────────────────
 class PolymarketFetcher:
-    """
-    Fetch real Polymarket market prices from the event page and CLOB midpoint API.
-    Used for live trading with order execution and settlement.
-    """
     MARKET_SLUGS = {
         "BTC": "btc-updown-5m",
         "ETH": "eth-updown-5m",
@@ -227,11 +225,47 @@ class PolymarketFetcher:
             "market_ts": market_ts,
         }
 
+    def get_next_market(self, symbol: str, current_price: float) -> dict:
+        """
+        Fetch the NEXT 5-min window's market data so we can place an advance order.
+        next_market_ts = current_bucket + 300
+        """
+        current_bucket = self._get_market_timestamp()
+        next_market_ts = current_bucket + 300
+
+        slug = self.MARKET_SLUGS.get(symbol, symbol.lower() + "-updown-5m")
+        url = f"https://polymarket.com/event/{slug}-{next_market_ts}"
+
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        r.raise_for_status()
+        html = r.text
+
+        cond_match = re.search(r'"conditionId":"([^"]+)"', html)
+        token_match = re.search(r'"clobTokenIds":\s*\[([^\]]+)\]', html)
+
+        if not cond_match or not token_match:
+            raise ValueError(f"Could not parse NEXT market data for {symbol} at {next_market_ts}")
+
+        token_ids = json.loads("[" + token_match.group(1) + "]")
+        yes_token = token_ids[0]
+        no_token = token_ids[1]
+
+        yes_price = self._get_midpoint(yes_token)
+        no_price = self._get_midpoint(no_token)
+
+        return {
+            "symbol": symbol,
+            "yes_price": round(yes_price, 4),
+            "no_price": round(no_price, 4),
+            "window_delta_pct": 0.0,  # next window hasn't started yet
+            "seconds_left": 300,      # full window ahead
+            "condition_id": cond_match.group(1),
+            "yes_token": yes_token,
+            "no_token": no_token,
+            "market_ts": next_market_ts,
+        }
+
     def get_market_outcome(self, condition_id: str) -> Optional[bool]:
-        """
-        Check if the market has resolved and return the outcome.
-        Returns True if YES won, False if NO won, None if not resolved.
-        """
         try:
             url = f"https://clob.polymarket.com/markets/{condition_id}"
             resp = requests.get(url, timeout=5)
@@ -239,31 +273,42 @@ class PolymarketFetcher:
             data = resp.json()
             if not data.get('active', True) and 'winner' in data:
                 winner = data['winner']
-                return winner == 'YES'  # Assuming 'YES' or 'NO'
+                return winner == 'YES'
             return None
         except Exception as e:
             log.warning("Failed to get market outcome for %s: %s", condition_id, e)
             return None
 
 # ─────────────────────────────────────────────
-# LLM DECIDER - OPTIMIZED FOR SPEED
+# LLM DECIDER - HARD 25s WALL-CLOCK TIMEOUT
 # ─────────────────────────────────────────────
 class LLMDecider:
-    SYSTEM_PROMPT = "Return only valid JSON: {\"action\":\"BUY_YES\"|\"BUY_NO\"|\"NO_TRADE\",\"confidence\":int,\"trade_size_usd\":float,\"reasoning\":string,\"suggested_entry_seconds_left\":int}. If confidence < 60 use NO_TRADE."
+    """
+    FIX #2: Uses a background thread + threading.Event to enforce a strict
+    25-second wall-clock deadline regardless of network/model latency.
+    The request is made with stream=True so we can abort early.
+    """
+
+    SYSTEM_PROMPT = (
+        "Return only valid JSON: "
+        "{\"action\":\"BUY_YES\"|\"BUY_NO\"|\"NO_TRADE\","
+        "\"confidence\":int,\"trade_size_usd\":float,"
+        "\"reasoning\":string,\"suggested_entry_seconds_left\":int}. "
+        "If confidence < 60 use NO_TRADE. Be concise."
+    )
 
     def _extract_json(self, text: str) -> str:
         text = text.strip()
         if text.startswith("```"):
-            text = text.split("```")[-2] if "```" in text else text
+            parts = text.split("```")
+            text = parts[1] if len(parts) >= 2 else parts[-1]
             if text.startswith("json"):
                 text = text[4:]
         if text.startswith("{") and text.endswith("}"):
             return text
-
         start = text.find("{")
         if start == -1:
             raise ValueError("No JSON object found in LLM response")
-
         depth = 0
         for i, ch in enumerate(text[start:], start):
             if ch == "{":
@@ -274,11 +319,17 @@ class LLMDecider:
                     return text[start:i + 1]
         raise ValueError("Unbalanced JSON braces in LLM response")
 
-    def call(self, market_snapshot: dict, timeout: int = LLM_TIMEOUT) -> Optional[dict]:
-        user_msg = f"PREDICT NEXT 5MIN WINDOW:\n{json.dumps(market_snapshot, separators=(',', ':'))}"
-        
-        models = [OPENROUTER_MODEL, FALLBACK_MODEL]
-        for model in models:
+    def _call_with_hard_timeout(self, model: str, user_msg: str, hard_timeout: int) -> Optional[str]:
+        """
+        Makes the API call in a background thread.
+        Main thread waits at most `hard_timeout` seconds, then returns None.
+        Uses stream=True so partial content is collected before abort.
+        """
+        result_holder = [None]
+        error_holder = [None]
+        done_event = threading.Event()
+
+        def _worker():
             try:
                 headers = {
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
@@ -290,56 +341,112 @@ class LLMDecider:
                         {"role": "system", "content": self.SYSTEM_PROMPT},
                         {"role": "user", "content": user_msg},
                     ],
-                    "max_tokens": 250,
+                    "max_tokens": 200,
                     "temperature": 0.03,
+                    "stream": True,
                 }
-                t0 = time.time()
-                resp = requests.post("https://openrouter.ai/api/v1/chat/completions",
-                                   headers=headers, json=payload, timeout=timeout)
-                elapsed = time.time() - t0
-                log.info(f"  LLM response in {elapsed:.2f}s (model: {model})")
-                
+                # Connect timeout=5s, read timeout per chunk=hard_timeout
+                resp = requests.post(
+                    "https://openrouter.ai/api/v1/chat/completions",
+                    headers=headers,
+                    json=payload,
+                    stream=True,
+                    timeout=(5, hard_timeout),
+                )
                 if resp.status_code != 200:
-                    log.warning(f"LLM API error {resp.status_code}: {resp.text}")
-                    continue
-                
-                content = resp.json()["choices"][0]["message"]["content"]
-                json_text = self._extract_json(content)
-                result = json.loads(json_text)
-                
-                required = ["action", "confidence", "trade_size_usd", "reasoning", "suggested_entry_seconds_left"]
-                if not all(k in result for k in required):
-                    log.warning("LLM response missing required fields: %s | raw=%s", result.keys(), content)
-                    continue
-                
-                result["confidence"] = int(result["confidence"])
-                if result["confidence"] < 60:
-                    result["action"] = "NO_TRADE"
-                result["trade_size_usd"] = float(result["trade_size_usd"])
-                if result["trade_size_usd"] < MIN_TRADE_SIZE:
-                    result["trade_size_usd"] = MIN_TRADE_SIZE
-                elif result["trade_size_usd"] > MAX_TRADE_SIZE:
-                    log.warning("LLM trade_size_usd too large, capping to %s", MAX_TRADE_SIZE)
-                    result["trade_size_usd"] = MAX_TRADE_SIZE
-                result["reasoning"] = str(result["reasoning"]).strip()
-                result["suggested_entry_seconds_left"] = int(result["suggested_entry_seconds_left"])
-                if not (5 <= result["suggested_entry_seconds_left"] <= 295):
-                    result["suggested_entry_seconds_left"] = 150
-                
-                if result["action"] not in {"BUY_YES", "BUY_NO", "NO_TRADE"}:
-                    log.warning("LLM returned invalid action: %s", result["action"])
-                    continue
-                
-                return result
-                
-            except requests.exceptions.Timeout:
-                log.warning(f"LLM timeout ({timeout}s) for {model}")
-                continue
+                    error_holder[0] = f"HTTP {resp.status_code}: {resp.text[:200]}"
+                    done_event.set()
+                    return
+
+                collected = []
+                for chunk in resp.iter_lines():
+                    if done_event.is_set():
+                        # Main thread already timed out — stop reading
+                        break
+                    if not chunk:
+                        continue
+                    line = chunk.decode("utf-8") if isinstance(chunk, bytes) else chunk
+                    if not line.startswith("data: "):
+                        continue
+                    data_str = line[6:].strip()
+                    if data_str == "[DONE]":
+                        break
+                    try:
+                        data = json.loads(data_str)
+                        delta = data["choices"][0].get("delta", {})
+                        token = delta.get("content", "")
+                        if token:
+                            collected.append(token)
+                    except Exception:
+                        pass
+
+                result_holder[0] = "".join(collected)
+                done_event.set()
+
             except Exception as e:
-                log.warning(f"LLM call failed for {model}: {e}")
+                error_holder[0] = str(e)
+                done_event.set()
+
+        thread = threading.Thread(target=_worker, daemon=True)
+        thread.start()
+
+        finished_in_time = done_event.wait(timeout=hard_timeout)
+
+        if not finished_in_time:
+            # Signal worker to stop even if still reading chunks
+            done_event.set()
+            log.warning("  LLM hard timeout (%ds) hit for model %s", hard_timeout, model)
+            return None
+
+        if error_holder[0]:
+            log.warning("  LLM worker error for %s: %s", model, error_holder[0])
+            return None
+
+        return result_holder[0]
+
+    def call(self, market_snapshot: dict) -> Optional[dict]:
+        user_msg = f"PREDICT NEXT 5MIN WINDOW:\n{json.dumps(market_snapshot, separators=(',', ':'))}"
+
+        models = [OPENROUTER_MODEL, FALLBACK_MODEL]
+        for model in models:
+            t0 = time.time()
+            log.info("  Calling LLM model=%s (hard_timeout=%ds)", model, LLM_HARD_TIMEOUT)
+            raw = self._call_with_hard_timeout(model, user_msg, hard_timeout=LLM_HARD_TIMEOUT)
+            elapsed = time.time() - t0
+            log.info("  LLM response in %.2fs (model=%s)", elapsed, model)
+
+            if not raw:
+                log.warning("  No content from %s, trying fallback...", model)
                 continue
-        
-        log.error("All LLM models failed")
+
+            try:
+                json_text = self._extract_json(raw)
+                result = json.loads(json_text)
+            except Exception as e:
+                log.warning("  JSON parse failed for %s: %s | raw=%r", model, e, raw[:200])
+                continue
+
+            required = ["action", "confidence", "trade_size_usd", "reasoning", "suggested_entry_seconds_left"]
+            if not all(k in result for k in required):
+                log.warning("  LLM response missing fields: %s", list(result.keys()))
+                continue
+
+            result["confidence"] = int(result["confidence"])
+            if result["confidence"] < 60:
+                result["action"] = "NO_TRADE"
+            result["trade_size_usd"] = float(result["trade_size_usd"])
+            result["trade_size_usd"] = max(MIN_TRADE_SIZE, min(MAX_TRADE_SIZE, result["trade_size_usd"]))
+            result["reasoning"] = str(result["reasoning"]).strip()
+            result["suggested_entry_seconds_left"] = int(result["suggested_entry_seconds_left"])
+            if not (5 <= result["suggested_entry_seconds_left"] <= 295):
+                result["suggested_entry_seconds_left"] = 150
+            if result["action"] not in {"BUY_YES", "BUY_NO", "NO_TRADE"}:
+                log.warning("  LLM invalid action: %s", result["action"])
+                continue
+
+            return result
+
+        log.error("All LLM models failed or timed out.")
         return None
 
 # ─────────────────────────────────────────────
@@ -347,8 +454,8 @@ class LLMDecider:
 # ─────────────────────────────────────────────
 class Layer1Filter:
     def __init__(self):
-        self._price_history = {}   # symbol -> [(ts, price)]
-        self._condition_counts = {}  # symbol -> {bucket: counts}
+        self._price_history = {}
+        self._condition_counts = {}
 
     def _get_bucket(self, ts: float) -> int:
         return int(ts // 300) * 300
@@ -358,7 +465,6 @@ class Layer1Filter:
         if symbol not in self._price_history:
             self._price_history[symbol] = []
         self._price_history[symbol].append((ts, price))
-        # Keep last 10 minutes of data
         cutoff = ts - 600
         self._price_history[symbol] = [(t, p) for t, p in self._price_history[symbol] if t > cutoff]
 
@@ -383,11 +489,8 @@ class Layer1Filter:
             self._condition_counts[symbol] = {}
         if bucket not in self._condition_counts[symbol]:
             self._condition_counts[symbol][bucket] = {
-                "window_delta": 0,
-                "momentum_30s": 0,
-                "vol_surge": 0,
-                "checks": 0,
-                "pass_count": 0,
+                "window_delta": 0, "momentum_30s": 0, "vol_surge": 0,
+                "checks": 0, "pass_count": 0,
             }
         counts = self._condition_counts[symbol][bucket]
         for condition in conditions:
@@ -400,31 +503,21 @@ class Layer1Filter:
         ts = time.time()
         bucket = self._get_bucket(ts)
         return self._condition_counts.get(symbol, {}).get(bucket, {
-            "window_delta": 0,
-            "momentum_30s": 0,
-            "vol_surge": 0,
-            "checks": 0,
-            "pass_count": 0,
+            "window_delta": 0, "momentum_30s": 0, "vol_surge": 0,
+            "checks": 0, "pass_count": 0,
         })
 
     def should_call_llm(self, symbol: str, window_delta: float, momentum_30s: float, vol_surge: float, is_doji: bool) -> tuple[bool, list]:
         if is_doji:
             return False, ["doji_detected"]
-            
         conditions_met = []
-        
         if abs(window_delta) > L1_WINDOW_DELTA_THRESH:
             conditions_met.append("window_delta")
-        
         if abs(momentum_30s) > L1_MOMENTUM_30S_THRESH:
             conditions_met.append("momentum_30s")
-        
         if vol_surge > L1_VOL_SURGE_THRESH:
             conditions_met.append("vol_surge")
-        
-        # Require at least 2 strong signals for LLM call
         should_trade = len(conditions_met) >= 2
-        
         self._record_conditions(symbol, conditions_met, should_trade)
         return should_trade, conditions_met
 
@@ -468,11 +561,9 @@ class TradeExecutor:
                 )
                 micro_usdc = int(response.get("balance", 0))
                 return round(micro_usdc / 1e6, 2)
-
             if hasattr(self.client, "get_balances"):
                 balances = self.client.get_balances()
                 return float(balances.get("USDC", 0))
-
             return INITIAL_BALANCE
         except Exception as e:
             log.error("Failed to get balance: %s", e)
@@ -480,7 +571,7 @@ class TradeExecutor:
 
     def _place_order(self, token_id: str, action: str, amount: float, retry_count: int = 0) -> Optional[dict]:
         if self.client is None:
-            log.error("CLOB client is not initialized, cannot place live order.")
+            log.error("CLOB client not initialized, cannot place live order.")
             return None
 
         MAX_RETRIES = 2
@@ -490,11 +581,9 @@ class TradeExecutor:
         try:
             retry_label = f" [RETRY {retry_count}]" if retry_count > 0 else ""
             attempt_size = amount if retry_count == 0 else max(
-                amount * FALLBACK_SIZES[retry_count - 1],
-                MIN_FALLBACK_SIZE
+                amount * FALLBACK_SIZES[retry_count - 1], MIN_FALLBACK_SIZE
             )
-
-            log.info(f"  [CLOB{retry_label}] Building market order: {action} ${attempt_size:.2f}")
+            log.info("  [CLOB%s] Building market order: %s $%.2f", retry_label, action, attempt_size)
             market_order = MarketOrderArgs(
                 token_id=token_id,
                 amount=attempt_size,
@@ -502,25 +591,23 @@ class TradeExecutor:
                 order_type=OrderType.FOK,
             )
             signed = self.client.create_market_order(market_order)
-            log.info(f"  [CLOB{retry_label}] Order signed, submitting...")
+            log.info("  [CLOB%s] Order signed, submitting...", retry_label)
             resp = self.client.post_order(signed, OrderType.FOK)
-            log.info(f"  [CLOB{retry_label}] Response: {resp}")
+            log.info("  [CLOB%s] Response: %s", retry_label, resp)
 
             if resp and resp.get("orderID"):
-                log.info(f"  ✅ [CLOB{retry_label}] Order confirmed: {resp['orderID']}")
+                log.info("  ✅ [CLOB%s] Order confirmed: %s", retry_label, resp["orderID"])
                 return resp
 
-            log.warning(f"  ❌ [CLOB{retry_label}] Order failed or missing orderID: {resp}")
+            log.warning("  ❌ [CLOB%s] Order failed or missing orderID: %s", retry_label, resp)
             if retry_count < MAX_RETRIES:
-                log.info(f"  🔄 [CLOB{retry_label}] Retrying with fallback size...")
                 time.sleep(1)
                 return self._place_order(token_id, action, amount, retry_count + 1)
             return None
 
         except Exception as e:
-            log.error(f"  ❌ [CLOB{retry_label}] Order error: {e}")
+            log.error("  ❌ [CLOB] Order error: %s", e)
             if retry_count < MAX_RETRIES:
-                log.info(f"  🔄 [CLOB{retry_label}] Retrying after error...")
                 time.sleep(1 + retry_count)
                 return self._place_order(token_id, action, amount, retry_count + 1)
             return None
@@ -529,10 +616,8 @@ class TradeExecutor:
         action = decision.get("action")
         if action == "NO_TRADE":
             return None
-            
+
         confidence = int(decision.get("confidence", 0))
-        
-        # Set trade size based on confidence if not specified by LLM
         if "trade_size_usd" in decision:
             size = float(decision["trade_size_usd"])
         else:
@@ -543,7 +628,8 @@ class TradeExecutor:
             elif confidence >= 90:
                 size = 10.0
             else:
-                return None  # No trade for low confidence
+                return None
+
         symbol = market["symbol"]
         yes_p = market["yes_price"]
         no_p = market["no_price"]
@@ -557,7 +643,7 @@ class TradeExecutor:
             stats.current_balance -= size
             stats.daily_spent += size
             stats.total_trades += 1
-            record = TradeRecord(
+            return TradeRecord(
                 timestamp=datetime.now().isoformat(timespec="seconds"),
                 symbol=symbol,
                 direction=action,
@@ -568,7 +654,6 @@ class TradeExecutor:
                 market_ts=str(market.get("market_ts", "")),
                 condition_id=market.get("condition_id", ""),
             )
-            return record
 
         token_id = market["yes_token"] if action == "BUY_YES" else market["no_token"]
         if not token_id:
@@ -584,7 +669,7 @@ class TradeExecutor:
         stats.daily_spent += size
         stats.total_trades += 1
 
-        record = TradeRecord(
+        return TradeRecord(
             timestamp=datetime.now().isoformat(timespec="seconds"),
             symbol=symbol,
             direction=action,
@@ -595,7 +680,6 @@ class TradeExecutor:
             market_ts=str(market.get("market_ts", "")),
             condition_id=market.get("condition_id", ""),
         )
-        return record
 
 # ─────────────────────────────────────────────
 # LOGGER
@@ -608,8 +692,9 @@ class TradingLogger:
         if not os.path.exists(LOG_FILE):
             with open(LOG_FILE, "w", newline="") as f:
                 w = csv.DictWriter(f, fieldnames=[
-                    "timestamp","symbol","direction","entry_price",
-                    "trade_size_usd","confidence","reasoning","market_ts","condition_id","outcome","pnl"])
+                    "timestamp", "symbol", "direction", "entry_price",
+                    "trade_size_usd", "confidence", "reasoning", "market_ts",
+                    "condition_id", "outcome", "pnl"])
                 w.writeheader()
 
     def log_trade(self, record: TradeRecord, stats: BotStats):
@@ -685,7 +770,7 @@ class DashboardWriter:
 # MAIN BOT LOOP
 # ─────────────────────────────────────────────
 class SniperBot:
-    SYMBOLS = [("BTCUSDT", "BTC")]
+    SYMBOLS = [("BTCUSDT", "BTC"), ("ETHUSDT", "ETH")]
 
     def __init__(self):
         self.binance     = BinanceFetcher()
@@ -705,16 +790,12 @@ class SniperBot:
         self.open_trades: list[TradeRecord] = []
         self.live_events: list[dict] = []
         self.symbol_summary: dict = {}
-        self.prev_outcomes: list[dict] = []
-        self.llm_called_buckets: dict[int, set] = {}  # bucket -> set of symbols called in that window
-        self.pending_predictions: list[PendingPrediction] = []
+        self.llm_called_buckets: dict[int, set] = {}
 
     def _build_snapshot(self, sym_bin: str, sym_label: str, market: dict, window_delta: float, momentum_30s: float, vol_surge: float) -> dict:
-        """Build compact snapshot for fast LLM inference."""
         klines_1m = self.binance.get_klines(sym_bin, "1m", 20)
         last_1m = klines_1m[-1]
         prior_1m = klines_1m[-5] if len(klines_1m) >= 5 else last_1m
-
         return {
             "symbol": sym_label,
             "price": round(float(last_1m[4]), 4),
@@ -735,7 +816,7 @@ class SniperBot:
             if outcome is not None:
                 won = (trade.direction == "BUY_YES" and outcome) or (trade.direction == "BUY_NO" and not outcome)
                 if won:
-                    profit = trade.trade_size_usd  # 2x stake returned, profit = stake
+                    profit = trade.trade_size_usd
                     self.stats.current_balance += trade.trade_size_usd + profit
                     self.stats.wins += 1
                     trade.outcome = "WIN"
@@ -744,77 +825,17 @@ class SniperBot:
                     self.stats.losses += 1
                     trade.outcome = "LOSS"
                     trade.pnl = -trade.trade_size_usd
-                
                 self.logger.log_trade(trade, self.stats)
                 self.dashboard.add_event(
                     self.live_events,
                     f"SETTLED {trade.symbol} {trade.direction} @ market_id={trade.market_ts} | outcome={trade.outcome} | pnl=${trade.pnl:+.2f}"
                 )
                 self.open_trades.remove(trade)
-            # If not resolved yet, keep in open_trades
-        
         if to_settle:
             self.dashboard.write(self.stats, self.live_events, self.open_trades, self.symbol_summary)
 
     def _get_current_market_bucket(self) -> int:
         return self.polymarket._get_market_timestamp()
-
-    def _execute_pending_predictions(self):
-        """Execute predictions that are due for the current window."""
-        current_bucket = self._get_current_market_bucket()
-        current_ts = time.time()
-        seconds_left = max(0, int(current_bucket + 300 - current_ts))
-
-        # Keep only predictions that are still relevant for ET market windows
-        self.pending_predictions = [p for p in self.pending_predictions if p.market_ts >= current_bucket]
-
-        if not self.pending_predictions:
-            log.debug("No pending predictions to execute at %s (seconds_left=%d)", current_bucket, seconds_left)
-            return
-
-        log.info("Pending predictions: %d | current_bucket=%s | seconds_left=%d", len(self.pending_predictions), datetime.fromtimestamp(current_bucket, timezone.utc).isoformat(), seconds_left)
-
-        to_execute = []
-        for pred in self.pending_predictions:
-            if pred.market_ts != current_bucket:
-                log.info("  ⏳ Pending prediction for %s is for future window %s, skipping until that bucket.", pred.symbol, datetime.fromtimestamp(pred.market_ts, timezone.utc).isoformat())
-                continue
-            suggested_seconds = int(pred.decision.get("suggested_entry_seconds_left", 150))
-            log.info("  ⏳ Pending prediction for %s is now in its target window. executing at market rate now. suggested_entry_seconds_left=%ds, seconds_left=%d.", pred.symbol, suggested_seconds, seconds_left)
-            to_execute.append(pred)
-
-        if not to_execute:
-            log.info("No pending predictions ready to execute this tick.")
-            return
-
-        for pred in to_execute:
-            try:
-                log.info("  🚀 Executing pending prediction for %s at market_ts=%s", pred.symbol, datetime.fromtimestamp(pred.market_ts, timezone.utc).isoformat())
-                sym_bin = "BTCUSDT" if pred.symbol == "BTC" else "ETHUSDT"
-                klines_1m = self.binance.get_klines(sym_bin, "1m", 20)
-                cur_price = float(klines_1m[-1][4])
-                open_5m = float(klines_1m[-5][1]) if len(klines_1m) >= 5 else cur_price
-                market = self.polymarket.get_current_market(pred.symbol, open_5m, cur_price)
-
-                record = self.executor.execute(pred.decision, market, self.stats)
-                if record:
-                    self.logger.log_trade(record, self.stats)
-                    self.open_trades.append(record)
-                    self.dashboard.add_event(
-                        self.live_events,
-                        f"EXECUTED {record.symbol} {record.direction} @ {record.entry_price:.4f} | ${record.trade_size_usd} | conf={record.confidence}%"
-                    )
-                    log.info("  ✅  Executed pending prediction for %s", pred.symbol)
-                else:
-                    log.info("  🚫  Pending prediction execution failed for %s", pred.symbol)
-            except Exception as e:
-                log.error("Error executing pending prediction for %s: %s", pred.symbol, e)
-            finally:
-                if pred in self.pending_predictions:
-                    self.pending_predictions.remove(pred)
-
-        if to_execute:
-            self.dashboard.write(self.stats, self.live_events, self.open_trades, self.symbol_summary)
 
     async def run(self):
         log.info("🚀  Polymarket Sniper Bot started  (model=%s  dry_run=%s)", OPENROUTER_MODEL, DRY_RUN)
@@ -834,6 +855,7 @@ class SniperBot:
     async def _tick(self):
         current_bucket = self._get_current_market_bucket()
         current_ts = time.time()
+
         # Clean up old buckets
         for old_bucket in list(self.llm_called_buckets.keys()):
             if old_bucket < current_bucket - 600:
@@ -845,18 +867,14 @@ class SniperBot:
                 klines_1m = self.binance.get_klines(sym_bin, "1m", 20)
                 summary_1m = self.binance.summarize_klines(klines_1m)
                 ticker    = self.binance.get_24h_ticker(sym_bin)
-                cur_price = float(klines_1m[-1][4])   # last close
+                cur_price = float(klines_1m[-1][4])
 
                 self.l1_filter.update_price(sym_label, cur_price)
 
-                momentum_10s = self.l1_filter.momentum(sym_label, 10)
                 momentum_30s = self.l1_filter.momentum(sym_label, 30)
-                momentum_60s = self.l1_filter.momentum(sym_label, 60)
-                momentum_5m  = self.l1_filter.momentum(sym_label, 300)
-
                 open_5m  = float(klines_1m[-5][1]) if len(klines_1m) >= 5 else cur_price
                 if open_5m == 0:
-                    open_5m = cur_price  # safety
+                    open_5m = cur_price
                 win_delta = (cur_price - open_5m) / open_5m
 
                 avg_vol  = float(ticker.get("volume", 1))
@@ -889,7 +907,6 @@ class SniperBot:
                     self.dashboard.write(self.stats, self.live_events, self.open_trades, self.symbol_summary)
                     continue
 
-                # Check if LLM already called for this symbol in current window
                 if current_bucket not in self.llm_called_buckets:
                     self.llm_called_buckets[current_bucket] = set()
                 if sym_label in self.llm_called_buckets[current_bucket]:
@@ -898,12 +915,15 @@ class SniperBot:
                     continue
 
                 market = self.polymarket.get_current_market(sym_label, open_5m, cur_price)
-
                 snapshot = self._build_snapshot(sym_bin, sym_label, market, win_delta, momentum_30s, vol_surge)
 
                 log.info("  🧠  Calling LLM (Layer 2)...")
                 self.stats.llm_calls += 1
-                decision = self.llm.call(snapshot)
+                # Run LLM in executor so it doesn't block the event loop
+                decision = await asyncio.get_event_loop().run_in_executor(
+                    None, lambda: self.llm.call(snapshot)
+                )
+
                 if not decision:
                     log.warning("  LLM returned no decision.")
                     self.dashboard.write(self.stats, self.live_events, self.open_trades, self.symbol_summary)
@@ -920,21 +940,42 @@ class SniperBot:
                          decision.get("reasoning", "")[:60])
 
                 if action != "NO_TRADE":
-                    next_market_ts = current_bucket + 300  # Next 5-min window
-                    prediction = PendingPrediction(
-                        symbol=sym_label,
-                        market_ts=next_market_ts,
-                        decision=decision,
-                        created_at=current_ts
-                    )
-                    self.pending_predictions.append(prediction)
-                    log.info("  📈 Prediction queued for next window (market_ts=%d)", next_market_ts)
+                    # ── IMMEDIATE ORDER on NEXT window ─────────────────────
+                    # LLM ne current data dekh ke NEXT window predict ki hai.
+                    # Ab turant next window ka market fetch karo aur order place karo.
+                    log.info("  ⚡ Fetching NEXT window market for %s to place advance order...", sym_label)
+                    try:
+                        next_market = await asyncio.get_event_loop().run_in_executor(
+                            None, lambda: self.polymarket.get_next_market(sym_label, cur_price)
+                        )
+                        log.info("  📋 Next market: market_ts=%d | YES=%.4f | NO=%.4f",
+                                 next_market["market_ts"], next_market["yes_price"], next_market["no_price"])
+                    except Exception as e:
+                        log.error("  ❌ Failed to fetch next market for %s: %s — skipping trade.", sym_label, e)
+                        self.dashboard.write(self.stats, self.live_events, self.open_trades, self.symbol_summary)
+                        continue
+
                     self.dashboard.add_event(
                         self.live_events,
-                        f"PREDICT {sym_label} {action} @ conf={confidence}% | entry_at={suggested_seconds}s | next_market={next_market_ts}"
+                        f"EXECUTING {sym_label} {action} @ conf={confidence}% on NEXT market_ts={next_market['market_ts']}"
                     )
+                    record = await asyncio.get_event_loop().run_in_executor(
+                        None, lambda: self.executor.execute(decision, next_market, self.stats)
+                    )
+                    if record:
+                        self.logger.log_trade(record, self.stats)
+                        self.open_trades.append(record)
+                        self.dashboard.add_event(
+                            self.live_events,
+                            f"✅ EXECUTED {record.symbol} {record.direction} @ {record.entry_price:.4f} | ${record.trade_size_usd} | conf={record.confidence}% | next_market={next_market['market_ts']}"
+                        )
+                        log.info("  ✅ Advance order placed: %s %s @ %.4f | $%.2f | next_market_ts=%d",
+                                 record.symbol, record.direction, record.entry_price,
+                                 record.trade_size_usd, next_market["market_ts"])
+                    else:
+                        log.warning("  ❌ execute() returned None — order may have failed or been skipped.")
                 else:
-                    log.info("  ⏹ NO_TRADE from LLM, skipping queue.")
+                    log.info("  ⏹ NO_TRADE from LLM.")
                     self.dashboard.add_event(
                         self.live_events,
                         f"PREDICT {sym_label} NO_TRADE @ conf={confidence}%"
@@ -947,11 +988,8 @@ class SniperBot:
             except Exception as e:
                 log.error("  Error processing %s: %s", sym_label, e)
 
-        # Settle expired trades after processing all symbols
+        # Settle expired trades
         self._settle_expired_trades()
-        
-        # Execute pending predictions for current window
-        self._execute_pending_predictions()
 
 # ─────────────────────────────────────────────
 # ENTRY POINT
@@ -966,7 +1004,7 @@ if __name__ == "__main__":
         log.info("Using OpenRouter API key from %s", OPENROUTER_API_KEY_SOURCE)
 
     if not OPENROUTER_API_KEY.startswith("sk-or-"):
-        print("⚠️  The OpenRouter key does not look valid. Make sure it is a real OpenRouter secret starting with sk-or-.")
+        print("⚠️  The OpenRouter key does not look valid. Make sure it starts with sk-or-.")
         sys.exit(1)
 
     if not DRY_RUN and not PRIVATE_KEY:

@@ -1,13 +1,17 @@
 ﻿# Poly Claw Bot
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/codexbt/poly-claw-bot)
+
 A polished, production-ready trading repository built for `codexbt`.
 This project combines multiple automated trading strategies, live market execution, and optional AI-powered signal validation.
 
 ## What’s included
 
-- `bot.py` — the core Polymarket BTC/Polygon momentum trading engine
-- `sports_bot.py` — sports market scanning and execution automation
-- `poly5min_llm_bot.py` — LLM-enhanced trading strategy with OpenRouter / Claude reasoning
+- `bots/poly-claw.py` — the core Polymarket BTC/Polygon momentum trading engine
+- `bots/sports_bot.py` — sports market scanning and execution automation
+- `bots/poly5min_llm_bot.py` — LLM-enhanced trading strategy with OpenRouter / Claude reasoning
 - `poly5min_all.py` / `polyarbi.py` — broader multi-asset and arbitrage support
 - Environment-driven configuration for secure private key, API, and relayer usage
 - Built-in win/loss tracking, live performance reporting, and trade logging
@@ -24,9 +28,9 @@ This project combines multiple automated trading strategies, live market executi
 
 | Script | Purpose |
 |---|---|
-| `bot.py` | Main BTC/Polygon momentum bot with gasless relayer support. Ideal for fast 5-minute scans and live order execution. |
-| `sports_bot.py` | Sports market bot for value trading, market scanning, and live sports edges. |
-| `poly5min_llm_bot.py` | LLM-driven strategy using OpenRouter. Adds an AI reasoning layer to entry and exit decisions. |
+| `bots/poly-claw.py` | Main BTC/Polygon momentum bot with gasless relayer support. Ideal for fast 5-minute scans and live order execution. |
+| `bots/sports_bot.py` | Sports market bot for value trading, market scanning, and live sports edges. |
+| `bots/poly5min_llm_bot.py` | LLM-driven strategy using OpenRouter. Adds an AI reasoning layer to entry and exit decisions. |
 | `poly5min_all.py` | Multi-market coverage and broader crypto scanning. |
 | `polyarbi.py` | Arbitrage-style market scanning and execution support. |
 
@@ -39,15 +43,18 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python bot.py
-python sports_bot.py
-python poly5min_llm_bot.py
+python bots/poly-claw.py
+python bots/sports_bot.py
+python bots/poly5min_llm_bot.py
 ```
 
 If you want multiple bots running at the same time, start each one in its own terminal session:
 
 ```bash
-start powershell -NoExit python bot.py
+start powershell -NoExit python bots/poly-claw.py
+start powershell -NoExit python bots/sports_bot.py
+start powershell -NoExit python bots/poly5min_llm_bot.py
+```
 start powershell -NoExit python sports_bot.py
 start powershell -NoExit python poly5min_llm_bot.py
 ```
@@ -83,7 +90,7 @@ Logs and console summaries help tune thresholds and confidence over time.
 
 ## Setup
 
-1. Copy `.env.example` to `.env`
+1. Copy `config/env.example` to `config/.env`
 2. Add your private wallet key and API credentials
 3. Set `PAPER_MODE=true` for testing before switching to live mode
 
