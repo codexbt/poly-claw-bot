@@ -1,11 +1,15 @@
-﻿# 🚀 Poly Claw Bot
-
-[![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/network)
-[![GitHub issues](https://img.shields.io/github/issues/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/issues)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot)
+﻿<div align="center">
+  <img src="https://user-images.githubusercontent.com/placeholder/logo.png" alt="Poly Claw Bot" width="200" height="200"/>
+  
+  # 🚀 Poly Claw Bot
+  
+  [![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/network)
+  [![GitHub issues](https://img.shields.io/github/issues/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/issues)
+  [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square)](https://www.python.org/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+  [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot)
+</div>
 
 > 🤖 AI-powered live trading suite for Polymarket and sports markets. Built for `codexbt` with modular strategies, secure configs, and LLM validation.
 
