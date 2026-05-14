@@ -171,7 +171,6 @@ STOP_LOSS_PERCENT = 0.05  # 5% stop loss
 ## 🐛 Issues & Support
 
 - 📋 [Report Issues](https://github.com/codexbt/poly-claw-bot/issues)
-- 💬 [Discussions](https://github.com/codexbt/poly-claw-bot/discussions)
 - 📧 Contact: Built for `codexbt`
 
 ## ⭐ Support the Project
