@@ -1,7 +1,6 @@
 ﻿<div align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/logo.png" alt="Poly Claw Bot" width="200" height="200"/>
-  
-  # 🚀 Poly Claw Bot
+  <h1>🚀 Poly Claw Bot</h1>
+  <p><strong>AI-powered live trading suite for Polymarket and sports markets</strong></p>
   
   [![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/network)
