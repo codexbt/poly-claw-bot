@@ -13,8 +13,6 @@
 
 > 🤖 AI-powered live trading suite for Polymarket and sports markets. Built for `codexbt` with modular strategies, secure configs, and LLM validation.
 
-![Demo](https://via.placeholder.com/800x400/007bff/ffffff?text=Trading+Dashboard+Demo) <!-- Replace with actual demo image -->
-
 ---
 
 ## ✨ Features
@@ -177,7 +175,6 @@ STOP_LOSS_PERCENT = 0.05  # 5% stop loss
 ## 🐛 Issues & Support
 
 - 📋 [Report Issues](https://github.com/codexbt/poly-claw-bot/issues)
-- 💬 [Discussions](https://github.com/codexbt/poly-claw-bot/discussions)
 - 📧 Contact: Built for `codexbt`
 
 ## ⭐ Support the Project
