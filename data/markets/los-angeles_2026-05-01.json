@@ -1,0 +1,205 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-05-01",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:59.377233+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 79,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:26.930829+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 79,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:59.377233+00:00",
+      "top_bucket": "72.0-999.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-04-29T08:44:26.930829+00:00",
+      "top_bucket": "72.0-999.0F",
+      "top_price": 0.4
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Los Angeles be 53°F or below on May 1?",
+      "gamma_id": "2112548",
+      "token_id": "77908340558690882870904481719123200176066073189843741026896180004636722697740",
+      "range": [
+        -999.0,
+        53.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 54-55°F on May 1?",
+      "gamma_id": "2112549",
+      "token_id": "48676888770667620424709073610485766412591902336027348702845519736858915802408",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 56-57°F on May 1?",
+      "gamma_id": "2112550",
+      "token_id": "34520374831515471575570818977312003168995171199237294099767178696282279845192",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 58-59°F on May 1?",
+      "gamma_id": "2112551",
+      "token_id": "11809131935658251682258061435004391923007693994890681223152381323421291393604",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 60-61°F on May 1?",
+      "gamma_id": "2112552",
+      "token_id": "108569958271356761548050357397493854438658714338037070755191026148658619796257",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 62-63°F on May 1?",
+      "gamma_id": "2112553",
+      "token_id": "45669464748799338639962231868440371258609923174066535660003972857970702298355",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 147.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 64-65°F on May 1?",
+      "gamma_id": "2112554",
+      "token_id": "76371630503030883357170865323952396210713958772103393449822338680681867735341",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 57.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 66-67°F on May 1?",
+      "gamma_id": "2112555",
+      "token_id": "86112548266295313313054753480783781594302479320471744427218780420585644657370",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.072,
+      "ask": 0.928,
+      "price": 0.072,
+      "spread": 0.856,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on May 1?",
+      "gamma_id": "2112556",
+      "token_id": "21713618679662538740734843465737851326475242919973047490794880485513701565529",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 70-71°F on May 1?",
+      "gamma_id": "2112557",
+      "token_id": "67532766439918459526263397921253577216685315766960358205057155238385730478740",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.365,
+      "ask": 0.635,
+      "price": 0.365,
+      "spread": 0.27,
+      "volume": 50.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be 72°F or higher on May 1?",
+      "gamma_id": "2112559",
+      "token_id": "105975622179539872648054773437017883682398357883079966879552375327512700214353",
+      "range": [
+        72.0,
+        999.0
+      ],
+      "bid": 0.4,
+      "ask": 0.6,
+      "price": 0.4,
+      "spread": 0.2,
+      "volume": 52.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:06.092497+00:00"
+}

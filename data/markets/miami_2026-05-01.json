@@ -1,0 +1,205 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-05-01",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:33.813547+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 87,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:09.896114+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 88,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:33.813547+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-29T08:44:09.896114+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.4
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 77°F or below on May 1?",
+      "gamma_id": "2112295",
+      "token_id": "73651851507475039395139177844751061107999507841461434359915127034748731314531",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on May 1?",
+      "gamma_id": "2112296",
+      "token_id": "69537753839979291280624627814028433183027277572246585067871972437397442702389",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on May 1?",
+      "gamma_id": "2112297",
+      "token_id": "111416683334286470449556102641080139266489449243753976494437002765165192471024",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 50.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on May 1?",
+      "gamma_id": "2112298",
+      "token_id": "80379646035359181333740413626475636543965069810339468829324383338005230870983",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.039,
+      "ask": 0.961,
+      "price": 0.039,
+      "spread": 0.922,
+      "volume": 118.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on May 1?",
+      "gamma_id": "2112299",
+      "token_id": "40142646108247771260022785720640349357111066594528002277177439191015263289197",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 82.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on May 1?",
+      "gamma_id": "2112300",
+      "token_id": "14582882757208495539112740450159220407208277446001669840969890992818517717774",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 86.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on May 1?",
+      "gamma_id": "2112301",
+      "token_id": "84516717774666008704088513394326577343017727242003504781157975909740218955368",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.4,
+      "ask": 0.6,
+      "price": 0.4,
+      "spread": 0.2,
+      "volume": 407.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on May 1?",
+      "gamma_id": "2112302",
+      "token_id": "51455374086173275907851143351733113019506786925130397780365100783276309156626",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.2895,
+      "ask": 0.7105,
+      "price": 0.2895,
+      "spread": 0.421,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on May 1?",
+      "gamma_id": "2112303",
+      "token_id": "59449138773426357739759235562335012953073564240070341308986042528027569968738",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.064,
+      "ask": 0.936,
+      "price": 0.064,
+      "spread": 0.872,
+      "volume": 58.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on May 1?",
+      "gamma_id": "2112304",
+      "token_id": "78211430900707319078815730637948572964004961588508916760535138715363697950196",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.044,
+      "ask": 0.956,
+      "price": 0.044,
+      "spread": 0.912,
+      "volume": 47.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 96°F or higher on May 1?",
+      "gamma_id": "2112305",
+      "token_id": "37620440883584284653232127421110029784208294729241609825682500325744600223898",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 10.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:42.201088+00:00"
+}

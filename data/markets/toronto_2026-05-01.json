@@ -1,0 +1,205 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:25.202432+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 6.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 6.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:01.460887+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 9.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 9.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:25.202432+00:00",
+      "top_bucket": "9.0-9.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-29T08:46:01.460887+00:00",
+      "top_bucket": "9.0-9.0C",
+      "top_price": 0.315
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 4°C or below on May 1?",
+      "gamma_id": "2112239",
+      "token_id": "48148839226522977023720057676561052295573720825220213061589842605712821852593",
+      "range": [
+        -999.0,
+        4.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 442.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 5°C on May 1?",
+      "gamma_id": "2112240",
+      "token_id": "23689852099711233814207229352175769838404365267517075191661815816052994925760",
+      "range": [
+        5.0,
+        5.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 22.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 6°C on May 1?",
+      "gamma_id": "2112241",
+      "token_id": "85016870932398050232026929432190517958933692915617501562072364428355897492825",
+      "range": [
+        6.0,
+        6.0
+      ],
+      "bid": 0.0415,
+      "ask": 0.9585,
+      "price": 0.0415,
+      "spread": 0.917,
+      "volume": 69.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 7°C on May 1?",
+      "gamma_id": "2112242",
+      "token_id": "62002710636651450153359772609275355001935851553097036559775744430665676756542",
+      "range": [
+        7.0,
+        7.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 96.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 8°C on May 1?",
+      "gamma_id": "2112243",
+      "token_id": "1431401188798149233899826847398788425824133384261996167615897862418458697611",
+      "range": [
+        8.0,
+        8.0
+      ],
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 92.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 9°C on May 1?",
+      "gamma_id": "2112244",
+      "token_id": "17699055748753470882089019337199047987848400839984326462962026843039461937923",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 27.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 10°C on May 1?",
+      "gamma_id": "2112245",
+      "token_id": "98095792783374318380577663317439319859171675788758402289459122920463707616597",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 66.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 11°C on May 1?",
+      "gamma_id": "2112246",
+      "token_id": "87829126829437401523484596768585112570747417134903722771964040808732076578306",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 27.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 12°C on May 1?",
+      "gamma_id": "2112247",
+      "token_id": "75590615532300947832609678361547941320608223274423746090987713258820887066582",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.061,
+      "ask": 0.939,
+      "price": 0.061,
+      "spread": 0.878,
+      "volume": 40.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 13°C on May 1?",
+      "gamma_id": "2112248",
+      "token_id": "32728122280219056533693050878698795480489727710386300198969482552968019631770",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.042,
+      "ask": 0.958,
+      "price": 0.042,
+      "spread": 0.916,
+      "volume": 27.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 14°C or higher on May 1?",
+      "gamma_id": "2112249",
+      "token_id": "34131524815292926886453336208445260472716938686545344175120396426703658774627",
+      "range": [
+        14.0,
+        999.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 277.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:31.950760+00:00"
+}

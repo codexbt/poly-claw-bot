@@ -1,0 +1,35 @@
+TRADE SUMMARY REPORT
+====================
+
+Game Condition ID : 0xc00cf2e8474673fd7ab87753ac9554f90bdef34fa730c5581b259037677ba9ac
+Market Name       : XRP Up or Down - May 11, 4:40PM-4:45PM ET
+Reason            : market resolved — winner: Up
+Winner            : Up
+Closed At         : 2026-05-12 02:11:27
+
+TRADING STATISTICS
+------------------
+Total Trades : 2
+Wins         : 2
+Losses       : 0
+Total Invest : $2.00
+P&L          : +$2.36
+Old Balance  : $248.18
+New Balance  : $250.53
+
+TRADE DETAILS
+-------------
+  [WIN  +$1.63] Up | size=$1.00 | price=0.3800 | shares=2.63 | token=385381749082
+  [WIN  +$0.72] Up | size=$1.00 | price=0.5800 | shares=1.72 | token=385381749082
+
+CONFIGURATION
+-------------
+Size Multiplier   : 1.0x
+Max per Game      : $150.0
+Max Trade Size    : $500.0
+Min Trade Size    : $1.0
+
+MARKET LINK: https://polymarket.com/market/0xc00cf2e8474673fd7ab87753ac9554f90bdef34fa730c5581b259037677ba9ac
+
+End of Report
+=============

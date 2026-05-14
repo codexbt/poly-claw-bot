@@ -1,0 +1,205 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:20.274642+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:08.122765+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 24.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:20.274642+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-29T08:45:08.122765+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 20°C or below on May 1?",
+      "gamma_id": "2112195",
+      "token_id": "65581055295686350619282518673377620724545717978051719490398784770385701122986",
+      "range": [
+        -999.0,
+        20.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 49.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on May 1?",
+      "gamma_id": "2112196",
+      "token_id": "19329140897170889196010966142262951423189456526317286586875652115519397872537",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 123.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on May 1?",
+      "gamma_id": "2112197",
+      "token_id": "19086873749894872752505300691705683087196470843880228240691908227680910964078",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0625,
+      "ask": 0.9375,
+      "price": 0.0625,
+      "spread": 0.875,
+      "volume": 23.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on May 1?",
+      "gamma_id": "2112198",
+      "token_id": "69661329060224330847779910585928189696582891087317096822368806618312896919759",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 100.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on May 1?",
+      "gamma_id": "2112199",
+      "token_id": "43599168676355941622631071392455965672079674098497755604229992145426010242226",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.175,
+      "ask": 0.825,
+      "price": 0.175,
+      "spread": 0.65,
+      "volume": 387.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 25°C on May 1?",
+      "gamma_id": "2112200",
+      "token_id": "102141372920155700262689154601594514127599345845805480247418451712418932179436",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 410.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 26°C on May 1?",
+      "gamma_id": "2112201",
+      "token_id": "13093535760562726930991241201584389769825982425776157252028476348781288300718",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.335,
+      "ask": 0.665,
+      "price": 0.335,
+      "spread": 0.33,
+      "volume": 359.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 27°C on May 1?",
+      "gamma_id": "2112202",
+      "token_id": "42089061087380871146938128089820395108886442419333695069239670752582390060246",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.06,
+      "ask": 0.94,
+      "price": 0.06,
+      "spread": 0.88,
+      "volume": 47.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 28°C on May 1?",
+      "gamma_id": "2112203",
+      "token_id": "81292393242604831088650275896642235192179126907804669976725459189608645873922",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.043,
+      "ask": 0.957,
+      "price": 0.043,
+      "spread": 0.914,
+      "volume": 29.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 29°C on May 1?",
+      "gamma_id": "2112204",
+      "token_id": "105652369143403076143842480260286917022040051579757390257642879633661116073688",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 45.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 30°C or higher on May 1?",
+      "gamma_id": "2112205",
+      "token_id": "69289895057859810013399958706844381077067892194870749602465330581438291207662",
+      "range": [
+        30.0,
+        999.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 57.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:24.896366+00:00"
+}

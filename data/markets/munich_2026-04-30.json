@@ -1,0 +1,205 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-04-30",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:25.917001+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 13.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:12.945146+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 13.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:25.917001+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-04-29T08:45:12.945146+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.435
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 8°C or below on April 30?",
+      "gamma_id": "2102247",
+      "token_id": "18772243651233717532918701109902487587149767610389771717885442702791903034619",
+      "range": [
+        -999.0,
+        8.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 761.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 9°C on April 30?",
+      "gamma_id": "2102248",
+      "token_id": "96085516167727204398387458085399055475099861527903664621088868639434603421543",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 13.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 10°C on April 30?",
+      "gamma_id": "2102249",
+      "token_id": "33059031377684020682127833927325257296282687497554110419311323589544553608798",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 159.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 11°C on April 30?",
+      "gamma_id": "2102250",
+      "token_id": "65166195641681592347735548791256826270455649650432145802263129499877153115156",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 29.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 12°C on April 30?",
+      "gamma_id": "2102251",
+      "token_id": "59940802638939498216883883522686537891104248209391214728284813476757933115164",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 658.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 13°C on April 30?",
+      "gamma_id": "2102252",
+      "token_id": "75485636787077726623913322416864637645330057540885471447384420112849919971517",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.037,
+      "ask": 0.963,
+      "price": 0.037,
+      "spread": 0.926,
+      "volume": 903.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 14°C on April 30?",
+      "gamma_id": "2102253",
+      "token_id": "101597387542680050327948198968686953250526753563082962151772069579098513396004",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.16,
+      "ask": 0.84,
+      "price": 0.16,
+      "spread": 0.68,
+      "volume": 416.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 15°C on April 30?",
+      "gamma_id": "2102254",
+      "token_id": "76437175398120164598927000115263276326632820391637382195614160760470014154994",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.435,
+      "ask": 0.565,
+      "price": 0.435,
+      "spread": 0.13,
+      "volume": 622.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 16°C on April 30?",
+      "gamma_id": "2102255",
+      "token_id": "103723905417950334167568118169606559677906612055016113948904609391508765582717",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.32,
+      "ask": 0.68,
+      "price": 0.32,
+      "spread": 0.36,
+      "volume": 606.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 17°C on April 30?",
+      "gamma_id": "2102256",
+      "token_id": "12306158722681837205738859080844410475110211991671860646680052485858181664487",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 439.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 18°C or higher on April 30?",
+      "gamma_id": "2102257",
+      "token_id": "81541716432497337950508944876715046200946818893567936682202075712658887298195",
+      "range": [
+        18.0,
+        999.0
+      ],
+      "bid": 0.0275,
+      "ask": 0.9725,
+      "price": 0.0275,
+      "spread": 0.945,
+      "volume": 1072.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:32.422761+00:00"
+}

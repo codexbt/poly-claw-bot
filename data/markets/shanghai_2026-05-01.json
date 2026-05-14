@@ -1,0 +1,205 @@
+{
+  "city": "shanghai",
+  "city_name": "Shanghai",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "ZSPD",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:57.922010+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 22.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:40.668567+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 23.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:57.922010+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-29T08:45:40.668567+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.305
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Shanghai be 19°C or below on May 1?",
+      "gamma_id": "2112394",
+      "token_id": "105877970742822334807923607031140636711499017547646049659968133809721394146597",
+      "range": [
+        -999.0,
+        19.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 401.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 20°C on May 1?",
+      "gamma_id": "2112395",
+      "token_id": "108612398844062679091049909156434078476734447511453707651590032819028423368779",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0095,
+      "ask": 0.9905,
+      "price": 0.0095,
+      "spread": 0.981,
+      "volume": 235.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 21°C on May 1?",
+      "gamma_id": "2112396",
+      "token_id": "108227879521738854027261602330146287880214429120757100832230180400123845237497",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.023,
+      "ask": 0.977,
+      "price": 0.023,
+      "spread": 0.954,
+      "volume": 80.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 22°C on May 1?",
+      "gamma_id": "2112397",
+      "token_id": "19944792990663000310463549693518748077333641658342428077096151769966575599337",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 380.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 23°C on May 1?",
+      "gamma_id": "2112398",
+      "token_id": "112992953112210601705084105204836987909082406120396593802296851536523918928419",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 541.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 24°C on May 1?",
+      "gamma_id": "2112399",
+      "token_id": "56189243725081056612064242498764474087301821102077267751313506591332579337059",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 395.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 25°C on May 1?",
+      "gamma_id": "2112400",
+      "token_id": "47406989701617152767076425236188812778426234270352230860867897619232536331695",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.2725,
+      "ask": 0.7275,
+      "price": 0.2725,
+      "spread": 0.455,
+      "volume": 340.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 26°C on May 1?",
+      "gamma_id": "2112401",
+      "token_id": "34801991647354909438350158948150738518525999042865796194263803893401693085763",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.112,
+      "ask": 0.888,
+      "price": 0.112,
+      "spread": 0.776,
+      "volume": 41.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 27°C on May 1?",
+      "gamma_id": "2112402",
+      "token_id": "24542652692700226746562786925834592443469513473618027691440132230245965525107",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0515,
+      "ask": 0.9485,
+      "price": 0.0515,
+      "spread": 0.897,
+      "volume": 82.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 28°C on May 1?",
+      "gamma_id": "2112403",
+      "token_id": "43150925850466091392236875187108454269257026627470668869065069552154109143212",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0365,
+      "ask": 0.9635,
+      "price": 0.0365,
+      "spread": 0.927,
+      "volume": 30.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 29°C or higher on May 1?",
+      "gamma_id": "2112404",
+      "token_id": "61675281664307650767088604138021525562619655795723110989321027280701362083042",
+      "range": [
+        29.0,
+        999.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 291.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:05.637083+00:00"
+}

@@ -1,0 +1,39 @@
+# ============================================================
+#  SwissTony Bot - Polymarket Automated Trading Bot
+#  Replicates swisstony's reality arbitrage strategy
+# ============================================================
+
+# Core trading
+py-clob-client==0.22.0
+httpx>=0.27.0
+aiohttp>=3.9.0
+websockets>=12.0
+
+# Data & utilities
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async
+asyncio>=3.4.3
+
+# Logging
+python-json-logger>=2.0.0
+
+# Crypto
+eth-account>=0.9.0
+web3>=6.0.0
+
+# Time
+python-dateutil>=2.8.0
+pytz>=2024.1
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.12.0
+
+# Optional: for better async performance
+uvloop>=0.19.0; sys_platform == 'win32'

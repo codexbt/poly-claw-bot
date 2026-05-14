@@ -1,0 +1,347 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:21.804873+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.609481266944444,
+      "ecmwf": 82,
+      "hrrr": 83,
+      "metar": null,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:34:06.517202+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.430603067777778,
+      "ecmwf": 82,
+      "hrrr": 83,
+      "metar": null,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:45.900817+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.252926716944446,
+      "ecmwf": 82,
+      "hrrr": 83,
+      "metar": null,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:30.438524+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6741153113888885,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 68,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:43.618288+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.636843649999999,
+      "ecmwf": 82,
+      "hrrr": 83,
+      "metar": 64,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:42.595241+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.5206351897222214,
+      "ecmwf": 82,
+      "hrrr": 83,
+      "metar": 64,
+      "best": 83,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:50.762180+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.418270386666666,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 64,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:42:46.709444+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.286158079444445,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 64,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:21:04.548524+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.647901986388889,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:25:26.604322+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.575019826944445,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:38:29.599454+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.357499948611111,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:41:33.802248+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.306532336111111,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:07:44.115521+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.870037728888889,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:20:48.565569+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.6523182686111113,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:34:16.724009+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.427338188055556,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:44:28.054108+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.255470580277778,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 62,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:58:06.978707+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0301609391666666,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 61,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:11:19.394937+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.809512718888889,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 61,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:24:34.439913+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.589459766388889,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 61,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:37:39.270494+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.371141281111111,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 61,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:51:36.865381+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1384687258333335,
+      "ecmwf": 82,
+      "hrrr": 82,
+      "metar": 61,
+      "best": 82,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "67566704432017721584900314261963194756699578471372854606982369020196178611091",
+      "question": "Will the highest temperature in Atlanta be 73°F or below on April 23?",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "volume": 2829.8897800000004,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "109271896813609109019115588372512560381436433403075411309428264593942046600043",
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on April 23?",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "volume": 2422.7184739999984,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "96253672968919015308233765468249831228773293167826685627921992596451045352732",
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on April 23?",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "volume": 2217.315154,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "87543292142410670687624329739971441557488073872412326954817860413601411092331",
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on April 23?",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "volume": 5295.155497999998,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "13104976991028402693328565941756695585076381402316842853119798945388045627789",
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on April 23?",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "volume": 2818.3751819999998,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "103784304879971099683614088235408894367697774588463530764267436741894468732418",
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on April 23?",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "volume": 3186.860229999998,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "61054630634860726972322631243122609238837412599483303644210640176821706885616",
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on April 23?",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "volume": 2839.650835999998,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "72147207288660137731319768459678856783871635733833202470154263098189183953445",
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on April 23?",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "volume": 2239.0947389999997,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "4278094362816241045075292091081396630771859879444889159505085451470570674700",
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on April 23?",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "volume": 1473.784542,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "35433640144816342155531900550867282763045057933084570626493706478289694608876",
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on April 23?",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "volume": 998.41535,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "57778316937152474733781387478134500750792313176973277001959187995327523278761",
+      "question": "Will the highest temperature in Atlanta be 92°F or higher on April 23?",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "volume": 1841.4727890000008,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

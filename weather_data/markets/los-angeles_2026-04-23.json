@@ -1,0 +1,347 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:17.049979+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.61076682,
+      "ecmwf": 79,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:34:02.062627+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.431670998055555,
+      "ecmwf": 79,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:41.323154+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.254065455,
+      "ecmwf": 79,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:27.084119+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.675054845833333,
+      "ecmwf": 79,
+      "hrrr": 74,
+      "metar": 61,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:39.400534+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.638232638055555,
+      "ecmwf": 79,
+      "hrrr": 74,
+      "metar": 60,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:38.095355+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.521875116944445,
+      "ecmwf": 79,
+      "hrrr": 74,
+      "metar": 60,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:45.517191+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.419624592777778,
+      "ecmwf": 79,
+      "hrrr": 73,
+      "metar": 60,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:42:30.204958+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.290573393888889,
+      "ecmwf": 79,
+      "hrrr": 73,
+      "metar": 60,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:20:51.986970+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.651486434166666,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:25:13.668428+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.578725745,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:38:16.937950+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.361128779166666,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:41:21.017702+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.310072445833334,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:07:25.853437+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8752745941666666,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:20:30.264934+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.6574825525,
+      "ecmwf": 79,
+      "hrrr": 72,
+      "metar": 60,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:33:59.331094+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4326013933333335,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 60,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:43:16.200196+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2772214083333333,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 60,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:57:50.599313+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0348879694444446,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 59,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:10:58.282452+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.8161052455555557,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 59,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:24:17.368660+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.5939532044444444,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 59,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:37:24.041932+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3755400975,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 59,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:51:19.074811+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1437858680555557,
+      "ecmwf": 78,
+      "hrrr": 73,
+      "metar": 59,
+      "best": 73,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "89878587639286105083904427200697147327442049268330858177518005269597589362931",
+      "question": "Will the highest temperature in Los Angeles be 53°F or below on April 23?",
+      "range": [
+        -999.0,
+        53.0
+      ],
+      "volume": 1561.956,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "24531209214309835226633095749785112482327080695875641871918572829307853673449",
+      "question": "Will the highest temperature in Los Angeles be between 54-55°F on April 23?",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "volume": 1292.046,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "23747451211212809319533231415111317790878407306211169776850500929304156642870",
+      "question": "Will the highest temperature in Los Angeles be between 56-57°F on April 23?",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "volume": 2534.284241,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "1877381443094876642172120012975784272910337954302053736528509486155464006707",
+      "question": "Will the highest temperature in Los Angeles be between 58-59°F on April 23?",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "volume": 2578.0547659999997,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "95190609138013207775645033128602223095513819523709708367105968291265688277672",
+      "question": "Will the highest temperature in Los Angeles be between 60-61°F on April 23?",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "volume": 2309.041697,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "47292381263810297152024766491292374639273484303767640056067178875589903820847",
+      "question": "Will the highest temperature in Los Angeles be between 62-63°F on April 23?",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "volume": 3315.659363000002,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "47537410429122751691412284768661882005699733628099729955549304826351607929030",
+      "question": "Will the highest temperature in Los Angeles be between 64-65°F on April 23?",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "volume": 2761.776125,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "104598322792285263285884724570757180631665960463487627391071014893208599303701",
+      "question": "Will the highest temperature in Los Angeles be between 66-67°F on April 23?",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "volume": 2240.059153,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "34146575629267313353755692001358713832861707125792380143574651589265490961774",
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on April 23?",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "volume": 3298.9026820000004,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "59703979129252940191673063166479188942603244036279250841887065652261597652734",
+      "question": "Will the highest temperature in Los Angeles be between 70-71°F on April 23?",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "volume": 2166.509843,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "109101832637353625539762680821700121374480503836162947834924229066266582761851",
+      "question": "Will the highest temperature in Los Angeles be 72°F or higher on April 23?",
+      "range": [
+        72.0,
+        999.0
+      ],
+      "volume": 3535.067655,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

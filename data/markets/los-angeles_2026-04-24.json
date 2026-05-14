@@ -1,0 +1,685 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-04-24",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 16.5,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:08.193200+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 78,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:39:19.285413+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 78,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:43:58.376036+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 78,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:59:47.214853+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 78,
+      "hrrr": 72,
+      "metar": null,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:05:43.254632+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 78,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:07:50.922904+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 78,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:12:24.219485+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.8,
+      "ecmwf": 78,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:15:44.170696+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.7,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T21:17:49.589067+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.7,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T22:19:50.122140+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.7,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T23:22:00.525429+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.6,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T00:24:03.121486+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.6,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": 68,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T01:26:08.428471+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 76,
+      "hrrr": 71,
+      "metar": 67,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T02:28:05.982026+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 64,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T03:30:28.665043+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 63,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T03:48:34.767111+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.2,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 63,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T04:24:14.348588+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 64,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T04:53:05.720860+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 64,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T05:02:13.203183+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 76,
+      "hrrr": 73,
+      "metar": 62,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:04:30.332678+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.9,
+      "ecmwf": 76,
+      "hrrr": 75,
+      "metar": 62,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T07:01:46.844636+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 76,
+      "hrrr": 75,
+      "metar": 61,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T08:03:50.725468+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.9,
+      "ecmwf": 76,
+      "hrrr": 75,
+      "metar": 61,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T09:05:58.983826+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.9,
+      "ecmwf": 77,
+      "hrrr": 75,
+      "metar": 61,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T10:08:23.847740+00:00",
+      "horizon": "D+0",
+      "hours_left": 1.9,
+      "ecmwf": 77,
+      "hrrr": 72,
+      "metar": 59,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T11:10:52.856868+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.8,
+      "ecmwf": 77,
+      "hrrr": 74,
+      "metar": 58,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T12:12:56.395906+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 74,
+      "metar": 57,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:15:08.786716+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": 59,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:51:08.122555+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": 59,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:58:42.850193+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 72,
+      "metar": 59,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T15:00:59.275382+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 72,
+      "metar": 62,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T16:03:14.310049+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 72,
+      "metar": 65,
+      "best": 72,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T17:05:47.044607+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 71,
+      "metar": 68,
+      "best": 71,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T18:08:35.727131+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 73,
+      "metar": 71,
+      "best": 73,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T18:48:14.906582+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 72,
+      "metar": 71,
+      "best": 72,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:08.193200+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T19:39:19.285413+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T19:43:58.376036+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T19:59:47.214853+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T20:05:43.254632+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T20:07:50.922904+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T20:12:24.219485+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T20:15:44.170696+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T21:17:49.589067+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-23T22:19:50.122140+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-23T23:22:00.525429+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-24T00:24:03.121486+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-24T01:26:08.428471+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-24T02:28:05.982026+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-04-24T03:30:28.665043+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-24T03:48:34.767111+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-24T04:24:14.348588+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-24T04:53:05.720860+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T05:02:13.203183+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T06:04:30.332678+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T07:01:46.844636+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-24T08:03:50.725468+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-24T09:05:58.983826+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-24T10:08:23.847740+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-24T11:10:52.856868+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-24T12:12:56.395906+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-24T13:15:08.786716+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-04-24T13:51:08.122555+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-04-24T13:58:42.850193+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-24T15:00:59.275382+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-24T16:03:14.310049+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-24T17:05:47.044607+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.49
+    },
+    {
+      "ts": "2026-04-24T18:08:35.727131+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-24T18:48:14.906582+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.67
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Los Angeles be 55°F or below on April 24?",
+      "gamma_id": "2049729",
+      "token_id": "44729580664330026044738494029996254687395152237958165198627301338609209290078",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1429.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 56-57°F on April 24?",
+      "gamma_id": "2049730",
+      "token_id": "24363300160110976040089322132413394864427696582013536034298717547004164699379",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2702.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 58-59°F on April 24?",
+      "gamma_id": "2049731",
+      "token_id": "101386173136495189501203576327778399925316001328112506937429861394241460395791",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1168.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 60-61°F on April 24?",
+      "gamma_id": "2049732",
+      "token_id": "110936482308127912282295375784390206942723051945853490816461289276100225019064",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4181.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 62-63°F on April 24?",
+      "gamma_id": "2049733",
+      "token_id": "97302994196960923467269941108377222849377545256817032057303311234724865221544",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 13627.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 64-65°F on April 24?",
+      "gamma_id": "2049734",
+      "token_id": "49048991097468411990210868335835185034143616435897240629167326966847169004855",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5963.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 66-67°F on April 24?",
+      "gamma_id": "2049735",
+      "token_id": "68097711123402582945991650280779825896985692194399951694654862615980931941336",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6159.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on April 24?",
+      "gamma_id": "2049736",
+      "token_id": "30132093750305438550708236755743983087540182274487043446988322356722148518885",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6244.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 70-71°F on April 24?",
+      "gamma_id": "2049737",
+      "token_id": "31989208103409757784318638806633429168890190934981798876001224477920331450053",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 5598.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 72-73°F on April 24?",
+      "gamma_id": "2049738",
+      "token_id": "77446915779099124274888507002193341096229653593305756300160647176497741513073",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.67,
+      "ask": 0.33,
+      "price": 0.67,
+      "spread": -0.34,
+      "volume": 4856.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be 74°F or higher on April 24?",
+      "gamma_id": "2049739",
+      "token_id": "104473187508151189130792193439095951449013807956754970857044784655235466303871",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 8424.0
+    }
+  ],
+  "created_at": "2026-04-23T19:28:12.306129+00:00"
+}

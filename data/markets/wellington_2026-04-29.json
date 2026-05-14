@@ -1,0 +1,205 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-04-29",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:45.447061+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": 17.0,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:23.623158+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": 17.0,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:45.447061+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-29T08:46:23.623158+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 11°C or below on April 29?",
+      "gamma_id": "2091626",
+      "token_id": "110895707210882355131668887744423708390977006271701338353453823481490233384339",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6269.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on April 29?",
+      "gamma_id": "2091627",
+      "token_id": "85016618243056947428034301604612691520575249248822182088479023416306216576710",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1452.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on April 29?",
+      "gamma_id": "2091628",
+      "token_id": "106838061063490218451520814416909965156290823975797490716779326442864300918694",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6261.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on April 29?",
+      "gamma_id": "2091629",
+      "token_id": "32019920481095094862467810342894634239100656429730365853898599974574719777624",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2295.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on April 29?",
+      "gamma_id": "2091630",
+      "token_id": "75369541871142318688373821919851069458092007748780080581398719217395972444613",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2421.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on April 29?",
+      "gamma_id": "2091631",
+      "token_id": "106741915298167121576800046324225003061044150306877941382342617401503542146563",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 16021.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on April 29?",
+      "gamma_id": "2091632",
+      "token_id": "10584744806957682330327421914126263812098022164070161587077927101884573764211",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6832.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C on April 29?",
+      "gamma_id": "2091633",
+      "token_id": "59472425933433303328460993831109144108739649303424273892652104424447441183622",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 23951.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 19°C on April 29?",
+      "gamma_id": "2091634",
+      "token_id": "71263733856475051373145205224813271542460079493268977796438574968827096930989",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 13286.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 20°C on April 29?",
+      "gamma_id": "2091635",
+      "token_id": "102344462573130529782366403661866228068516695800531753776500308346099773931144",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 11892.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 21°C or higher on April 29?",
+      "gamma_id": "2091636",
+      "token_id": "90163410678216202716292227410132223030624783169334328799820859429090650207522",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 9307.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:48.950388+00:00"
+}

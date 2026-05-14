@@ -1,0 +1,265 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 54.5,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T05:29:41.172278+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.5,
+      "ecmwf": 15.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:32:02.555123+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.5,
+      "ecmwf": 15.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:34:16.389603+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.4,
+      "ecmwf": 15.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:36:13.608793+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.4,
+      "ecmwf": 15.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:38:01.988930+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.4,
+      "ecmwf": 15.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:39:56.574328+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.3,
+      "ecmwf": 15.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T05:29:41.172278+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-26T06:32:02.555123+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-26T07:34:16.389603+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-26T08:36:13.608793+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-26T09:38:01.988930+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-26T10:39:56.574328+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.31
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 9°C or below on April 28?",
+      "gamma_id": "2082290",
+      "token_id": "45351753562993926891589964268354550476245553719717186991190266681226432963296",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1907.0
+    },
+    {
+      "question": "Will the highest temperature in London be 10°C on April 28?",
+      "gamma_id": "2082291",
+      "token_id": "73423449649714213756344529586061263578087474649464645254513552869047146606939",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2319.0
+    },
+    {
+      "question": "Will the highest temperature in London be 11°C on April 28?",
+      "gamma_id": "2082292",
+      "token_id": "83647730636803981033216781762095100683845578972908439297210134732033585070919",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 363.0
+    },
+    {
+      "question": "Will the highest temperature in London be 12°C on April 28?",
+      "gamma_id": "2082293",
+      "token_id": "84728691743761595564604714883115285866039815808655253799843404286152327790156",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0165,
+      "ask": 0.9835,
+      "price": 0.0165,
+      "spread": 0.967,
+      "volume": 951.0
+    },
+    {
+      "question": "Will the highest temperature in London be 13°C on April 28?",
+      "gamma_id": "2082294",
+      "token_id": "69474087043894570221806857917098422493452182825401912114749321020973527399010",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 840.0
+    },
+    {
+      "question": "Will the highest temperature in London be 14°C on April 28?",
+      "gamma_id": "2082295",
+      "token_id": "30474304086538542986231627382552304611983174584620306479149488427427843801969",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 702.0
+    },
+    {
+      "question": "Will the highest temperature in London be 15°C on April 28?",
+      "gamma_id": "2082296",
+      "token_id": "17247961293277461375783181078011440370481485814163471267779590214468278602250",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.31,
+      "ask": 0.69,
+      "price": 0.31,
+      "spread": 0.38,
+      "volume": 381.0
+    },
+    {
+      "question": "Will the highest temperature in London be 16°C on April 28?",
+      "gamma_id": "2082297",
+      "token_id": "43350033218555916026549922239294624010065874503242599609063921362891865412977",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 270.0
+    },
+    {
+      "question": "Will the highest temperature in London be 17°C on April 28?",
+      "gamma_id": "2082298",
+      "token_id": "102024407789748651495758872875661708941521991491834188636148528910883055916146",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.092,
+      "ask": 0.908,
+      "price": 0.092,
+      "spread": 0.816,
+      "volume": 138.0
+    },
+    {
+      "question": "Will the highest temperature in London be 18°C on April 28?",
+      "gamma_id": "2082299",
+      "token_id": "88748183702777133238130894448842812646026085453225562808704393310679539796181",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 598.0
+    },
+    {
+      "question": "Will the highest temperature in London be 19°C or higher on April 28?",
+      "gamma_id": "2082300",
+      "token_id": "36474350652085825532450688858632091434695982417127703011806257739282944244210",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 217.0
+    }
+  ],
+  "created_at": "2026-04-26T05:29:45.017775+00:00"
+}

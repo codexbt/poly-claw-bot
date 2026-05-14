@@ -1,0 +1,205 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-05-01",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:43.565151+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 61,
+      "hrrr": 58,
+      "metar": null,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:15.111632+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 61,
+      "hrrr": 59,
+      "metar": null,
+      "best": 59,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:43.565151+00:00",
+      "top_bucket": "-999.0-67.0F",
+      "top_price": 0.895
+    },
+    {
+      "ts": "2026-04-29T08:44:15.111632+00:00",
+      "top_bucket": "-999.0-67.0F",
+      "top_price": 0.91
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 67°F or below on May 1?",
+      "gamma_id": "2112273",
+      "token_id": "70041555983736866890240186020074997931365715912067949368593535624615766801559",
+      "range": [
+        -999.0,
+        67.0
+      ],
+      "bid": 0.91,
+      "ask": 0.09,
+      "price": 0.91,
+      "spread": -0.82,
+      "volume": 655.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 68-69°F on May 1?",
+      "gamma_id": "2112274",
+      "token_id": "11537388749560427273428103958785380762206477369677563125170473937594791436605",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 31.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 70-71°F on May 1?",
+      "gamma_id": "2112275",
+      "token_id": "20681098616897187442879893407005781040454788458847365269786004101286315059837",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.034,
+      "ask": 0.966,
+      "price": 0.034,
+      "spread": 0.932,
+      "volume": 40.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 72-73°F on May 1?",
+      "gamma_id": "2112276",
+      "token_id": "89397669798876938842230043136963150695301696683142533076461872202867630463687",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0205,
+      "ask": 0.9795,
+      "price": 0.0205,
+      "spread": 0.959,
+      "volume": 32.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 74-75°F on May 1?",
+      "gamma_id": "2112277",
+      "token_id": "112566514067217158695388885872199141270730835246957164945003080118948960349571",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 215.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 76-77°F on May 1?",
+      "gamma_id": "2112278",
+      "token_id": "83147080762125650153557230039875289218698396527036542086152306474113243885039",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 78-79°F on May 1?",
+      "gamma_id": "2112279",
+      "token_id": "61403484480587117375819908198049773808077284749676726056027483500582539053301",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 80-81°F on May 1?",
+      "gamma_id": "2112280",
+      "token_id": "86749023025080709352062177933794408614559144663389656196942332460710932732610",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on May 1?",
+      "gamma_id": "2112281",
+      "token_id": "15675467647661890816642348852586966599409544006642039668947238299679847176794",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on May 1?",
+      "gamma_id": "2112282",
+      "token_id": "103858994925161074461479880895410869901302596715212155757110950415087802974266",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 10.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 86°F or higher on May 1?",
+      "gamma_id": "2112283",
+      "token_id": "21230336108797126634650204133046328533278205082858173935451025470664191305484",
+      "range": [
+        86.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 189.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:50.683483+00:00"
+}

@@ -1,0 +1,265 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 54.5,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:29.005991+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.5,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:15.139031+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:35:03.411717+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.4,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:36:59.342245+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.4,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:38:57.028670+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:43.234854+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.3,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:29.005991+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-04-26T06:33:15.139031+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-26T07:35:03.411717+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.255
+    },
+    {
+      "ts": "2026-04-26T08:36:59.342245+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-04-26T09:38:57.028670+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.24
+    },
+    {
+      "ts": "2026-04-26T10:40:43.234854+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 9°C or below on April 28?",
+      "gamma_id": "2082345",
+      "token_id": "5703960335525189462871423388382658367577281150925526867766494128463599487358",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 297.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 10°C on April 28?",
+      "gamma_id": "2082346",
+      "token_id": "91597061924511651328233659764963757560338933512381205814925120034992722992228",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 309.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 11°C on April 28?",
+      "gamma_id": "2082347",
+      "token_id": "110580964578211378438944438797765844832067527354752546149409177502671341905076",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 12°C on April 28?",
+      "gamma_id": "2082348",
+      "token_id": "82027944629460233993584625841421441403971335235043194381874461530930755147662",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 260.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 13°C on April 28?",
+      "gamma_id": "2082349",
+      "token_id": "68432111607343106687400339967867887183516939739081061836042035849498181062609",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.039,
+      "ask": 0.961,
+      "price": 0.039,
+      "spread": 0.922,
+      "volume": 112.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 14°C on April 28?",
+      "gamma_id": "2082350",
+      "token_id": "74574307820682335644644496377450801871424953809258804979761654551761121352824",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 115.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 15°C on April 28?",
+      "gamma_id": "2082351",
+      "token_id": "85661689335489923996729883070673086583991035838931346371052891673903366528672",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 49.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 16°C on April 28?",
+      "gamma_id": "2082352",
+      "token_id": "23971985236297682732742199634830480253842169174742192223297730241486121599949",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.225,
+      "ask": 0.775,
+      "price": 0.225,
+      "spread": 0.55,
+      "volume": 48.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 17°C on April 28?",
+      "gamma_id": "2082353",
+      "token_id": "68938539459473897113972375286104232442889829272712045377506824610650904759672",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 2.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 18°C on April 28?",
+      "gamma_id": "2082354",
+      "token_id": "5673761916156404902160382466270996997969901425082518768924650340158190951433",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 9.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 19°C or higher on April 28?",
+      "gamma_id": "2082355",
+      "token_id": "50806124187311100288446045062378062249613875735726474519877976162930452222222",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "bid": 0.165,
+      "ask": 0.835,
+      "price": 0.165,
+      "spread": 0.67,
+      "volume": 199.0
+    }
+  ],
+  "created_at": "2026-04-26T05:30:33.002957+00:00"
+}

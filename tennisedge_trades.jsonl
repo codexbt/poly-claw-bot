@@ -1,0 +1,5 @@
+{"ts": "2026-05-06T15:42:32.439284", "action": "BUY_CHAMPION", "player": "Novak Djokovic", "shares": 30.555555555555557, "price": 0.72, "cost": 22.0, "dry": true}
+{"ts": "2026-05-06T17:10:59.025307", "action": "BUY_CHAMPION", "player": "Who will win Djokovic", "shares": 27.160493827160494, "price": 0.81, "cost": 22.0, "dry": true}
+{"ts": "2026-05-06T18:04:02.879442", "action": "BUY_UNDERDOG", "player": "Swiatek", "shares": 23.053547102588283, "price": 0.9543, "cost": 22.0, "dry": true}
+{"ts": "2026-05-06T18:24:05.167596", "action": "BUY_UNDERDOG", "player": "Swiatek", "shares": 23.053547102588283, "price": 0.9543, "cost": 22.0, "dry": true}
+{"ts": "2026-05-06T18:32:52.263144", "action": "BUY_UNDERDOG", "player": "Swiatek", "shares": 6.287331027978623, "price": 0.9543, "cost": 6.0, "dry": true}

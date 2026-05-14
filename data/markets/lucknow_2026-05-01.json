@@ -1,0 +1,205 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:13.391388+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 35.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 35.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:51.591044+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 35.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 35.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:13.391388+00:00",
+      "top_bucket": "-999.0-34.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-29T08:45:51.591044+00:00",
+      "top_bucket": "-999.0-34.0C",
+      "top_price": 0.425
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 34°C or below on May 1?",
+      "gamma_id": "2112339",
+      "token_id": "27715260862955769644042209580923631785091039651673158752773129896306178386563",
+      "range": [
+        -999.0,
+        34.0
+      ],
+      "bid": 0.425,
+      "ask": 0.575,
+      "price": 0.425,
+      "spread": 0.15,
+      "volume": 355.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 35°C on May 1?",
+      "gamma_id": "2112340",
+      "token_id": "71600351614576533935968406918865876877007755074310479486612649591986132839397",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.3,
+      "ask": 0.7,
+      "price": 0.3,
+      "spread": 0.4,
+      "volume": 378.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 36°C on May 1?",
+      "gamma_id": "2112341",
+      "token_id": "29691058383209710548267164426702478996589419775721456222425350901658872204179",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 733.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 37°C on May 1?",
+      "gamma_id": "2112342",
+      "token_id": "110842961299046201004418293317827760668862966205005543875246088052187423701182",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.0325,
+      "ask": 0.9675,
+      "price": 0.0325,
+      "spread": 0.935,
+      "volume": 541.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 38°C on May 1?",
+      "gamma_id": "2112343",
+      "token_id": "112078956267468602975840607616470637686440204055336528666448923934620343396395",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "bid": 0.042,
+      "ask": 0.958,
+      "price": 0.042,
+      "spread": 0.916,
+      "volume": 670.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 39°C on May 1?",
+      "gamma_id": "2112344",
+      "token_id": "55791204057985431827881786406895408203170933090860401791811430232567982212145",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 265.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 40°C on May 1?",
+      "gamma_id": "2112345",
+      "token_id": "71002570039799898908115697538292085671648616225632844037242115180854799836618",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 251.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 41°C on May 1?",
+      "gamma_id": "2112346",
+      "token_id": "88313941084883725207640594642302648876832127310623613020052123777504176350963",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 32.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 42°C on May 1?",
+      "gamma_id": "2112347",
+      "token_id": "106823735419082669825856305151485164946349168358297165287402068398180114642994",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 32.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 43°C on May 1?",
+      "gamma_id": "2112348",
+      "token_id": "9832261567242774078857626840436825764953820608352343562337894056648194855446",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 300.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 44°C or higher on May 1?",
+      "gamma_id": "2112349",
+      "token_id": "96407963177225552062097447862667900625852751317096029595311333389193508838490",
+      "range": [
+        44.0,
+        999.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 603.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:18.890315+00:00"
+}

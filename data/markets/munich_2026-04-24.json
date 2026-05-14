@@ -1,0 +1,670 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-04-24",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 16.5,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:25.125566+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:39:49.273143+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:44:20.233762+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:00:19.086586+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:06:02.950802+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:08:10.198934+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 17.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:16:05.536401+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.7,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T21:18:10.210659+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.7,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T22:20:15.828421+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.7,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T23:22:23.163299+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.6,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T00:24:27.769367+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.6,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": 4.0,
+      "best": 17.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T01:26:27.473961+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 3.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T02:28:24.455283+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 3.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:30:50.723636+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 1.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:48:54.660282+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.2,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 1.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:24:36.093902+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 2.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:53:26.687299+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 2.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T05:02:34.286966+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 3.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T06:04:56.927655+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.9,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T07:02:07.022616+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 10.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T08:04:12.614281+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.9,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 12.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T09:06:20.677619+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.9,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T10:08:43.296766+00:00",
+      "horizon": "D+0",
+      "hours_left": 1.9,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 16.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T11:11:17.312871+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.8,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 17.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T12:13:19.626324+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 18.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:15:31.136961+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:51:30.497583+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:59:04.812224+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T15:01:29.339525+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T16:03:37.807053+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T17:06:19.669491+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:08:59.431339+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 18.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:48:35.204997+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": 16.0,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:25.125566+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-23T19:39:49.273143+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-23T19:44:20.233762+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-04-23T20:00:19.086586+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-23T20:06:02.950802+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-23T20:08:10.198934+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-23T20:16:05.536401+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-23T21:18:10.210659+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-23T22:20:15.828421+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-04-23T23:22:23.163299+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-24T00:24:27.769367+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-24T01:26:27.473961+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-24T02:28:24.455283+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T03:30:50.723636+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-24T03:48:54.660282+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-24T04:24:36.093902+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-24T04:53:26.687299+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T05:02:34.286966+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T06:04:56.927655+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-04-24T07:02:07.022616+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.565
+    },
+    {
+      "ts": "2026-04-24T08:04:12.614281+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.625
+    },
+    {
+      "ts": "2026-04-24T09:06:20.677619+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.56
+    },
+    {
+      "ts": "2026-04-24T10:08:43.296766+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.585
+    },
+    {
+      "ts": "2026-04-24T11:11:17.312871+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.645
+    },
+    {
+      "ts": "2026-04-24T12:13:19.626324+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.73
+    },
+    {
+      "ts": "2026-04-24T13:15:31.136961+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.705
+    },
+    {
+      "ts": "2026-04-24T13:51:30.497583+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.705
+    },
+    {
+      "ts": "2026-04-24T13:59:04.812224+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.635
+    },
+    {
+      "ts": "2026-04-24T15:01:29.339525+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.895
+    },
+    {
+      "ts": "2026-04-24T16:03:37.807053+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.97
+    },
+    {
+      "ts": "2026-04-24T17:06:19.669491+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.993
+    },
+    {
+      "ts": "2026-04-24T18:08:59.431339+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.9985
+    },
+    {
+      "ts": "2026-04-24T18:48:35.204997+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.9985
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 11°C or below on April 24?",
+      "gamma_id": "2049531",
+      "token_id": "80116317932823888799484742175460142596146223976222844790553578044375970280563",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1251.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 12°C on April 24?",
+      "gamma_id": "2049532",
+      "token_id": "52473936227887524038093586553151791021726769586328634043890634678671636528732",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1229.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 13°C on April 24?",
+      "gamma_id": "2049533",
+      "token_id": "64067700311181233634644146341783956236984842136474882068941728094082120903139",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1045.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 14°C on April 24?",
+      "gamma_id": "2049534",
+      "token_id": "94158213739102370854709279182129799084123876060879733578896155383140699606715",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1007.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 15°C on April 24?",
+      "gamma_id": "2049535",
+      "token_id": "90034916620141583527813778544033939989027334281794275328289614860291159792979",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1863.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 16°C on April 24?",
+      "gamma_id": "2049536",
+      "token_id": "109519803924428418215721920925743616045080566205450428283722508719076647291915",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4345.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 17°C on April 24?",
+      "gamma_id": "2049537",
+      "token_id": "18946374287112803022391366324047000932333292948005217906582666086334052139558",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11027.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 18°C on April 24?",
+      "gamma_id": "2049538",
+      "token_id": "33722875486065982815907200762104525761866071600154679736381976726267586685155",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 13945.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 19°C on April 24?",
+      "gamma_id": "2049539",
+      "token_id": "49626189012227951282178346543901628047215339296793644640248075109323151808562",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 21180.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 20°C on April 24?",
+      "gamma_id": "2049540",
+      "token_id": "16655853001551003868040823698449616848100926187324826365258055269966338920590",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.9985,
+      "ask": 0.0015,
+      "price": 0.9985,
+      "spread": -0.997,
+      "volume": 15027.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 21°C or higher on April 24?",
+      "gamma_id": "2049541",
+      "token_id": "21974596667421704439414839418489493568925081100833473902387412104902691160288",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 22195.0
+    }
+  ],
+  "created_at": "2026-04-23T19:28:27.034262+00:00"
+}

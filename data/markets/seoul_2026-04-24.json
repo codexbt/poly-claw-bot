@@ -1,0 +1,473 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-04-24",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 16.5,
+  "status": "resolved",
+  "position": {
+    "market_id": "2049420",
+    "question": "Will the highest temperature in Seoul be 21°C or higher on April 24?",
+    "bucket_low": 21.0,
+    "bucket_high": 999.0,
+    "entry_price": 0.29,
+    "bid_at_entry": 0.71,
+    "spread": -0.42,
+    "shares": 17.83,
+    "cost": 5.17,
+    "p": 0.5,
+    "ev": 0.7241,
+    "kelly": 0.0739,
+    "forecast_temp": 21.0,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-23T20:00:29.573091+00:00",
+    "stop_price": 0.29,
+    "trailing_activated": true,
+    "status": "closed",
+    "pnl": 12.66,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-24T06:03:59.804363+00:00"
+  },
+  "actual_temp": null,
+  "resolved_outcome": "win",
+  "pnl": 12.66,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:32.171029+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:39:58.268279+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:44:28.316896+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:00:29.573091+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:06:12.044102+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:08:19.658716+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:16:15.762805+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.7,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T21:18:19.329004+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.7,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T22:20:29.631066+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.7,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T23:22:33.029236+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.6,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T00:24:36.367256+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.6,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 17.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T01:26:36.048513+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 18.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T02:28:37.823716+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:30:59.845161+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:49:03.020557+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.2,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:24:46.943990+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:53:35.382768+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T05:02:44.313215+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T06:05:07.922391+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.9,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:32.171029+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.72
+    },
+    {
+      "ts": "2026-04-23T19:39:58.268279+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.715
+    },
+    {
+      "ts": "2026-04-23T19:44:28.316896+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.715
+    },
+    {
+      "ts": "2026-04-23T20:00:29.573091+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.71
+    },
+    {
+      "ts": "2026-04-23T20:06:12.044102+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.71
+    },
+    {
+      "ts": "2026-04-23T20:08:19.658716+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.71
+    },
+    {
+      "ts": "2026-04-23T20:16:15.762805+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.7
+    },
+    {
+      "ts": "2026-04-23T21:18:19.329004+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.705
+    },
+    {
+      "ts": "2026-04-23T22:20:29.631066+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.735
+    },
+    {
+      "ts": "2026-04-23T23:22:33.029236+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.795
+    },
+    {
+      "ts": "2026-04-24T00:24:36.367256+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.88
+    },
+    {
+      "ts": "2026-04-24T01:26:36.048513+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.93
+    },
+    {
+      "ts": "2026-04-24T02:28:37.823716+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9665
+    },
+    {
+      "ts": "2026-04-24T03:30:59.845161+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-24T03:49:03.020557+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-24T04:24:46.943990+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-24T04:53:35.382768+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-24T05:02:44.313215+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-24T06:05:07.922391+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 1.0
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 11°C or below on April 24?",
+      "market_id": "2049410",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7122.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 12°C on April 24?",
+      "market_id": "2049411",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4797.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 13°C on April 24?",
+      "market_id": "2049412",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 10790.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 14°C on April 24?",
+      "market_id": "2049413",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11338.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 15°C on April 24?",
+      "market_id": "2049414",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 14250.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 16°C on April 24?",
+      "market_id": "2049415",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 16488.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 17°C on April 24?",
+      "market_id": "2049416",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 22471.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 18°C on April 24?",
+      "market_id": "2049417",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 37719.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 19°C on April 24?",
+      "market_id": "2049418",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 21278.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 20°C on April 24?",
+      "market_id": "2049419",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 34858.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 21°C or higher on April 24?",
+      "market_id": "2049420",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 1.0,
+      "ask": 0.0,
+      "price": 1.0,
+      "spread": -1.0,
+      "volume": 38453.0
+    }
+  ],
+  "created_at": "2026-04-23T19:28:34.201927+00:00"
+}

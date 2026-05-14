@@ -1,0 +1,143 @@
+════════════════════════════════════════════════════════════════
+ POLYMARKET 5-MIN ALL-CRYPTO BOT v4.0 — QUICK START
+════════════════════════════════════════════════════════════════
+
+✓ SETUP COMPLETE - All checks passed!
+
+Files Created:
+  • poly5min_all.py ........... Main trading script (781 lines)
+  • POLY5MIN_ALL_SETUP.md .... Detailed setup documentation
+  • .env ..................... Configuration updated
+  • requirements.txt ......... Dependencies added (pytz)
+
+════════════════════════════════════════════════════════════════
+
+QUICK START (3 STEPS):
+
+1. VERIFY CONFIGURATION:
+   ──────────────────────
+   Open .env and check:
+   ✓ PRIVATE_KEY ............. Your wallet key
+   ✓ POLYMARKET_FUNDER_ADDRESS  Your USDC account
+   ✓ DRY_RUN=true ............ (for testing)
+
+2. RUN IN TEST MODE:
+   ──────────────────
+   python poly5min_all.py
+   
+   Watch the console for:
+   - Real price updates (BTC, ETH, SOL, XRP, DOGE, HYPE, BNB)
+   - Momentum signals
+   - Market discoveries
+   - Trade signals (will NOT execute with DRY_RUN=true)
+
+3. MONITOR THE LOG:
+   ─────────────────
+   In another terminal:
+   tail -f logs/poly5all_*.log
+
+════════════════════════════════════════════════════════════════
+
+CONFIGURATION SUMMARY:
+
+Mode: DRY RUN (testing only)
+Markets: 7 cryptos (BTC, ETH, SOL, XRP, DOGE, HYPE, BNB)
+Trade Sizes: $1 (weak), $2 (medium), $3 (strong)
+Daily Limit: $300
+Check Interval: 40 seconds
+86-Cent Threshold: Yes (core edge)
+
+════════════════════════════════════════════════════════════════
+
+DEPENDENCIES VERIFIED:
+
+[OK] ccxt ..................... Price feeds (Binance, Coinbase)
+[OK] requests ................ API calls
+[OK] python-dotenv .......... .env loader
+[OK] pytz .................... Timezone handling
+[OK] py_clob_client ......... Polymarket orders
+[OK] All standard libraries
+
+════════════════════════════════════════════════════════════════
+
+STRATEGY (Simplified):
+
+1. Fetch prices (Binance + Coinbase average)
+2. Detect momentum (% change over 45 seconds)
+3. Analyze candle patterns (bullish/bearish signals)
+4. Find Polymarket 5-min market
+5. Check if YES/NO price >= $0.86 (market confirmation)
+6. Score signal (momentum + candles + market = 0.0-1.0)
+7. Execute trade if score high enough:
+   - Score < 0.50 ........... NO TRADE
+   - Score 0.50-0.70 ........ $1-2 trade
+   - Score > 0.70 ........... $3 trade
+8. Exit if price reverses >0.50% against signal
+
+════════════════════════════════════════════════════════════════
+
+TRADING FLOW:
+
+Tick (every 40 seconds):
+  1. Prices ← Binance + Coinbase
+  2. Candles ← 5-second OHLC
+  3. Momentum ← % change detection
+  4. Market ← Polymarket discovery (ET timezone)
+  5. Score ← Signal strength calculation
+  6. Order ← Market FOK if score > threshold
+  7. Track ← Entry price & direction
+  8. Check ← Reversals on all open positions
+
+════════════════════════════════════════════════════════════════
+
+TO GO LIVE (Change to Real Trading):
+
+⚠️  WARNING: This will trade with REAL USDC money!
+
+STEPS:
+  1. Backup .env file
+  2. Edit .env: change DRY_RUN=true to DRY_RUN=false
+  3. Verify PRIVATE_KEY and POLYMARKET_FUNDER_ADDRESS
+  4. Run: python poly5min_all.py
+  5. Bot waits 5 seconds — press Ctrl+C to abort!
+  6. Watch logs carefully for first hour
+
+════════════════════════════════════════════════════════════════
+
+COMMANDS:
+
+Test the script:
+  python poly5min_all.py
+
+View logs:
+  tail -f logs/poly5all_*.log
+
+Stop the bot:
+  Press Ctrl+C (KeyboardInterrupt)
+
+════════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+[Issue] Script not starting
+[Fix]   Check .env exists and has no syntax errors
+
+[Issue] "Price fetch failed"
+[Fix]   Binance/Coinbase API issue, script retries
+
+[Issue] "No active market found"
+[Fix]   Market doesn't exist at that timestamp, try again
+
+[Issue] "Order failed"
+[Fix]   CLOB issue, check API credentials in .env
+
+[Issue] "Daily limit reached"
+[Fix]   Stop trading for rest of day, resets at midnight UTC
+
+════════════════════════════════════════════════════════════════
+
+NEXT: 
+
+python poly5min_all.py
+
+════════════════════════════════════════════════════════════════

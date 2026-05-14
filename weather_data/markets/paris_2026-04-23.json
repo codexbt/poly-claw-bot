@@ -1,0 +1,317 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-04-23",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:29.406742+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.607806478333334,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:34:13.036866+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.42910408388889,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:44:52.987117+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.251222961388889,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T04:19:37.108595+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.672448114444444,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 6,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:21:51.803491+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.6348325613888885,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 9,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:28:51.251029+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.518463899722222,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 9,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:34:58.964430+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.416149556666667,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 10,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:38:54.364051+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.350928479999999,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 12,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:41:56.601469+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.300233005,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 12,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:08:18.226665+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8606357286111113,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 14,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:21:23.543411+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.6428018972222223,
+      "ecmwf": 19.9,
+      "hrrr": null,
+      "metar": 14,
+      "best": 19.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:34:54.067006+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4175417811111113,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:45:22.580411+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2425917286111114,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:58:39.804634+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0214323475000002,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:11:56.212597+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.8002565336111114,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:25:08.088679+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.5803868466666664,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:38:30.161093+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3569155802777777,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 17,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:52:08.925835+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1299121888888886,
+      "ecmwf": 19.8,
+      "hrrr": null,
+      "metar": 17,
+      "best": 19.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "15205643967385193197941311594466551015485351556162713464473736542501234244743",
+      "question": "Will the highest temperature in Paris be 19°C on April 23?",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "volume": 10623.603403000001,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "48499356754241011935200920724668380938557573202004975555428128158716563648708",
+      "question": "Will the highest temperature in Paris be 20°C on April 23?",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "volume": 10736.36665299999,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "98024505720977378146972902677187964158052686004296827183533581269914574364853",
+      "question": "Will the highest temperature in Paris be 21°C on April 23?",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "volume": 7745.425561000005,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "33824657345459302166356427134201350725671026645701401639516658067510077142415",
+      "question": "Will the highest temperature in Paris be 22°C on April 23?",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "volume": 7522.464767999998,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "64447620088612223347722775051381099297878851633772334275326993994288972822552",
+      "question": "Will the highest temperature in Paris be 23°C on April 23?",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "volume": 3964.2913620000013,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "58685948801853973334613625130569910001638922324465801768067427740979631817526",
+      "question": "Will the highest temperature in Paris be 24°C on April 23?",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "volume": 4352.521199000002,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "28655546712119750393590370020513374896979801440376062321765746736531736766195",
+      "question": "Will the highest temperature in Paris be 25°C or higher on April 23?",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "volume": 3827.4421270000034,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "89120323942610346997403597402591487571410982027887866678110049271169633795230",
+      "question": "Will the highest temperature in Paris be 15°C or below on April 23?",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "volume": 983.0262,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "111552475849925366247816846857997932042291906436539427416119752710507409862305",
+      "question": "Will the highest temperature in Paris be 16°C on April 23?",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "volume": 1261.108884,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "1472045583390308687960965206579446885101265979270429176692924990655030292709",
+      "question": "Will the highest temperature in Paris be 17°C on April 23?",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "volume": 2167.0771950000003,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "113999598714588922172261829467675876464773527831096022525283705328713971875574",
+      "question": "Will the highest temperature in Paris be 18°C on April 23?",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "volume": 4387.646630000002,
+      "best_ask": 0.999,
+      "best_bid": 0
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

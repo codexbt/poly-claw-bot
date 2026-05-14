@@ -1,0 +1,205 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-04-29",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:59.377233+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 78,
+      "hrrr": 69,
+      "metar": 59,
+      "best": 69,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:26.930829+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.3,
+      "ecmwf": 77,
+      "hrrr": 69,
+      "metar": 59,
+      "best": 69,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:59.377233+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.545
+    },
+    {
+      "ts": "2026-04-29T08:44:26.930829+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.54
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Los Angeles be 51°F or below on April 29?",
+      "gamma_id": "2091846",
+      "token_id": "17813640234392628739873552817674759783218006200387782513060862242830943684562",
+      "range": [
+        -999.0,
+        51.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 936.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 52-53°F on April 29?",
+      "gamma_id": "2091847",
+      "token_id": "69697609406860759316969489963499691426702056552490710334705351676925912040263",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4629.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 54-55°F on April 29?",
+      "gamma_id": "2091848",
+      "token_id": "71530288407018590511975234081618412088833394895715699207018135971446881701984",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2672.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 56-57°F on April 29?",
+      "gamma_id": "2091849",
+      "token_id": "22201215321501171652941478391739114414417266110431230962867260952006955739697",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2479.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 58-59°F on April 29?",
+      "gamma_id": "2091850",
+      "token_id": "104976096348658067349354557828921630116749028741320657684897783269362863476502",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2186.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 60-61°F on April 29?",
+      "gamma_id": "2091851",
+      "token_id": "39891751621774505869374075371163140562446438357921722788401915544310518712740",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1849.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 62-63°F on April 29?",
+      "gamma_id": "2091852",
+      "token_id": "70575685974672957161974815621561552739296158402981805133718988752909925003055",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2932.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 64-65°F on April 29?",
+      "gamma_id": "2091853",
+      "token_id": "63931147648989695038395861631830069780014506648773584170660338161454012808341",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 3014.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 66-67°F on April 29?",
+      "gamma_id": "2091854",
+      "token_id": "16342786034494834003176656809461174785066971798900297596771308158333396795696",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 1786.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on April 29?",
+      "gamma_id": "2091855",
+      "token_id": "59418835314864787151094113076269345240394261060020751754539831174900440969603",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.37,
+      "ask": 0.63,
+      "price": 0.37,
+      "spread": 0.26,
+      "volume": 3118.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be 70°F or higher on April 29?",
+      "gamma_id": "2091856",
+      "token_id": "10137856364697462713797023341486152756245582158785613636161403755889560445189",
+      "range": [
+        70.0,
+        999.0
+      ],
+      "bid": 0.54,
+      "ask": 0.46,
+      "price": 0.54,
+      "spread": -0.08,
+      "volume": 2037.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:04.028892+00:00"
+}

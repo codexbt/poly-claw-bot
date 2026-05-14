@@ -1,0 +1,337 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-04-23",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:26.384724+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.60866608861111,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:34:10.324656+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.429847282777777,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:44:49.880671+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.252090659722223,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T04:19:33.818322+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.673222945833333,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 7,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:21:48.383677+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.635992553333334,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 7,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:28:46.942168+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.519558071666667,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 8,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:34:55.330357+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.4173504122222225,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 8,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:21:17.761884+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.641799735277778,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 8,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-04-23T07:25:40.056315+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.571674320833334,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 9,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:38:42.158406+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3543861375,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 9,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:41:45.862238+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.303406747777777,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 9,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:08:01.149495+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8656962583333336,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 10,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:21:05.825584+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.6476806663888888,
+      "ecmwf": 18.2,
+      "hrrr": null,
+      "metar": 10,
+      "best": 18.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:34:36.808141+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4224223100000004,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 10,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:45:04.385991+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2481585980555554,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 10,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:58:24.208524+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0259028933333334,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 11,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:11:38.947178+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.8049825866666667,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 11,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:24:51.566092+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.5849170638888888,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 11,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:37:56.992395+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3648292916666667,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 12,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:51:54.717545+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1341472091666667,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": 12,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "83220929649903840836077252355755664862185405798429016148037100646164416148156",
+      "question": "Will the highest temperature in London be 13°C or below on April 23?",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "volume": 31161.59753799999,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "7542950884885221914204062564299894982343707257813896681772360915180845696522",
+      "question": "Will the highest temperature in London be 14°C on April 23?",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "volume": 23272.260248999988,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "65760120578038822412677132186637287096346623889663630613016072184476979633449",
+      "question": "Will the highest temperature in London be 15°C on April 23?",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "volume": 16965.697003000005,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "5135016223018852397584890488921061320083388183840889022249909500265905805620",
+      "question": "Will the highest temperature in London be 16°C on April 23?",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "volume": 23713.35917800001,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "54428368299778077347669797953828586151680161362261563251670290549624731547616",
+      "question": "Will the highest temperature in London be 17°C on April 23?",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "volume": 13076.324630000016,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "45303126588414364507359805391118550340825449483760185377406316042792541889092",
+      "question": "Will the highest temperature in London be 18°C on April 23?",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "volume": 13270.57568300001,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "107069799015072373719454813942436430191126283373322156384796479264115215434118",
+      "question": "Will the highest temperature in London be 19°C on April 23?",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "volume": 21638.214048999995,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "45504863801585076932691364880218040405289174004443801217576599333694882678036",
+      "question": "Will the highest temperature in London be 20°C on April 23?",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "volume": 9816.068352000004,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "78274724621540012284765466593825127135850388105423418514676189670541293964866",
+      "question": "Will the highest temperature in London be 21°C on April 23?",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "volume": 7359.341237000002,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "3185328250135495976468077121854660227973869845107264102405340936072966559408",
+      "question": "Will the highest temperature in London be 22°C on April 23?",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "volume": 8436.016700000004,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "15523177257142255585799430127485024910502117334420465332368013267223067234210",
+      "question": "Will the highest temperature in London be 23°C or higher on April 23?",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "volume": 9693.461603000003,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

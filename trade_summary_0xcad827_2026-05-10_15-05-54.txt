@@ -1,0 +1,40 @@
+TRADE SUMMARY REPORT
+====================
+
+Game Condition ID: 0xcad82791abf47557dc39a9714ab96cfcb08c1e6be02fc2b99bce500d0af35cf8
+Market Name: XRP Up or Down - May 10, 5:25AM-5:30AM ET
+Reason for Closing: resolved winner:UNKNOWN
+Closed At: 2026-05-10 15:05:54
+
+TRADING STATISTICS
+------------------
+Total Trades Copied: 2
+Total USD Invested: $5.37
+Average Trade Size: $2.69 (if trades > 0)
+
+PROFIT/LOSS ANALYSIS
+--------------------
+Market not yet resolved. Estimated PnL range: $-5.37 to $5.37 (assuming binary outcomes)
+
+Note: This bot copies trades without position management.
+Actual profits depend on market resolution and outcome winners.
+
+TRADE DETAILS
+-------------
+- Bought $1.95 of 'Down' @ $0.5000
+- Bought $3.42 of 'Down' @ $0.5100
+
+CONFIGURATION USED
+------------------
+- Size Multiplier: 1.0x
+- Concentration Boost: 3.0x
+- Max per Game: $150.0
+- Max Trade Size: $500.0
+- Min Trade Size: $1.0
+
+MARKET LINK
+-----------
+https://polymarket.com/market/0xcad82791abf47557dc39a9714ab96cfcb08c1e6be02fc2b99bce500d0af35cf8
+
+End of Report
+=============

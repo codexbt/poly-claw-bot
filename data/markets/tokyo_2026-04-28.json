@@ -1,0 +1,265 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 54.5,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:02.170227+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.5,
+      "ecmwf": 22.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:32:44.020814+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.5,
+      "ecmwf": 22.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:34:40.650977+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.4,
+      "ecmwf": 22.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:36:36.508836+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.4,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:38:33.181537+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.4,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:19.933937+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.3,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:02.170227+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-26T06:32:44.020814+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-04-26T07:34:40.650977+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-26T08:36:36.508836+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-26T09:38:33.181537+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-26T10:40:19.933937+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 15°C or below on April 28?",
+      "gamma_id": "2082477",
+      "token_id": "44704100991800047545766050038405372102896734804132342025430155661320433256202",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 251.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 16°C on April 28?",
+      "gamma_id": "2082478",
+      "token_id": "49095593334996614320677894426239006255475431889521942372768545388093380668575",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 252.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 17°C on April 28?",
+      "gamma_id": "2082479",
+      "token_id": "1912300127555807776907190552456893872859484526767720909155503678681764806840",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 488.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 18°C on April 28?",
+      "gamma_id": "2082480",
+      "token_id": "86224746775065130133727858833183471316069456278789282976270838874561786650695",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 74.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 19°C on April 28?",
+      "gamma_id": "2082481",
+      "token_id": "37381117596443821803551651065242398329625098922402364236515646520349438588461",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 28.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 20°C on April 28?",
+      "gamma_id": "2082482",
+      "token_id": "92634266443416521684848313578769485313976952192412471588149638036896773250729",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 183.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 21°C on April 28?",
+      "gamma_id": "2082483",
+      "token_id": "57570576748335435284193781259117030215421197302123344683834116431700709481168",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 281.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 22°C on April 28?",
+      "gamma_id": "2082484",
+      "token_id": "82503912764306675279463786612490636440803865205957861913809709425016858513264",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.365,
+      "ask": 0.635,
+      "price": 0.365,
+      "spread": 0.27,
+      "volume": 68.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 23°C on April 28?",
+      "gamma_id": "2082485",
+      "token_id": "32627623836370198103776545370506025914671312086915400049564104675932159516416",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.26,
+      "ask": 0.74,
+      "price": 0.26,
+      "spread": 0.48,
+      "volume": 33.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 24°C on April 28?",
+      "gamma_id": "2082486",
+      "token_id": "79128368017673537315909866031895072343661763174435995942072694173218365494820",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.1,
+      "ask": 0.9,
+      "price": 0.1,
+      "spread": 0.8,
+      "volume": 48.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 25°C or higher on April 28?",
+      "gamma_id": "2082487",
+      "token_id": "100934299922171389171841152028199316114866637516492009980873218140714187674078",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.045,
+      "ask": 0.955,
+      "price": 0.045,
+      "spread": 0.91,
+      "volume": 602.0
+    }
+  ],
+  "created_at": "2026-04-26T05:30:10.379501+00:00"
+}

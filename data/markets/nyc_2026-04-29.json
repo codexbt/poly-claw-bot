@@ -1,0 +1,205 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-04-29",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:18.981955+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 55,
+      "hrrr": 60,
+      "metar": 53,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:43:58.099782+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.3,
+      "ecmwf": 60,
+      "hrrr": 62,
+      "metar": 53,
+      "best": 62,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:18.981955+00:00",
+      "top_bucket": "60.0-61.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-04-29T08:43:58.099782+00:00",
+      "top_bucket": "60.0-61.0F",
+      "top_price": 0.435
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 53°F or below on April 29?",
+      "gamma_id": "2091560",
+      "token_id": "49006847074229006953817188558900115298689752464901439752490698609923306878032",
+      "range": [
+        -999.0,
+        53.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 9157.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 54-55°F on April 29?",
+      "gamma_id": "2091561",
+      "token_id": "92268406879053336501592941043383166349786273102463228556851139335293529530694",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 6287.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 56-57°F on April 29?",
+      "gamma_id": "2091562",
+      "token_id": "96838941234027829732305411550711277987639179712642919756840484777019156354767",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 4184.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 58-59°F on April 29?",
+      "gamma_id": "2091563",
+      "token_id": "90303835805661223536352876623166546048631409777708611783286022525445829621012",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.395,
+      "ask": 0.605,
+      "price": 0.395,
+      "spread": 0.21,
+      "volume": 4018.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 60-61°F on April 29?",
+      "gamma_id": "2091564",
+      "token_id": "75827204798786131401663146345551131942405869072875549023513474245053452704322",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.435,
+      "ask": 0.565,
+      "price": 0.435,
+      "spread": 0.13,
+      "volume": 3815.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 62-63°F on April 29?",
+      "gamma_id": "2091565",
+      "token_id": "77334525594143766914148607397601933212765354329885719619106807589482474852659",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.136,
+      "ask": 0.864,
+      "price": 0.136,
+      "spread": 0.728,
+      "volume": 4906.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 64-65°F on April 29?",
+      "gamma_id": "2091566",
+      "token_id": "92105721838533303240519889355021553428341707195358503708229940205519726868034",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0125,
+      "ask": 0.9875,
+      "price": 0.0125,
+      "spread": 0.975,
+      "volume": 3909.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 66-67°F on April 29?",
+      "gamma_id": "2091567",
+      "token_id": "8055887685722437711067063529427215721698343081604316103486006618408412436634",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 3094.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 68-69°F on April 29?",
+      "gamma_id": "2091568",
+      "token_id": "25819884761228245261248645637206970459288440893724579509528829708496783197597",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 3222.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 70-71°F on April 29?",
+      "gamma_id": "2091569",
+      "token_id": "46090909329138110787717111735181475964272965747839542036244846892138620336955",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 3236.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 72°F or higher on April 29?",
+      "gamma_id": "2091570",
+      "token_id": "327321009895391435545103992638380162531392137836220769391141930920419286521",
+      "range": [
+        72.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 5720.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:22.885915+00:00"
+}

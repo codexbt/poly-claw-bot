@@ -1,0 +1,520 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 53.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:00.759695+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 15.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T07:39:51.961163+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 15.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T08:42:26.560966+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T09:44:32.688326+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T10:46:24.820007+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.2,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T11:48:22.377486+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.2,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T12:50:31.166718+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T13:52:34.000290+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T14:54:50.090891+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T15:56:57.696490+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.0,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:59:10.171676+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T18:01:29.814264+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.0,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T19:03:39.552431+00:00",
+      "horizon": "D+2",
+      "hours_left": 40.9,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T20:06:37.477254+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:08:49.268885+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.9,
+      "ecmwf": 16.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:10:46.435879+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.8,
+      "ecmwf": 16.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T23:12:35.536539+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 16.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T05:30:29.005991+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.5,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:15.139031+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.4,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:35:03.411717+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:36:59.342245+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.4,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:38:57.028670+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:43.234854+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:00.759695+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T07:39:51.961163+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-25T08:42:26.560966+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.26
+    },
+    {
+      "ts": "2026-04-25T09:44:32.688326+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T10:46:24.820007+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T11:48:22.377486+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-04-25T12:50:31.166718+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-25T13:52:34.000290+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-25T14:54:50.090891+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-04-25T15:56:57.696490+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-04-25T16:59:10.171676+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-25T18:01:29.814264+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-04-25T19:03:39.552431+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-04-25T20:06:37.477254+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-25T21:08:49.268885+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-04-25T22:10:46.435879+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.235
+    },
+    {
+      "ts": "2026-04-25T23:12:35.536539+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-26T05:30:29.005991+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-04-26T06:33:15.139031+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-26T07:35:03.411717+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-26T08:36:59.342245+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-04-26T09:38:57.028670+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-04-26T10:40:43.234854+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.315
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 10°C or below on April 27?",
+      "gamma_id": "2074317",
+      "token_id": "79814335544822199588998034002596011526432618481316497173216436136970082474160",
+      "range": [
+        -999.0,
+        10.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 783.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 11°C on April 27?",
+      "gamma_id": "2074318",
+      "token_id": "15216233756816733748113204938441227986360590567798796642233212003451687460672",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1248.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 12°C on April 27?",
+      "gamma_id": "2074319",
+      "token_id": "41558943540080903998014487886960799393290425012064638663110180630217936169730",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 674.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 13°C on April 27?",
+      "gamma_id": "2074320",
+      "token_id": "111808353818881500341998407798701820222057266145583705670062471885096547477746",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 1662.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 14°C on April 27?",
+      "gamma_id": "2074321",
+      "token_id": "93098704215928328845925588677432743876785659718139039661839564172111634735751",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 613.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 15°C on April 27?",
+      "gamma_id": "2074322",
+      "token_id": "27013303343059256471220999340711443886586194990019094504431401311390087167533",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 479.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 16°C on April 27?",
+      "gamma_id": "2074323",
+      "token_id": "113277559108230517938051680726501587420145500098227021767035930936238367760081",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 471.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 17°C on April 27?",
+      "gamma_id": "2074324",
+      "token_id": "16595672434201128443403755721144342326887493232385592890820088493956605298211",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 469.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 18°C on April 27?",
+      "gamma_id": "2074325",
+      "token_id": "93093868927155553440257477233972980673546223104116463307098300067526044727931",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 321.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 19°C on April 27?",
+      "gamma_id": "2074326",
+      "token_id": "39088017569321027201781661772150706775877375077439719562468779884371470663048",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 400.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 20°C or higher on April 27?",
+      "gamma_id": "2074327",
+      "token_id": "63485039832896992391910152243204194013129609499025470197910735378191222493219",
+      "range": [
+        20.0,
+        999.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 783.0
+    }
+  ],
+  "created_at": "2026-04-25T06:38:04.294815+00:00"
+}

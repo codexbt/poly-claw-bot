@@ -1,0 +1,205 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-04-29",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:25.202432+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 10.8,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 10.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:01.460887+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2,
+      "ecmwf": 11.7,
+      "hrrr": null,
+      "metar": 10.0,
+      "best": 11.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:25.202432+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.865
+    },
+    {
+      "ts": "2026-04-29T08:46:01.460887+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.87
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 6°C or below on April 29?",
+      "gamma_id": "2091538",
+      "token_id": "48056684077260656180407739166930870787361723494558467646837806054900665095381",
+      "range": [
+        -999.0,
+        6.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 3669.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 7°C on April 29?",
+      "gamma_id": "2091539",
+      "token_id": "27662625085532326356164660100724279218080879648419248379080122883328778787629",
+      "range": [
+        7.0,
+        7.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 3889.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 8°C on April 29?",
+      "gamma_id": "2091540",
+      "token_id": "74642788824623849127925072200944186186121683877126624296197804560355175795139",
+      "range": [
+        8.0,
+        8.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11440.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 9°C on April 29?",
+      "gamma_id": "2091541",
+      "token_id": "35472719397942767439926213961256464814195659547129001133493057920635859535126",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 12552.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 10°C on April 29?",
+      "gamma_id": "2091542",
+      "token_id": "20233954549198080756968288922392525495113256622680849023045548519876029628323",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 23274.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 11°C on April 29?",
+      "gamma_id": "2091543",
+      "token_id": "107504847826801806429692369669725922922329399734902054178205317870700730188630",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 24797.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 12°C on April 29?",
+      "gamma_id": "2091544",
+      "token_id": "71164820358288794643809237009753444721071019515318450553758538311697121378413",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 20352.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 13°C on April 29?",
+      "gamma_id": "2091545",
+      "token_id": "1064233208256295769160068907815520950503389860979548275802778133519708988010",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.87,
+      "ask": 0.13,
+      "price": 0.87,
+      "spread": -0.74,
+      "volume": 5629.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 14°C on April 29?",
+      "gamma_id": "2091546",
+      "token_id": "57355533724584041693814353519257033737139123911434538362424068599159518487600",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.1,
+      "ask": 0.9,
+      "price": 0.1,
+      "spread": 0.8,
+      "volume": 4375.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 15°C on April 29?",
+      "gamma_id": "2091547",
+      "token_id": "13400981303517312996648185428622400360237994403082233418334818104823440152607",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0265,
+      "ask": 0.9735,
+      "price": 0.0265,
+      "spread": 0.947,
+      "volume": 4526.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 16°C or higher on April 29?",
+      "gamma_id": "2091548",
+      "token_id": "12483808227221990709226046795243650659350372945012437481956592043493350231413",
+      "range": [
+        16.0,
+        999.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 8675.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:29.786336+00:00"
+}

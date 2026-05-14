@@ -1,0 +1,347 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:07.682124+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.613519811666666,
+      "ecmwf": 79,
+      "hrrr": 77,
+      "metar": null,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:33:51.382416+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.434599475277777,
+      "ecmwf": 79,
+      "hrrr": 77,
+      "metar": null,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:33.150627+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.256465992222221,
+      "ecmwf": 79,
+      "hrrr": 77,
+      "metar": null,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:19.847219+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.676950105833333,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": 74,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:31.364735+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.640520078055555,
+      "ecmwf": 79,
+      "hrrr": 77,
+      "metar": 71,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:27.131642+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.524950739722222,
+      "ecmwf": 79,
+      "hrrr": 77,
+      "metar": 71,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:34.505237+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.4224379577777775,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": 70,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:41:58.832928+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.2995251622222215,
+      "ecmwf": 79,
+      "hrrr": 79,
+      "metar": 70,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:20:26.863755+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.6583202450000005,
+      "ecmwf": 79,
+      "hrrr": 79,
+      "metar": 69,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:24:48.282501+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.585813810555555,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:37:52.470313+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.367903848611111,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:40:56.053088+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.316979642777778,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:06:50.738617+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8850300830555553,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 70,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:19:51.631009+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.668129757777778,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 70,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:33:24.171557+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4424349105555554,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 70,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:42:17.519629+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2937122675,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 70,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:57:17.716937+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0440654969444445,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:10:21.794924+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.826195251944444,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:23:38.964403+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.6047076958333335,
+      "ecmwf": 79,
+      "hrrr": 80,
+      "metar": 69,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:36:48.084022+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3853654355555554,
+      "ecmwf": 79,
+      "hrrr": 82,
+      "metar": 69,
+      "best": 82,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:50:40.512213+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1544210144444444,
+      "ecmwf": 79,
+      "hrrr": 82,
+      "metar": 69,
+      "best": 82,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "2521335208585062917812867887883717607579622143545134067170353471981963330889",
+      "question": "Will the highest temperature in Dallas be 57°F or below on April 23?",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "volume": 1319.836666,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "42928948789676779532830089464778807451336355621825239618411419435342593810131",
+      "question": "Will the highest temperature in Dallas be between 58-59°F on April 23?",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "volume": 853.7639330000001,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "98721826114041185321533127831463361807797175543775249067304998130465613161176",
+      "question": "Will the highest temperature in Dallas be between 60-61°F on April 23?",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "volume": 898.9236000000001,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "113116258908292510219415967423747589049358164330774053266540168256999263612577",
+      "question": "Will the highest temperature in Dallas be between 62-63°F on April 23?",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "volume": 863.9436000000001,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "45916882414294171657827221153917902926645748423662793624686432110648668100289",
+      "question": "Will the highest temperature in Dallas be between 64-65°F on April 23?",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "volume": 1396.8467449999998,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "40378064596237812503740854497640933213670306030715394745954555736916010749561",
+      "question": "Will the highest temperature in Dallas be between 66-67°F on April 23?",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "volume": 989.9464320000001,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "37976113245589594089779480718387562284638787059673047423147507268269593740602",
+      "question": "Will the highest temperature in Dallas be between 68-69°F on April 23?",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "volume": 1037.150565,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "54682503338768073451745028376871274025778706100146703653776022745986377484786",
+      "question": "Will the highest temperature in Dallas be between 70-71°F on April 23?",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "volume": 2488.401435,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "87217838274739135671382919552425932968135310753430085092509337647074418699951",
+      "question": "Will the highest temperature in Dallas be between 72-73°F on April 23?",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "volume": 2591.860188,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "39444631994403686255580419612839479593490219147401565341254858125175348968224",
+      "question": "Will the highest temperature in Dallas be between 74-75°F on April 23?",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "volume": 6374.131450000003,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "89211600989903861296211085630546848685648743933599822212599164268754702621588",
+      "question": "Will the highest temperature in Dallas be 76°F or higher on April 23?",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "volume": 9258.802324000008,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

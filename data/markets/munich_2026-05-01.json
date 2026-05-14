@@ -1,0 +1,205 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:25.917001+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:12.945146+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 17.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:25.917001+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-04-29T08:45:12.945146+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.295
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 13°C or below on May 1?",
+      "gamma_id": "2112350",
+      "token_id": "62436733192233638110591767561375772158901269632871089354725187959793013163826",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 382.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 14°C on May 1?",
+      "gamma_id": "2112351",
+      "token_id": "21236843365325419871643266469408231587048586810023459858629466333598483400954",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 261.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 15°C on May 1?",
+      "gamma_id": "2112352",
+      "token_id": "79035239101984324833264391233454534245254672317925568893908132059787195961692",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 261.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 16°C on May 1?",
+      "gamma_id": "2112353",
+      "token_id": "60245853252992605888540997839446314274958297618664822230462347447584558830641",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0165,
+      "ask": 0.9835,
+      "price": 0.0165,
+      "spread": 0.967,
+      "volume": 782.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 17°C on May 1?",
+      "gamma_id": "2112354",
+      "token_id": "35051336597745989425639428993366095523065182987371985151476818356036601118845",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.058,
+      "ask": 0.942,
+      "price": 0.058,
+      "spread": 0.884,
+      "volume": 295.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 18°C on May 1?",
+      "gamma_id": "2112355",
+      "token_id": "91318987106051585031478458634011000946209220266711898461620533729135115453059",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 149.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 19°C on May 1?",
+      "gamma_id": "2112356",
+      "token_id": "45245633785325705535532900058503508437988230267722201598515703779924961001700",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.29,
+      "ask": 0.71,
+      "price": 0.29,
+      "spread": 0.42,
+      "volume": 109.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 20°C on May 1?",
+      "gamma_id": "2112357",
+      "token_id": "44448700748561340165720617499023574847791766212875163315883637598162214725279",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 51.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 21°C on May 1?",
+      "gamma_id": "2112358",
+      "token_id": "41113525517445368010425456147980795475815980823328730981820493151374026510223",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.2,
+      "ask": 0.8,
+      "price": 0.2,
+      "spread": 0.6,
+      "volume": 32.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 22°C on May 1?",
+      "gamma_id": "2112359",
+      "token_id": "36670964620280772660196982782442426885152531884886041306144427058848535428697",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 55.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 23°C or higher on May 1?",
+      "gamma_id": "2112360",
+      "token_id": "106038452846327642802570766195503803951757992631607467027588372050107937058938",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 266.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:33.465045+00:00"
+}

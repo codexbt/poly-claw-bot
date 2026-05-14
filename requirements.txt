@@ -1,0 +1,21 @@
+# ============================================================
+# PBot-6 Lightning Copy Trader — Requirements
+# Python 3.10+ required
+# ============================================================
+
+# ── Core async HTTP client ────────────────────────────────
+aiohttp>=3.9.0
+
+# ── .env loader ───────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Polygon WebSocket monitoring (optional but highly recommended) ──
+websockets>=12.0
+
+# ── Official Polymarket CLOB client (LIVE trading only) ──
+# Comment out if you only want DRY RUN mode
+py-clob-client>=0.18.0
+
+# ── EVM / ABI decoding for advanced Polygon log parsing ──
+eth-abi>=4.0.0
+web3>=6.0.0

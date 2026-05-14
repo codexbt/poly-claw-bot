@@ -1,0 +1,205 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-04-29",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:20.274642+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:08.122765+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2,
+      "ecmwf": 22.8,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:20.274642+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.575
+    },
+    {
+      "ts": "2026-04-29T08:45:08.122765+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.555
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 16°C or below on April 29?",
+      "gamma_id": "2091494",
+      "token_id": "78202338863367968802034401666988787603477822544253416171182221805262867071069",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 2358.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on April 29?",
+      "gamma_id": "2091495",
+      "token_id": "85149095251531940645509586904881201958806328460706486956891925380059656249854",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 2854.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on April 29?",
+      "gamma_id": "2091496",
+      "token_id": "84913018495870769933357541000704617259525767946993017742192633683558645843481",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 2120.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on April 29?",
+      "gamma_id": "2091497",
+      "token_id": "58498256867517570050677612556783297897708850650847243307990117986687955749478",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 3443.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on April 29?",
+      "gamma_id": "2091498",
+      "token_id": "49090805481460081636964397969428104499739812516141328226124852692521783758368",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 7341.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on April 29?",
+      "gamma_id": "2091499",
+      "token_id": "71772315075723503364715515656459419435743161805272877935193630365462329351403",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 6992.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on April 29?",
+      "gamma_id": "2091500",
+      "token_id": "71686968977275220899018734678482350770247507234341982198755128100654199581446",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 8491.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on April 29?",
+      "gamma_id": "2091501",
+      "token_id": "72581589885205658507519645920588501057334131206347792371575344675391453818323",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 5217.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on April 29?",
+      "gamma_id": "2091502",
+      "token_id": "44069085676475877808179830309417276703221314377496473430046852926619483831340",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.555,
+      "ask": 0.445,
+      "price": 0.555,
+      "spread": -0.11,
+      "volume": 5502.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 25°C on April 29?",
+      "gamma_id": "2091503",
+      "token_id": "50405605066934168850540773170456122586751865428957490594937728395314910924854",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 4980.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 26°C or higher on April 29?",
+      "gamma_id": "2091504",
+      "token_id": "113007812890175217488621115876889093349311421105673739432236058264414755366274",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "bid": 0.01,
+      "ask": 0.99,
+      "price": 0.01,
+      "spread": 0.98,
+      "volume": 6316.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:23.065265+00:00"
+}

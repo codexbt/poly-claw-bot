@@ -1,0 +1,317 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-04-23",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:32.438016+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.606963915555557,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:34:15.743442+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.428357876944444,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T20:44:56.096232+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.25038473138889,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T04:19:39.830250+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.671637183611111,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 17,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:21:55.854155+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.6339930124999995,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:28:54.981726+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.517414405555555,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T06:35:03.185855+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.415004765277778,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:39:06.923715+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.347523041111111,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T07:42:08.357934+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.297003436111111,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 16,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:08:37.931548+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8555241558333333,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:21:43.498413+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.637297723888889,
+      "ecmwf": 19.5,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:35:11.464742+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4129280836111113,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:45:40.581353+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.238182964722222,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:58:54.864075+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.017240750277778,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:12:14.045599+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.7955444347222222,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:25:24.066254+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.5759326594444443,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:38:54.390190+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.350781265277778,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:52:25.745879+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1256506433333335,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": 15,
+      "best": 19.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "6073315168097364375063128612280997517963535198501826478504165862135859950574",
+      "question": "Will the highest temperature in Tokyo be 13°C or below on April 23?",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "volume": 953.6879999999996,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "13447657224608333521892595782195031593992522422740950705521524750082721240828",
+      "question": "Will the highest temperature in Tokyo be 14°C on April 23?",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "volume": 7408.003499999999,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "9103659568962381591528046566263446308980060251235628449443727304887659275649",
+      "question": "Will the highest temperature in Tokyo be 15°C on April 23?",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "volume": 10330.671278,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "38782001801366922208311761729560284483856708182576355272521255512511063984801",
+      "question": "Will the highest temperature in Tokyo be 16°C on April 23?",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "volume": 21580.262716999998,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "96185217164983563660413027252553695945533998272259724038995587074993154456143",
+      "question": "Will the highest temperature in Tokyo be 17°C on April 23?",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "volume": 7913.089191999996,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "91982488570776995480698627291830285012066256085909012414189912627015004329477",
+      "question": "Will the highest temperature in Tokyo be 18°C on April 23?",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "volume": 23916.989842000003,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "45643377781351776215417007579587482163593728863901303695550223437246437415592",
+      "question": "Will the highest temperature in Tokyo be 19°C on April 23?",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "volume": 27887.176330000006,
+      "best_ask": 0,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "49529735114920546476071107239065142184451591690402091173508474263666248566147",
+      "question": "Will the highest temperature in Tokyo be 20°C on April 23?",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "volume": 11860.036529999998,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "55390398022414728806850798397513098142314324140712220125178325779420693213068",
+      "question": "Will the highest temperature in Tokyo be 21°C on April 23?",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "volume": 8681.584596000004,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "56854654222263248854998789452259655265222259613108847831227546185720966554029",
+      "question": "Will the highest temperature in Tokyo be 22°C on April 23?",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "volume": 8497.475481000001,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "84550897183133374591966433545012953294618101787087470266000193592045774211732",
+      "question": "Will the highest temperature in Tokyo be 23°C or higher on April 23?",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "volume": 5086.830150999999,
+      "best_ask": 0.999,
+      "best_bid": 0
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

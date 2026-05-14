@@ -1,0 +1,520 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 53.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:13.665123+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 15.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T07:40:07.327295+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 15.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T08:42:47.121453+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T09:44:48.830661+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T10:46:38.511137+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.2,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T11:48:36.893950+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.2,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T12:50:46.413838+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T13:52:48.536421+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T14:55:05.841591+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T15:57:26.277599+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.0,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:59:35.259786+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T18:01:44.789792+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.0,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T19:03:54.712372+00:00",
+      "horizon": "D+2",
+      "hours_left": 40.9,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T20:06:50.922322+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:09:05.146448+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.8,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:11:02.008794+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.8,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T23:12:53.640118+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T05:30:42.377695+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.5,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:28.061351+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.4,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:35:18.939994+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:37:16.664529+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.4,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:39:14.258883+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:57.817961+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.3,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:13.665123+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-04-25T07:40:07.327295+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-25T08:42:47.121453+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-04-25T09:44:48.830661+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T10:46:38.511137+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-25T11:48:36.893950+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T12:50:46.413838+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T13:52:48.536421+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T14:55:05.841591+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T15:57:26.277599+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T16:59:35.259786+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T18:01:44.789792+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T19:03:54.712372+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T20:06:50.922322+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T21:09:05.146448+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T22:11:02.008794+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-25T23:12:53.640118+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-26T05:30:42.377695+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T06:33:28.061351+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T07:35:18.939994+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T08:37:16.664529+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T09:39:14.258883+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-26T10:40:57.817961+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.425
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 10°C or below on April 27?",
+      "gamma_id": "2074405",
+      "token_id": "61316076718277068993014307032283275168035686754204721443541639420032603918916",
+      "range": [
+        -999.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3469.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on April 27?",
+      "gamma_id": "2074406",
+      "token_id": "4624876950374452992930208441870560636838325479564115399881823870584909150034",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2002.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on April 27?",
+      "gamma_id": "2074407",
+      "token_id": "42952080533357052567315683823920313326811857877919818414823916103989913859728",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 2958.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on April 27?",
+      "gamma_id": "2074408",
+      "token_id": "80846099810542921305457596464722841846652481228790348905353817624411313490788",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 482.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on April 27?",
+      "gamma_id": "2074409",
+      "token_id": "69740066838043762863206256659351178325957310148907507163945779531046737738190",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.01,
+      "ask": 0.99,
+      "price": 0.01,
+      "spread": 0.98,
+      "volume": 2146.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on April 27?",
+      "gamma_id": "2074410",
+      "token_id": "25049820442808789925146810980234342893405205284731513799993857381292885210254",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 1734.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on April 27?",
+      "gamma_id": "2074411",
+      "token_id": "109103228899316346207294899910258718660775697396711557604943951485084188365264",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 1845.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on April 27?",
+      "gamma_id": "2074412",
+      "token_id": "75780886995658146750532048025816021839519156786195233677286560947150770632359",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.425,
+      "ask": 0.575,
+      "price": 0.425,
+      "spread": 0.15,
+      "volume": 841.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C on April 27?",
+      "gamma_id": "2074413",
+      "token_id": "112921158597279894451346910427425849303437743766458669729878397556401899445443",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 882.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 19°C on April 27?",
+      "gamma_id": "2074414",
+      "token_id": "48680001797190532642471402297610036253023762865404491157244910244963021018044",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 701.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 20°C or higher on April 27?",
+      "gamma_id": "2074415",
+      "token_id": "30137006740454940589158971516929172973542281166690320065587061794361736958454",
+      "range": [
+        20.0,
+        999.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 519.0
+    }
+  ],
+  "created_at": "2026-04-25T06:38:17.853043+00:00"
+}

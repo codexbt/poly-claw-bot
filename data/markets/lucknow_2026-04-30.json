@@ -1,0 +1,205 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-04-30",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:13.391388+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 34.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 34.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:51.591044+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 36.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 36.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:13.391388+00:00",
+      "top_bucket": "-999.0-35.0C",
+      "top_price": 0.895
+    },
+    {
+      "ts": "2026-04-29T08:45:51.591044+00:00",
+      "top_bucket": "-999.0-35.0C",
+      "top_price": 0.8615
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 35°C or below on April 30?",
+      "gamma_id": "2102236",
+      "token_id": "9300561613498422348073771315992669439257321919638440016921604765123135479335",
+      "range": [
+        -999.0,
+        35.0
+      ],
+      "bid": 0.8615,
+      "ask": 0.1385,
+      "price": 0.8615,
+      "spread": -0.723,
+      "volume": 2288.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 36°C on April 30?",
+      "gamma_id": "2102237",
+      "token_id": "8152953668928454829966266248992311351696484391603896451126329896894301699679",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.099,
+      "ask": 0.901,
+      "price": 0.099,
+      "spread": 0.802,
+      "volume": 4171.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 37°C on April 30?",
+      "gamma_id": "2102238",
+      "token_id": "44009974509337730837761780664925026312262714800176977165691086558584484510043",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.0195,
+      "ask": 0.9805,
+      "price": 0.0195,
+      "spread": 0.961,
+      "volume": 3021.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 38°C on April 30?",
+      "gamma_id": "2102239",
+      "token_id": "53127756363104171982562486727623744833596287310010989085905109051429950675665",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "bid": 0.017,
+      "ask": 0.983,
+      "price": 0.017,
+      "spread": 0.966,
+      "volume": 2701.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 39°C on April 30?",
+      "gamma_id": "2102240",
+      "token_id": "14857354866817843571637697149454980405979637992825323243884260417687213762502",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 2029.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 40°C on April 30?",
+      "gamma_id": "2102241",
+      "token_id": "30670281763654031919983765683407401619644456345170217609189918657420997500706",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 789.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 41°C on April 30?",
+      "gamma_id": "2102242",
+      "token_id": "82256816374312511374426243440802603069525623315416759028881345126751747212697",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 614.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 42°C on April 30?",
+      "gamma_id": "2102243",
+      "token_id": "71829820831133246294580880175188110104056916929602008279003932066821587307575",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 780.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 43°C on April 30?",
+      "gamma_id": "2102244",
+      "token_id": "9659371382013565140548969750595637377004527680963730345203731802952925850533",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 378.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 44°C on April 30?",
+      "gamma_id": "2102245",
+      "token_id": "20858894886531660627279969848834804516835917895244882566829924500821084074772",
+      "range": [
+        44.0,
+        44.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 472.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 45°C or higher on April 30?",
+      "gamma_id": "2102246",
+      "token_id": "86300641066569952338678127016597785138379390381167267491352733777622249550801",
+      "range": [
+        45.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 606.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:17.722385+00:00"
+}

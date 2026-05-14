@@ -1,0 +1,205 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-04-30",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:32.369245+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 26.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:06.361016+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 28.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:32.369245+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-29T08:46:06.361016+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 23°C or below on April 30?",
+      "gamma_id": "2102104",
+      "token_id": "36653688401052463100373370434062225772577623013846142894214339118817831887079",
+      "range": [
+        -999.0,
+        23.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 699.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 24°C on April 30?",
+      "gamma_id": "2102105",
+      "token_id": "103181525797547349386918638059980343924478319194836873392991443050858259732056",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 480.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C on April 30?",
+      "gamma_id": "2102106",
+      "token_id": "109421480972491255026250390024505249626010284001044007993277161914351643312797",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 703.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C on April 30?",
+      "gamma_id": "2102107",
+      "token_id": "10741691416268266732221053743952378304100450582899769910833688119519784265183",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 244.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 27°C on April 30?",
+      "gamma_id": "2102108",
+      "token_id": "79988060787870724313397204455708190398094292772723514279585189047558060968402",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 345.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 28°C on April 30?",
+      "gamma_id": "2102109",
+      "token_id": "76963833280365856610172452422682120302825289068803009863201572369222723337373",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 427.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 29°C on April 30?",
+      "gamma_id": "2102110",
+      "token_id": "77967661587125565689148443532315849073590721313698891000647083361023561813132",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 377.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 30°C on April 30?",
+      "gamma_id": "2102111",
+      "token_id": "85603758802639970144282238726469041276723402911534933581768588949279816827499",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0345,
+      "ask": 0.9655,
+      "price": 0.0345,
+      "spread": 0.931,
+      "volume": 214.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 31°C on April 30?",
+      "gamma_id": "2102112",
+      "token_id": "45524964120120909122373410065883664005166065041936063795756353904501517016372",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0125,
+      "ask": 0.9875,
+      "price": 0.0125,
+      "spread": 0.975,
+      "volume": 268.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 32°C on April 30?",
+      "gamma_id": "2102113",
+      "token_id": "24133423644712476888460420193677080890041923320823791818891538786616158094340",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 217.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 33°C or higher on April 30?",
+      "gamma_id": "2102114",
+      "token_id": "59213436829332555893808095256524901345163570851400841593510759344523405338317",
+      "range": [
+        33.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 186.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:36.201092+00:00"
+}

@@ -1,0 +1,647 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-04-24",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T08:45:56.642598+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.231883217222222,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T08:59:10.116129+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.011988687222225,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:12:28.582210+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.789904911666667,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:25:39.274512+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.570275363333334,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:39:16.272400+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.342561719166664,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T09:52:43.017562+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.119234049722223,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T10:04:48.198941+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.919280607777775,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T10:17:05.680819+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.714338211944447,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T10:41:24.966278+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.309032770277778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T10:53:32.263649+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.106902582222222,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T11:05:45.798528+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.903077409444446,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T11:17:57.284483+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.69996158527778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T11:29:58.113825+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.499638581388886,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T11:42:10.602407+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.296371030277776,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T11:54:23.810084+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.092601022500002,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T12:06:32.596652+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.89019660972222,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T12:18:51.819718+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.68482419,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T12:31:16.594954+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.47804827527778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T12:43:21.619797+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.276603833611112,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T12:55:36.583708+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.072242046666666,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T13:07:51.969828+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.868210065,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T13:19:54.866347+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.667226359166666,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T13:32:08.481164+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.463314400555557,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T13:44:07.122732+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.26373621361111,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T13:55:57.472338+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.066690731111112,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T14:08:21.595314+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.859992891944444,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T14:20:35.801029+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.656070374444447,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T14:33:02.931983+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.44842776361111,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T14:45:24.476590+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.242475965555556,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T14:57:32.270480+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.04039516916667,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T15:09:50.223014+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.83519542777778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T15:22:06.744048+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.63079085277778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T15:34:14.445349+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.428584306111112,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T15:46:27.344531+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.225054833055555,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T15:58:43.062206+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.020696189444443,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T16:11:05.806978+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.814431023611114,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T16:23:23.437260+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.609345021944442,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T16:35:33.120160+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.406766769166666,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T16:47:53.727141+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.200916491111112,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T17:00:08.119612+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.99586208,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-04-23T17:12:18.711440+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.794128159166668,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T17:24:36.577532+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.58904573972222,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T17:36:39.257486+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.388426652777778,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T17:48:40.991257+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.18784921,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T18:00:50.005940+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.985306255555557,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T18:13:01.899836+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.782056318888888,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T18:25:14.306183+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.578490752222223,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T18:37:19.682930+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.374966198888888,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T18:49:16.349917+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.17806899111111,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:01:31.688044+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.973867015,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:13:34.054950+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.772808976666667,
+      "ecmwf": 42.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 42.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "58442377439649398196186113010950419843173864842614289640789324058073070904057",
+      "question": "Will the highest temperature in Lucknow be 40°C or below on April 24?",
+      "range": [
+        -999.0,
+        40.0
+      ],
+      "volume": 3526.0999629999983,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "84973089826182088592750447557493405178327829430962672425834556098862362438844",
+      "question": "Will the highest temperature in Lucknow be 41°C on April 24?",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "volume": 2085.0918829999996,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "18240606895763482082602657617628628831821284217520565067998413248811828338506",
+      "question": "Will the highest temperature in Lucknow be 42°C on April 24?",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "volume": 1753.6884409999998,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "13442551515116788451434527033389741430866294246652557369162907159645926086252",
+      "question": "Will the highest temperature in Lucknow be 43°C on April 24?",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "volume": 1042.3362280000001,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "104771556312352000941783767067902753078928820354179142389627032792815771619264",
+      "question": "Will the highest temperature in Lucknow be 44°C on April 24?",
+      "range": [
+        44.0,
+        44.0
+      ],
+      "volume": 2191.2515510000003,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "18614567968723559563362115857274281303435112874200381351734268278175294254284",
+      "question": "Will the highest temperature in Lucknow be 45°C on April 24?",
+      "range": [
+        45.0,
+        45.0
+      ],
+      "volume": 1799.474645,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "50116183686875642084700709603913385211422583573718814474131156603626946727857",
+      "question": "Will the highest temperature in Lucknow be 46°C on April 24?",
+      "range": [
+        46.0,
+        46.0
+      ],
+      "volume": 1501.4913320000003,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "58402767088385755354682634147046096414963669805078941578453635213341033954980",
+      "question": "Will the highest temperature in Lucknow be 47°C on April 24?",
+      "range": [
+        47.0,
+        47.0
+      ],
+      "volume": 1245.8978000000002,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "11909586365472481767711526240340277692698732334843102435211145098658805199491",
+      "question": "Will the highest temperature in Lucknow be 48°C on April 24?",
+      "range": [
+        48.0,
+        48.0
+      ],
+      "volume": 918.132375,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "6253349770084190757404645271311565045670506305340915511891623650453084187747",
+      "question": "Will the highest temperature in Lucknow be 49°C on April 24?",
+      "range": [
+        49.0,
+        49.0
+      ],
+      "volume": 691.7484759999999,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "59355215516016380717756078473893940622407822945857161912672365399510927625845",
+      "question": "Will the highest temperature in Lucknow be 50°C or higher on April 24?",
+      "range": [
+        50.0,
+        999.0
+      ],
+      "volume": 765.9719,
+      "best_ask": 0.999,
+      "best_bid": 0
+    }
+  ],
+  "created_at": "2026-04-23T08:41:23.515678+00:00"
+}

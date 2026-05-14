@@ -1,0 +1,205 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:34.263893+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 15.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:18.075817+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:34.263893+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-29T08:45:18.075817+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.325
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 11°C or below on May 1?",
+      "gamma_id": "2112317",
+      "token_id": "104537961290439431432638629547804003726686299614963374207407266654864099881189",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 28.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 12°C on May 1?",
+      "gamma_id": "2112318",
+      "token_id": "31126596243601417712792175725896123609521156556081532973191480385278156212992",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0315,
+      "ask": 0.9685,
+      "price": 0.0315,
+      "spread": 0.937,
+      "volume": 68.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 13°C on May 1?",
+      "gamma_id": "2112319",
+      "token_id": "56989497647751067190638217025143549383006663403351752452123788803243547988256",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 1.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 14°C on May 1?",
+      "gamma_id": "2112320",
+      "token_id": "102356932222491948374257989327309885644998749965336868685473949355308649930249",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.1,
+      "ask": 0.9,
+      "price": 0.1,
+      "spread": 0.8,
+      "volume": 2.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 15°C on May 1?",
+      "gamma_id": "2112321",
+      "token_id": "18576885346064712372969775373582940519950653492288809110867114816541745314407",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.31,
+      "ask": 0.69,
+      "price": 0.31,
+      "spread": 0.38,
+      "volume": 22.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 16°C on May 1?",
+      "gamma_id": "2112322",
+      "token_id": "20516776260850596338966263656821085829405594919102118224801721496535482591402",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 28.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 17°C on May 1?",
+      "gamma_id": "2112323",
+      "token_id": "84275892582707055099034407864473346023355739141563925167298420408520243811276",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.18,
+      "ask": 0.82,
+      "price": 0.18,
+      "spread": 0.64,
+      "volume": 12.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on May 1?",
+      "gamma_id": "2112324",
+      "token_id": "26434554521997476118069328292146383420827457952924197019151905768381165407108",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.08,
+      "ask": 0.92,
+      "price": 0.08,
+      "spread": 0.84,
+      "volume": 26.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on May 1?",
+      "gamma_id": "2112325",
+      "token_id": "99214987789811861352743882526021486834417404909982854478056087055109173602857",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0445,
+      "ask": 0.9555,
+      "price": 0.0445,
+      "spread": 0.911,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on May 1?",
+      "gamma_id": "2112326",
+      "token_id": "80985562641256672523630479803256094650208488011993342495080080778245421602074",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C or higher on May 1?",
+      "gamma_id": "2112327",
+      "token_id": "22885056754626538507023262097746522606431085246415270497504211170689351410662",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 791.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:47.241045+00:00"
+}

@@ -1,0 +1,787 @@
+{
+  "city": "nyc",
+  "city_name": "New York",
+  "date": "2026-04-25",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-25T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T06:21:18.840843+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.64367709666667,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:13.743535+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.528334355000005,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:16.503238+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.426457433888885,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:41:10.555445+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.31044209444444,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:19:45.361674+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.668197246944445,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:24:02.145931+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.59676931111111,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:37:15.587975+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.37638706222222,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:40:19.281910+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.32542867111111,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:47:34.458584+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.204318981111115,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:49:34.633896+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.17117410611112,
+      "ecmwf": 52,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:05:47.957919+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.89792163111111,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:18:55.340530+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.68059702055555,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:32:28.737428+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.454208817499996,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:41:23.522676+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.30633995611112,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:56:31.859586+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.05452432472222,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:09:26.113487+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.838708375,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:22:44.466629+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.616687929722225,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:35:58.326878+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.39713651194444,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:49:39.439716+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.168319456111114,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T10:02:11.746800+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.96131611333333,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T10:14:58.680859+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.74783587416666,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T10:27:18.527799+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.54265794138889,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T10:39:25.390736+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.34073226722222,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T10:51:36.392186+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.137626777777776,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T11:03:43.572451+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.93468124666667,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T11:15:57.643438+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.73167405666667,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T11:28:07.794232+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.52874793555555,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T11:40:08.829523+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.327921851666666,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T11:52:20.456671+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.125405431666664,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T12:04:34.865686+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.92134527166667,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T12:16:42.136444+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.71612620333333,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T12:29:02.824926+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.51370318944445,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T12:41:26.703260+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.306733746111114,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T12:53:33.156582+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.10521976583333,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T13:05:48.667711+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.90085916138889,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T13:18:01.826703+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.697009155277776,
+      "ecmwf": 52,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T13:30:04.514093+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.49554277527778,
+      "ecmwf": 50,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T13:42:18.488174+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.29271257083334,
+      "ecmwf": 50,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T13:54:17.240825+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.09313240138889,
+      "ecmwf": 50,
+      "hrrr": 53,
+      "metar": null,
+      "best": 53,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T14:06:06.912143+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.895880367500006,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T14:18:31.208647+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.688894440000006,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T14:30:46.408311+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.48518815,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T14:43:24.855847+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.27411481944445,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T14:55:35.057395+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.07081582055556,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T15:07:42.918819+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.869324627500006,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T15:20:01.279414+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.66327511111111,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T15:32:16.950504+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.45963098944445,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T15:44:24.360441+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.257232711388895,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T15:56:37.845771+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.05379542138889,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T16:08:53.974454+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.84674731111111,
+      "ecmwf": 50,
+      "hrrr": null,
+      "metar": null,
+      "best": 50,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T16:21:22.595194+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.64141979138889,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T16:33:34.439869+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.43824421555556,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T16:45:44.001693+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.23558617277777,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T16:58:06.121070+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.02926386083333,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T17:10:25.346248+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.8242893325,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T17:22:29.684806+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.623143399166665,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T17:34:45.918520+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.41857699555556,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T17:46:48.847943+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.217564779166665,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T17:58:51.384207+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.01700432027778,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T18:11:02.868100+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.81339786694444,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T18:23:14.357118+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.610434356111114,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T18:35:24.642723+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.40756423861111,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T18:47:36.994010+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.203177438055555,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T18:59:24.625710+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.007445446944445,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:11:39.796251+00:00",
+      "horizon": "D+2",
+      "hours_left": 40.803877476111104,
+      "ecmwf": 50,
+      "hrrr": 48,
+      "metar": null,
+      "best": 48,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "30792877417770343567194157963061451843222677830499824961184843680830065950466",
+      "question": "Will the highest temperature in New York City be 39°F or below on April 25?",
+      "range": [
+        -999.0,
+        39.0
+      ],
+      "volume": 516.4590000000001,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "14479904038603382321730214883903528075229367244961765464577727268290419862283",
+      "question": "Will the highest temperature in New York City be between 40-41°F on April 25?",
+      "range": [
+        40.0,
+        41.0
+      ],
+      "volume": 342.335,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "72689101150541377929870037800241149556912052334832372454334694573975563590187",
+      "question": "Will the highest temperature in New York City be between 42-43°F on April 25?",
+      "range": [
+        42.0,
+        43.0
+      ],
+      "volume": 378.331,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "25146725367411962368820371150958566173402512845578885898219840101951194009834",
+      "question": "Will the highest temperature in New York City be between 44-45°F on April 25?",
+      "range": [
+        44.0,
+        45.0
+      ],
+      "volume": 812.7936169999999,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "112112472832627220116890486177384973519597875150603695043078078628526471236559",
+      "question": "Will the highest temperature in New York City be between 46-47°F on April 25?",
+      "range": [
+        46.0,
+        47.0
+      ],
+      "volume": 1520.2709470000004,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "108003248667017955674781245266681669795553756234172575493555940647506909266547",
+      "question": "Will the highest temperature in New York City be between 48-49°F on April 25?",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "volume": 466.08406,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "97702773973834961155081965692753717496757447204239195130943619604852739510003",
+      "question": "Will the highest temperature in New York City be between 50-51°F on April 25?",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "volume": 334.76295200000004,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "32328833145870343265932249606127664445464224189286061476245625170719511137337",
+      "question": "Will the highest temperature in New York City be between 52-53°F on April 25?",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "volume": 354.855108,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "7677081194388903698681967601412125472169432699113971638867620061535605555536",
+      "question": "Will the highest temperature in New York City be between 54-55°F on April 25?",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "volume": 416.40725199999997,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "18636101085140793771017175265037206713700590228788392837269121014378184776902",
+      "question": "Will the highest temperature in New York City be between 56-57°F on April 25?",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "volume": 417.54737100000006,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "21049139489164121234954474308165807519249287926970852327452983838317707687053",
+      "question": "Will the highest temperature in New York City be 58°F or higher on April 25?",
+      "range": [
+        58.0,
+        999.0
+      ],
+      "volume": 895.6344629999999,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    }
+  ],
+  "created_at": "2026-04-23T06:21:18.840843+00:00"
+}

@@ -1,0 +1,670 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-04-24",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 16.5,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:21.324246+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:39:43.863987+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T19:44:15.561089+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:00:01.981266+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:05:58.128496+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:08:05.412078+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T20:16:00.151530+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.7,
+      "ecmwf": 20.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T21:18:05.733665+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.7,
+      "ecmwf": 20.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T22:20:08.280693+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.7,
+      "ecmwf": 20.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-23T23:22:17.889768+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.6,
+      "ecmwf": 20.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T00:24:16.440912+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.6,
+      "ecmwf": 20.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T01:26:22.375392+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T02:28:20.615184+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:30:45.045918+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 8.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T03:48:48.666982+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.2,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:24:30.938591+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T04:53:22.149979+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T05:02:29.338297+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T06:04:51.582695+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.9,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T07:02:02.492156+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 10.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T08:04:06.566755+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.9,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T09:06:15.135042+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.9,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 15.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T10:08:39.204641+00:00",
+      "horizon": "D+0",
+      "hours_left": 1.9,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 17.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T11:11:11.434161+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.8,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T12:13:14.149758+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 20.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:15:25.928714+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 21.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:51:25.057705+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:58:59.022863+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T15:01:24.386919+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T16:03:31.600330+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T17:06:06.560921+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:08:54.048277+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:48:30.279567+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": 18.0,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-23T19:28:21.324246+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-23T19:39:43.863987+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-23T19:44:15.561089+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-23T20:00:01.981266+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-23T20:05:58.128496+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.51
+    },
+    {
+      "ts": "2026-04-23T20:08:05.412078+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.51
+    },
+    {
+      "ts": "2026-04-23T20:16:00.151530+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-23T21:18:05.733665+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-23T22:20:08.280693+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.51
+    },
+    {
+      "ts": "2026-04-23T23:22:17.889768+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T00:24:16.440912+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-04-24T01:26:22.375392+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-04-24T02:28:20.615184+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-04-24T03:30:45.045918+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-24T03:48:48.666982+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T04:24:30.938591+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-24T04:53:22.149979+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-24T05:02:29.338297+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-24T06:04:51.582695+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-24T07:02:02.492156+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-04-24T08:04:06.566755+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-04-24T09:06:15.135042+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-24T10:08:39.204641+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-04-24T11:11:11.434161+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.47
+    },
+    {
+      "ts": "2026-04-24T12:13:14.149758+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-04-24T13:15:25.928714+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-04-24T13:51:25.057705+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-04-24T13:58:59.022863+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.68
+    },
+    {
+      "ts": "2026-04-24T15:01:24.386919+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.56
+    },
+    {
+      "ts": "2026-04-24T16:03:31.600330+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.9755
+    },
+    {
+      "ts": "2026-04-24T17:06:06.560921+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.9955
+    },
+    {
+      "ts": "2026-04-24T18:08:54.048277+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.99
+    },
+    {
+      "ts": "2026-04-24T18:48:30.279567+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.9975
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 15°C or below on April 24?",
+      "gamma_id": "2049377",
+      "token_id": "73404267446023136909657066735388843158792628939591929370234920087185831151967",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2223.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on April 24?",
+      "gamma_id": "2049378",
+      "token_id": "75207440572307476909933424036327639896058716683894322596873697169153363486836",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1115.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on April 24?",
+      "gamma_id": "2049379",
+      "token_id": "26722637147082815470728204695107531277632275054516648067943699140753570282447",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1915.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on April 24?",
+      "gamma_id": "2049380",
+      "token_id": "112888025201167600140538824581663551998924394260260414838765339905177330828292",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1977.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on April 24?",
+      "gamma_id": "2049381",
+      "token_id": "13546670776967035626621054422520197058955590110753879616759607362432239153268",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6144.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on April 24?",
+      "gamma_id": "2049382",
+      "token_id": "35504684750620318406575212798256602833264444492330206205477611729816681719842",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 15863.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on April 24?",
+      "gamma_id": "2049383",
+      "token_id": "114450578529052974274233930722089355980049466732744368246083513970546273489888",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 15910.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on April 24?",
+      "gamma_id": "2049384",
+      "token_id": "27137576973984015402005741327789461915946537222979648474949307862066835818821",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 24308.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on April 24?",
+      "gamma_id": "2049385",
+      "token_id": "9038718873183471402433739269236120600392209801985723367580393663161197220928",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.9975,
+      "ask": 0.0025,
+      "price": 0.9975,
+      "spread": -0.995,
+      "volume": 23611.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on April 24?",
+      "gamma_id": "2049386",
+      "token_id": "69535014389444561616802782998159459332377935292669390537988190255195125371643",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 22859.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 25°C or higher on April 24?",
+      "gamma_id": "2049387",
+      "token_id": "115251839876948563721668448035528816779386417360791026469727313211637951066905",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 13988.0
+    }
+  ],
+  "created_at": "2026-04-23T19:28:24.355656+00:00"
+}

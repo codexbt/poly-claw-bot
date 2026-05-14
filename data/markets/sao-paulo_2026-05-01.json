@@ -1,0 +1,205 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:32.369245+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:06.361016+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 27.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:32.369245+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-04-29T08:46:06.361016+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.335
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 23°C or below on May 1?",
+      "gamma_id": "2112206",
+      "token_id": "46061862055806571653858835613450208497007919082240592138592982884936813386765",
+      "range": [
+        -999.0,
+        23.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 150.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 24°C on May 1?",
+      "gamma_id": "2112207",
+      "token_id": "84374539764248609074001996410747398927891939895154971174767317686050284714783",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C on May 1?",
+      "gamma_id": "2112208",
+      "token_id": "107255437121468188596589525457488894132157452802139256511227160373448513755521",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.049,
+      "ask": 0.951,
+      "price": 0.049,
+      "spread": 0.902,
+      "volume": 108.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C on May 1?",
+      "gamma_id": "2112209",
+      "token_id": "70335167104417010585952396063891405382191556003947892652982262906475067290163",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.061,
+      "ask": 0.939,
+      "price": 0.061,
+      "spread": 0.878,
+      "volume": 337.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 27°C on May 1?",
+      "gamma_id": "2112210",
+      "token_id": "5412655510829206672560180089339951553256322955970263031161900368389164756736",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 41.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 28°C on May 1?",
+      "gamma_id": "2112211",
+      "token_id": "27233355563700187488503155358608812546346298913401946271638127498046957628607",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.335,
+      "ask": 0.665,
+      "price": 0.335,
+      "spread": 0.33,
+      "volume": 155.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 29°C on May 1?",
+      "gamma_id": "2112212",
+      "token_id": "70264627850576382582175431226684840301704916507531532025856534141295807441985",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 17.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 30°C on May 1?",
+      "gamma_id": "2112213",
+      "token_id": "38173206476950219623462732655266549415197324066158586806016111029279170329880",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 11.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 31°C on May 1?",
+      "gamma_id": "2112214",
+      "token_id": "43339044844120528902082725379184782874737644135023712987550294015526117973848",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0455,
+      "ask": 0.9545,
+      "price": 0.0455,
+      "spread": 0.909,
+      "volume": 15.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 32°C on May 1?",
+      "gamma_id": "2112215",
+      "token_id": "40016567510699520488303948443646048167457002931246762647201234630520723935947",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 40.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 33°C or higher on May 1?",
+      "gamma_id": "2112216",
+      "token_id": "7597734640120646163420578857957731865744716317538682202641985007576722873149",
+      "range": [
+        33.0,
+        999.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 10.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:36.932634+00:00"
+}

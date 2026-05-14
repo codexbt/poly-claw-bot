@@ -1,0 +1,205 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-04-30",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:06.321923+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 73,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:54.724570+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 72,
+      "hrrr": 67,
+      "metar": null,
+      "best": 67,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:06.321923+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-29T08:44:54.724570+00:00",
+      "top_bucket": "72.0-73.0F",
+      "top_price": 0.28
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 67°F or below on April 30?",
+      "gamma_id": "2102181",
+      "token_id": "66139656397688775077329507798030107983490772110111319299090544956733770924494",
+      "range": [
+        -999.0,
+        67.0
+      ],
+      "bid": 0.0585,
+      "ask": 0.9415,
+      "price": 0.0585,
+      "spread": 0.883,
+      "volume": 1061.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 68-69°F on April 30?",
+      "gamma_id": "2102182",
+      "token_id": "81379906760071737547281944880217305072484740184469633725047571211988604300684",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 993.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 70-71°F on April 30?",
+      "gamma_id": "2102183",
+      "token_id": "48100082947122322875370021370002685723829014181627520199951110318339763692483",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.1985,
+      "ask": 0.8015,
+      "price": 0.1985,
+      "spread": 0.603,
+      "volume": 833.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 72-73°F on April 30?",
+      "gamma_id": "2102184",
+      "token_id": "48147805279948190461341880598233613604200893667969959928858368997475414201096",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 607.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on April 30?",
+      "gamma_id": "2102185",
+      "token_id": "113259905896047178820551065491371503429105357713734535722704620053686341224291",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 613.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on April 30?",
+      "gamma_id": "2102186",
+      "token_id": "104623499799508082826653560041192105835278811511365402743032850311370845963959",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 1244.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on April 30?",
+      "gamma_id": "2102187",
+      "token_id": "64691227074217872306148193733372739610392895477390281402946069765468593789284",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.026,
+      "ask": 0.974,
+      "price": 0.026,
+      "spread": 0.948,
+      "volume": 950.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on April 30?",
+      "gamma_id": "2102188",
+      "token_id": "21734614334614325621841960622991578287221794325976881886693476271355088436324",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0125,
+      "ask": 0.9875,
+      "price": 0.0125,
+      "spread": 0.975,
+      "volume": 567.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on April 30?",
+      "gamma_id": "2102189",
+      "token_id": "73392576831935906001956852394270256769944411796010587851639059494695239313998",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1625.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on April 30?",
+      "gamma_id": "2102190",
+      "token_id": "9214528706114632332730929600505277812007234546221335866173945985389935949783",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2066.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 86°F or higher on April 30?",
+      "gamma_id": "2102191",
+      "token_id": "84473962308347479315513113040774641416549922155914964447205415258198770000747",
+      "range": [
+        86.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 3740.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:11.966729+00:00"
+}

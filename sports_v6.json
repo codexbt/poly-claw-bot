@@ -1,0 +1,16 @@
+{
+  "balance": 1000.0,
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "total_pnl": 0.0,
+  "daily_pnl": 0.0,
+  "daily_reset": "2026-04-20",
+  "llm_calls": 0,
+  "llm_nobet": 0,
+  "pre_skips": 0,
+  "early_exits": 0,
+  "early_pnl": 0.0,
+  "last_balance_update": "",
+  "positions": []
+}

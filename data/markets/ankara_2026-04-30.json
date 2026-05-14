@@ -1,0 +1,205 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-04-30",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:34.263893+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:18.075817+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 18.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:34.263893+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-29T08:45:18.075817+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 15°C or below on April 30?",
+      "gamma_id": "2102214",
+      "token_id": "12875098425232740091068061149007306134671283471492673978232909539011808052544",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 604.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 16°C on April 30?",
+      "gamma_id": "2102215",
+      "token_id": "26648860089068638177900048740717265652872254829395797626079619826203987971670",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 233.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 17°C on April 30?",
+      "gamma_id": "2102216",
+      "token_id": "73374151177101123529270433667497758271928708052929627255842936744326616728964",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 222.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on April 30?",
+      "gamma_id": "2102217",
+      "token_id": "65718146257227713432112491857283745633273647470132408003275885429712581999052",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0095,
+      "ask": 0.9905,
+      "price": 0.0095,
+      "spread": 0.981,
+      "volume": 1970.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on April 30?",
+      "gamma_id": "2102218",
+      "token_id": "87780679238283265317051337506773668393378142846372669711627861997543238598519",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0655,
+      "ask": 0.9345,
+      "price": 0.0655,
+      "spread": 0.869,
+      "volume": 874.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on April 30?",
+      "gamma_id": "2102219",
+      "token_id": "107513210655624401816448802426652764482282234244324864735527114682655684993735",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 1042.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C on April 30?",
+      "gamma_id": "2102220",
+      "token_id": "101469113480923090646280826080565503000466556140920402546981958330801140235869",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 546.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on April 30?",
+      "gamma_id": "2102221",
+      "token_id": "73928054082051613901311815265745892799976014631953978761341608206388356826561",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 136.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C on April 30?",
+      "gamma_id": "2102222",
+      "token_id": "54288888656647257914020356013252552592060311564928572582068486538877949641476",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 329.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 24°C on April 30?",
+      "gamma_id": "2102223",
+      "token_id": "88513675896626424562503070070940722389342393424901413858077266208988002788400",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 692.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 25°C or higher on April 30?",
+      "gamma_id": "2102224",
+      "token_id": "108413358377281616935782080424065547728978570678485074327169267808307505779171",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 317.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:44.519472+00:00"
+}

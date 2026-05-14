@@ -1,0 +1,377 @@
+{
+  "city": "nyc",
+  "city_name": "New York",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:22:55.329414+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.616993013055556,
+      "ecmwf": 70,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:33:36.005279+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.4388117375,
+      "ecmwf": 70,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:18.995863+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.260398958055555,
+      "ecmwf": 70,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:08.337461+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.680127701388889,
+      "ecmwf": 72,
+      "hrrr": 75,
+      "metar": 48,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:19:12.602280+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.6787948847222225,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:18.840843+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.643903385555556,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:13.743535+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.528588506666667,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:16.503238+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.426716033611111,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:41:10.555445+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.312892414722222,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:19:45.361674+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.669896045277778,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:24:02.145931+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.5985457258333335,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:37:15.587975+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3781443230555555,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:40:19.281910+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.327116326388889,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:47:34.458584+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.205990973611112,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:49:34.633896+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.172834306388889,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:05:47.957919+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.9019324205555557,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:18:55.340530+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.683353126944444,
+      "ecmwf": 72,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:32:28.737428+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.457757868611111,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:41:23.522676+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.30906542,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 47,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:56:31.859586+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0568433105555557,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 46,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:09:26.113487+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.841315733888889,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 46,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:22:44.466629+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.6196048474999998,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 46,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:35:58.326878+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3992995641666663,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 46,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:49:39.439716+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1713832605555554,
+      "ecmwf": 73,
+      "hrrr": 74,
+      "metar": 46,
+      "best": 74,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "89878270224547879475144591131717922086770537075946018067980764329502131235560",
+      "question": "Will the highest temperature in New York City be 61°F or below on April 23?",
+      "range": [
+        -999.0,
+        61.0
+      ],
+      "volume": 13559.821153000014,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "72877550011365058872963245474469725395786185168421102502849479907700329956488",
+      "question": "Will the highest temperature in New York City be between 62-63°F on April 23?",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "volume": 7017.961623000001,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "90035799520323245522377403024954009107074405531152741232457524643312087697663",
+      "question": "Will the highest temperature in New York City be between 64-65°F on April 23?",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "volume": 6424.260415000015,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "60632800290472710802796863024905118530431476130264722849253535942771055201910",
+      "question": "Will the highest temperature in New York City be between 66-67°F on April 23?",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "volume": 7129.603841999997,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "66005239988743678707485875988580021488161289078982753764215255153097558034598",
+      "question": "Will the highest temperature in New York City be between 68-69°F on April 23?",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "volume": 5532.456003999998,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "47989819829656365634533509030418218658866179488102971817877501680674876803503",
+      "question": "Will the highest temperature in New York City be between 70-71°F on April 23?",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "volume": 5203.4336950000015,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "93320049818920738223614058843150548137936944598592239760348301809824981839937",
+      "question": "Will the highest temperature in New York City be between 72-73°F on April 23?",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "volume": 6160.447100000002,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "5057029273863775575467311520504274072212917425475592655228751431975171995285",
+      "question": "Will the highest temperature in New York City be between 74-75°F on April 23?",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "volume": 5787.594017,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "12191262182501028387569267503597731479086346695015004291250565764824912065196",
+      "question": "Will the highest temperature in New York City be between 76-77°F on April 23?",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "volume": 4139.737542000001,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "20510501407590734357277989795924505968295102971661763773458230772331723312711",
+      "question": "Will the highest temperature in New York City be between 78-79°F on April 23?",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "volume": 1805.362405,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "19120740061407888104058461276800154712799602597386659204462051823614859759003",
+      "question": "Will the highest temperature in New York City be 80°F or higher on April 23?",
+      "range": [
+        80.0,
+        999.0
+      ],
+      "volume": 1908.2580330000008,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

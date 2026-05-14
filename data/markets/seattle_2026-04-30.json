@@ -1,0 +1,205 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-30",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:51.265418+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 66,
+      "hrrr": 74,
+      "metar": null,
+      "best": 74,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:21.134114+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 68,
+      "hrrr": 76,
+      "metar": null,
+      "best": 76,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:51.265418+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.985
+    },
+    {
+      "ts": "2026-04-29T08:44:21.134114+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.9895
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 45°F or below on April 30?",
+      "gamma_id": "2102148",
+      "token_id": "49202560472882430030069187776085958406953083971039887307162273432292377636124",
+      "range": [
+        -999.0,
+        45.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1170.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 46-47°F on April 30?",
+      "gamma_id": "2102149",
+      "token_id": "22726049104048315025609565434041450252424446819391455723599168029288025448508",
+      "range": [
+        46.0,
+        47.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1102.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 48-49°F on April 30?",
+      "gamma_id": "2102150",
+      "token_id": "59198309663299517176937238254938836174518007469529333168782574162785572883473",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 890.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 50-51°F on April 30?",
+      "gamma_id": "2102151",
+      "token_id": "47787471386245593748771634649173609361603982006106027885909017971101608031554",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1420.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 52-53°F on April 30?",
+      "gamma_id": "2102152",
+      "token_id": "92431805741192645714913595512667429493559988872754699816267104447441662273709",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 774.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 54-55°F on April 30?",
+      "gamma_id": "2102153",
+      "token_id": "18081073094716366781640858060280430289840872954107032869002041763761798197945",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1525.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on April 30?",
+      "gamma_id": "2102154",
+      "token_id": "198256348074632718258694420781174965909860543986850621274190914647619465430",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 881.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 30?",
+      "gamma_id": "2102155",
+      "token_id": "100002586896744148168238872256681830966585265246062126115142027064474791166185",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 346.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 30?",
+      "gamma_id": "2102156",
+      "token_id": "81529312599681031824918120351035839998237964634179857938105132401693046525699",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 990.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 30?",
+      "gamma_id": "2102157",
+      "token_id": "95667408407386582215234826103544223693944480616628228943827234949931153700433",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 1483.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 64°F or higher on April 30?",
+      "gamma_id": "2102158",
+      "token_id": "61897866883468558275562953534083246311363846855823653593813246607955491498881",
+      "range": [
+        64.0,
+        999.0
+      ],
+      "bid": 0.9895,
+      "ask": 0.0105,
+      "price": 0.9895,
+      "spread": -0.979,
+      "volume": 2272.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:56.534301+00:00"
+}

@@ -1,0 +1,205 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:37.319932+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 20.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:11.188292+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:37.319932+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-04-29T08:46:11.188292+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.295
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C or below on May 1?",
+      "gamma_id": "2112217",
+      "token_id": "14023060698358604475966122654503986947824537112267991827947385651241562931002",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 9.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C on May 1?",
+      "gamma_id": "2112218",
+      "token_id": "6400249456664217787181433146065850303842830607258338299054091846278599821441",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 2317.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 18°C on May 1?",
+      "gamma_id": "2112219",
+      "token_id": "1260382420069557433793173481214638592578519213886012809875365059762649939129",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 2840.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 19°C on May 1?",
+      "gamma_id": "2112220",
+      "token_id": "33381715319160762722234641259177408702402391759060087262328968746300462611014",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 764.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 20°C on May 1?",
+      "gamma_id": "2112221",
+      "token_id": "62529051996539586190691409601828166849450472902191249274101485813128040740104",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.032,
+      "ask": 0.968,
+      "price": 0.032,
+      "spread": 0.936,
+      "volume": 24.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 21°C on May 1?",
+      "gamma_id": "2112222",
+      "token_id": "111583572433743312368472513937227090656240366736869239751282950682134604562919",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 19.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 22°C on May 1?",
+      "gamma_id": "2112223",
+      "token_id": "35646245653804575002327662171643720254035903917486067282502251170447422417104",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.11,
+      "ask": 0.89,
+      "price": 0.11,
+      "spread": 0.78,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 23°C on May 1?",
+      "gamma_id": "2112224",
+      "token_id": "101769116894115370119655997191664146144530153520179143898639859046318136432500",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 64.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 24°C on May 1?",
+      "gamma_id": "2112225",
+      "token_id": "4502615903300555733254552754532798316467372431365691630209437956261313592600",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.25,
+      "ask": 0.75,
+      "price": 0.25,
+      "spread": 0.5,
+      "volume": 44.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 25°C on May 1?",
+      "gamma_id": "2112226",
+      "token_id": "108057429390176438083582112425416682161424293302038812410926345178898628474112",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.061,
+      "ask": 0.939,
+      "price": 0.061,
+      "spread": 0.878,
+      "volume": 105.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 26°C or higher on May 1?",
+      "gamma_id": "2112227",
+      "token_id": "104554066795606487458388895935563341808424953151645015679250455123462532491138",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "bid": 0.0495,
+      "ask": 0.9505,
+      "price": 0.0495,
+      "spread": 0.901,
+      "volume": 0.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:44.872228+00:00"
+}

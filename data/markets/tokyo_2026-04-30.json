@@ -1,0 +1,205 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-04-30",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:53.064185+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 15.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:35.869532+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.2,
+      "ecmwf": 15.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:53.064185+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-29T08:45:35.869532+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.47
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 11°C or below on April 30?",
+      "gamma_id": "2102269",
+      "token_id": "62140320131264558076713431786372307853189362693415109703610781129240696845114",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 2243.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 12°C on April 30?",
+      "gamma_id": "2102270",
+      "token_id": "102986012282825112595771392331761867426912357479857503785480113146621602227622",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 1809.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 13°C on April 30?",
+      "gamma_id": "2102271",
+      "token_id": "31090191955037645179766944825264206543454522864691467660915609057721754803186",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 2540.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 14°C on April 30?",
+      "gamma_id": "2102272",
+      "token_id": "53118338685456690960273573862730788498237614525569472294644536132377358725334",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 3268.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 15°C on April 30?",
+      "gamma_id": "2102273",
+      "token_id": "63215884593297448733992344965146263768718942254384449938842175886433187670569",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 576.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 16°C on April 30?",
+      "gamma_id": "2102274",
+      "token_id": "80193824610094096243759223097519559268063516554120735242639638279940461400340",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.47,
+      "ask": 0.53,
+      "price": 0.47,
+      "spread": 0.06,
+      "volume": 670.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 17°C on April 30?",
+      "gamma_id": "2102275",
+      "token_id": "24199304493424331428477998361313687357617649612391009910420603988280240136061",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 361.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 18°C on April 30?",
+      "gamma_id": "2102276",
+      "token_id": "63110185084010643887505356731657165451753543641638664396496715311491294982799",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.054,
+      "ask": 0.946,
+      "price": 0.054,
+      "spread": 0.892,
+      "volume": 1712.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 19°C on April 30?",
+      "gamma_id": "2102277",
+      "token_id": "61102081222210257238521674174117515810227502885296219870661604890566609888413",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 1125.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 20°C on April 30?",
+      "gamma_id": "2102278",
+      "token_id": "92573313318324172935801253826640487924883385737042152921584583866023496605017",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 1272.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 21°C or higher on April 30?",
+      "gamma_id": "2102279",
+      "token_id": "93229695996636847624037857188509682619646731649855394997184586332011017988397",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 2151.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:56.818808+00:00"
+}

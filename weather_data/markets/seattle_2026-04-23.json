@@ -1,0 +1,347 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:12.309364+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.612040538333332,
+      "ecmwf": 60,
+      "hrrr": 58,
+      "metar": null,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:33:55.890179+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.432885052222222,
+      "ecmwf": 60,
+      "hrrr": 58,
+      "metar": null,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:37.222554+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.255288197777778,
+      "ecmwf": 60,
+      "hrrr": 58,
+      "metar": null,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:23.636606+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.676026593611111,
+      "ecmwf": 59,
+      "hrrr": 57,
+      "metar": 51,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:35.119012+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.639357168611111,
+      "ecmwf": 59,
+      "hrrr": 57,
+      "metar": 50,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:31.237075+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.523206416388889,
+      "ecmwf": 59,
+      "hrrr": 57,
+      "metar": 50,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:40.589319+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.421059618055556,
+      "ecmwf": 59,
+      "hrrr": 57,
+      "metar": 50,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:42:14.109968+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.295281026666667,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 50,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:20:39.811111+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.654766545,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 49,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:25:00.054989+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.582277531111111,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 49,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:38:04.959744+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.364522189166666,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 49,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:41:07.918501+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.313653004444444,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 49,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:07:08.035226+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8802041347222223,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 48,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:20:13.251716+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.6620949230555557,
+      "ecmwf": 59,
+      "hrrr": 58,
+      "metar": 48,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:33:41.981495+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4375334930555557,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 48,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:42:41.883063+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.287277701111111,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 48,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:57:33.985864+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0391605358333336,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 47,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:10:40.036715+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.820763401388889,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 47,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:23:59.535685+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.5989157138888888,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 47,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:37:07.064412+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.380483017777778,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 47,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:50:59.199372+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.1491237430555556,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 47,
+      "best": 58,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "101107874213754503810809878022427057959283769020962923461464739194942260912775",
+      "question": "Will the highest temperature in Seattle be 57°F or below on April 23?",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "volume": 6943.4735420000125,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "93728770022320359347188781701456149898634970577370014703807302475022379885142",
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 23?",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "volume": 3906.2181499999992,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "50736008375706412940788229166646313236550212761100433965252401263542396900784",
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 23?",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "volume": 3878.060847000001,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "106135583721985317149268055998648485437761543667171713347388443030258303008994",
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 23?",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "volume": 2993.378141,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "32822213380584474064099034933000809087753858037302106706427408310940017906871",
+      "question": "Will the highest temperature in Seattle be between 64-65°F on April 23?",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "volume": 4151.276648999999,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "66732075066654145670835370376424036256161893225027631128316389087826066963635",
+      "question": "Will the highest temperature in Seattle be between 66-67°F on April 23?",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "volume": 2255.4012730000004,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "12272582586592622598333178090756526530105189321134669812237866315038827806574",
+      "question": "Will the highest temperature in Seattle be between 68-69°F on April 23?",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "volume": 1561.9861,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "13835791514984505586635792745497940277484858951041927449922974680545574371900",
+      "question": "Will the highest temperature in Seattle be between 70-71°F on April 23?",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "volume": 1666.5479500000008,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "76366816096405111749391535233385607207014248724152313891430920764231373930708",
+      "question": "Will the highest temperature in Seattle be between 72-73°F on April 23?",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "volume": 1568.3610750000005,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "62858650467332018137307654308101729046880957437314904055185366042493774598245",
+      "question": "Will the highest temperature in Seattle be between 74-75°F on April 23?",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "volume": 1658.758291,
+      "best_ask": 0.999,
+      "best_bid": 0
+    },
+    {
+      "token_id": "57005052185127548187716518366928699799426482443511287865855313642326260428170",
+      "question": "Will the highest temperature in Seattle be 76°F or higher on April 23?",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "volume": 2347.591273,
+      "best_ask": 0.999,
+      "best_bid": 0
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

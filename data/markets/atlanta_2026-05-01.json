@@ -1,0 +1,205 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-05-01",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:06.321923+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 73,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:54.724570+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 73,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:06.321923+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.499
+    },
+    {
+      "ts": "2026-04-29T08:44:54.724570+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.5365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 51°F or below on May 1?",
+      "gamma_id": "2112284",
+      "token_id": "104269026906177313501690357107047324985505545076938614919609119941339334387262",
+      "range": [
+        -999.0,
+        51.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 298.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 52-53°F on May 1?",
+      "gamma_id": "2112285",
+      "token_id": "68837515698355837625455796941543114809564967669746819543607387531732688032287",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 379.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 54-55°F on May 1?",
+      "gamma_id": "2112286",
+      "token_id": "49128170605942789209481803020634629703398755845858700591930247149448656307817",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 375.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 56-57°F on May 1?",
+      "gamma_id": "2112287",
+      "token_id": "17361172710389001050016732164628401343289615652840012876317079524362665836928",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 375.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 58-59°F on May 1?",
+      "gamma_id": "2112288",
+      "token_id": "4669836840411776934446123080151895580209785272637583596476677761207324961018",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 515.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 60-61°F on May 1?",
+      "gamma_id": "2112289",
+      "token_id": "40591926842795408057696037404235791288053126316908859560182985805341808689503",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.013,
+      "ask": 0.987,
+      "price": 0.013,
+      "spread": 0.974,
+      "volume": 1132.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 62-63°F on May 1?",
+      "gamma_id": "2112290",
+      "token_id": "76924429892548653567810224584009388251081191954378008081602043681155709522254",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.039,
+      "ask": 0.961,
+      "price": 0.039,
+      "spread": 0.922,
+      "volume": 679.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 64-65°F on May 1?",
+      "gamma_id": "2112291",
+      "token_id": "72364958445016447719861408267473449321116782136971118234604430597450151473366",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.08,
+      "ask": 0.92,
+      "price": 0.08,
+      "spread": 0.84,
+      "volume": 582.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 66-67°F on May 1?",
+      "gamma_id": "2112292",
+      "token_id": "74089664185226098481465999596654685671075933388313140423216713861626171882951",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.17,
+      "ask": 0.83,
+      "price": 0.17,
+      "spread": 0.66,
+      "volume": 453.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 68-69°F on May 1?",
+      "gamma_id": "2112293",
+      "token_id": "115270852911547505411849882929673956577881200879806939108529543970445573419687",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.197,
+      "ask": 0.803,
+      "price": 0.197,
+      "spread": 0.606,
+      "volume": 309.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 70°F or higher on May 1?",
+      "gamma_id": "2112294",
+      "token_id": "77893702684047581637077083998238056305070093870734123722775069603610076698311",
+      "range": [
+        70.0,
+        999.0
+      ],
+      "bid": 0.5365,
+      "ask": 0.4635,
+      "price": 0.5365,
+      "spread": -0.073,
+      "volume": 464.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:13.727405+00:00"
+}

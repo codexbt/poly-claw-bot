@@ -1,0 +1,505 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-04-27",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 53.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T06:36:58.506167+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T07:38:59.582992+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T08:41:13.273920+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T09:43:38.518926+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T10:45:34.081897+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.2,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T11:47:25.856408+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.2,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T12:49:15.910632+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T13:51:38.684887+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 76,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T14:53:41.969233+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 76,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T15:55:51.102303+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.1,
+      "ecmwf": 76,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T16:58:19.101067+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 76,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T18:00:29.803158+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.0,
+      "ecmwf": 76,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T19:02:29.294649+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.0,
+      "ecmwf": 76,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T20:05:31.363169+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 76,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T21:07:37.525522+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.9,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T22:09:48.463196+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.8,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T23:11:44.063093+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T05:29:36.048685+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.5,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T07:34:11.071577+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:36:08.486755+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T09:37:57.669892+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T10:39:51.286416+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.3,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T06:36:58.506167+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.25
+    },
+    {
+      "ts": "2026-04-25T07:38:59.582992+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T08:41:13.273920+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T09:43:38.518926+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T10:45:34.081897+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-25T11:47:25.856408+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-25T12:49:15.910632+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-04-25T13:51:38.684887+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-25T14:53:41.969233+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T15:55:51.102303+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T16:58:19.101067+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-25T18:00:29.803158+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T19:02:29.294649+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T20:05:31.363169+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-25T21:07:37.525522+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-25T22:09:48.463196+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-25T23:11:44.063093+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-26T05:29:36.048685+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-26T07:34:11.071577+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-26T08:36:08.486755+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-04-26T09:37:57.669892+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-04-26T10:39:51.286416+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.42
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 71°F or below on April 27?",
+      "gamma_id": "2074361",
+      "token_id": "50363916553618242804849066971614138158371184903862682176568823343112096618796",
+      "range": [
+        -999.0,
+        71.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 1534.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 72-73°F on April 27?",
+      "gamma_id": "2074362",
+      "token_id": "28247874664285773135482214604236040628293374178411833513499254210817803225638",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 973.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on April 27?",
+      "gamma_id": "2074363",
+      "token_id": "14717110056166145090948204088140420362069213069291928288474556259362869492570",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 592.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on April 27?",
+      "gamma_id": "2074364",
+      "token_id": "22661381746059992459717708299539637756613404502292414397133268584932724715288",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 786.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on April 27?",
+      "gamma_id": "2074365",
+      "token_id": "53178039072713411522780126265466396191823671270677037100818582478980014765612",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.42,
+      "ask": 0.58,
+      "price": 0.42,
+      "spread": 0.16,
+      "volume": 1245.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on April 27?",
+      "gamma_id": "2074366",
+      "token_id": "68043964102599749923706737772614723145499093983282966682496118213693709535367",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 1569.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on April 27?",
+      "gamma_id": "2074367",
+      "token_id": "99006302557610225822911525354926825840505030736619599783466538504433149113659",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.026,
+      "ask": 0.974,
+      "price": 0.026,
+      "spread": 0.948,
+      "volume": 1214.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on April 27?",
+      "gamma_id": "2074368",
+      "token_id": "20783416564984005469126958449005321469945836924131779969933981255537250228860",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 403.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on April 27?",
+      "gamma_id": "2074369",
+      "token_id": "68574990855438878547241191511598188211671268583155986075854376269714509507632",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 443.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on April 27?",
+      "gamma_id": "2074370",
+      "token_id": "106130047372583097810711193781815468203193383245769545328469625276665285626492",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1654.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 90°F or higher on April 27?",
+      "gamma_id": "2074371",
+      "token_id": "2554799674227735339675371090013295817965462022531273478294257132309896637817",
+      "range": [
+        90.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1776.0
+    }
+  ],
+  "created_at": "2026-04-25T06:37:03.506822+00:00"
+}

@@ -1,0 +1,265 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 54.5,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:37.961082+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.5,
+      "ecmwf": 18.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:24.099754+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 18.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:35:14.535931+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.4,
+      "ecmwf": 18.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:37:12.322587+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.4,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:39:08.947525+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:53.048031+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.3,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T05:30:37.961082+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.185
+    },
+    {
+      "ts": "2026-04-26T06:33:24.099754+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-26T07:35:14.535931+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-26T08:37:12.322587+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-04-26T09:39:08.947525+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.49
+    },
+    {
+      "ts": "2026-04-26T10:40:53.048031+00:00",
+      "top_bucket": "21.0-999.0C",
+      "top_price": 0.54
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 11°C or below on April 28?",
+      "gamma_id": "2082323",
+      "token_id": "93341255115752331912408917179344689410187612931003725269408067094796157217134",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 1440.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 12°C on April 28?",
+      "gamma_id": "2082324",
+      "token_id": "52741720650231588606037944599950838630512487097604182851592640322044858373719",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 1326.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 13°C on April 28?",
+      "gamma_id": "2082325",
+      "token_id": "36165856555645562701875517309046405565344628708785938641054497141602427193074",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1949.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 14°C on April 28?",
+      "gamma_id": "2082326",
+      "token_id": "68351706673719165002808331133942273934889272942732637074676777228235829722882",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 1366.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 15°C on April 28?",
+      "gamma_id": "2082327",
+      "token_id": "54655235797396921456086641301469707322474914311266881368533287143390308119279",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.01,
+      "ask": 0.99,
+      "price": 0.01,
+      "spread": 0.98,
+      "volume": 756.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C on April 28?",
+      "gamma_id": "2082328",
+      "token_id": "36056167641786609557512194328029178973791459293740444427797706512681901971047",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.013,
+      "ask": 0.987,
+      "price": 0.013,
+      "spread": 0.974,
+      "volume": 269.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C on April 28?",
+      "gamma_id": "2082329",
+      "token_id": "96523845272781672579423729859199434220343376058227212527147582145519876395614",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.018,
+      "ask": 0.982,
+      "price": 0.018,
+      "spread": 0.964,
+      "volume": 579.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 18°C on April 28?",
+      "gamma_id": "2082330",
+      "token_id": "59055672173151478794061081705804028123322515935471081891203242775548577269942",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 162.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 19°C on April 28?",
+      "gamma_id": "2082331",
+      "token_id": "107856707749031106395292572324420505821539171600537020684119116742322945180395",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 20°C on April 28?",
+      "gamma_id": "2082332",
+      "token_id": "4793779908133311578893621822694761251891879548711302430865216453282213713249",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 183.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 21°C or higher on April 28?",
+      "gamma_id": "2082333",
+      "token_id": "94622926344717922226668676586582724014802930503972774653336770769499361472840",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.54,
+      "ask": 0.46,
+      "price": 0.54,
+      "spread": -0.08,
+      "volume": 1137.0
+    }
+  ],
+  "created_at": "2026-04-26T05:30:42.048455+00:00"
+}

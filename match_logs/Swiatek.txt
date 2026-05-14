@@ -1,0 +1,3 @@
+2026-05-06T18:04:02.879442 | BUY_UNDERDOG | Swiatek | shares=23.053547102588283 | price=0.9543 | cost=22.0 | dry=True
+2026-05-06T18:24:05.167596 | BUY_UNDERDOG | Swiatek | shares=23.053547102588283 | price=0.9543 | cost=22.0 | dry=True
+2026-05-06T18:32:52.263144 | BUY_UNDERDOG | Swiatek | shares=6.287331027978623 | price=0.9543 | cost=6.0 | dry=True

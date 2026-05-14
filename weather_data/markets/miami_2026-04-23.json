@@ -1,0 +1,347 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T20:23:03.632486+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.614680177777776,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:33:46.557570+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.435867147777778,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T20:44:29.073685+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.257621305277777,
+      "ecmwf": 77,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T04:19:15.409362+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.678019144166667,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 74,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:21:27.475845+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.641612262222223,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": 73,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:28:22.745676+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.526202635833333,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": 73,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:34:29.829003+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.424137806111111,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T06:41:42.302063+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.304044156111111,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:20:12.319704+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.662003285,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:24:35.583041+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.589295711111111,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:37:40.302553+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.371390812777777,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T07:40:43.650436+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.320262522777778,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:06:32.784271+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8900388144444444,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:19:33.637784+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.673063353888889,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:33:07.111961+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.44724997,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": 73,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:41:59.398405+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2992931736111113,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": 73,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T08:57:03.020428+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.0482259880555556,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": 72,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:10:03.435750+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.8308594074999998,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": 72,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:23:21.806493+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.609617098333333,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": 72,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:36:30.644251+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.3901322775000002,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": 72,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T09:50:21.309776+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.159771378333333,
+      "ecmwf": 77,
+      "hrrr": 80,
+      "metar": 72,
+      "best": 80,
+      "best_source": "hrrr"
+    }
+  ],
+  "all_outcomes": [
+    {
+      "token_id": "50359106422622303592098000817982758380500750243620475617469430338616839350390",
+      "question": "Will the highest temperature in Miami be 69°F or below on April 23?",
+      "range": [
+        -999.0,
+        69.0
+      ],
+      "volume": 702.2931420000001,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "56690939551205421926489776376193001068437099701327651457356485071800626400175",
+      "question": "Will the highest temperature in Miami be between 70-71°F on April 23?",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "volume": 2183.8501909999995,
+      "best_ask": 0,
+      "best_bid": 0
+    },
+    {
+      "token_id": "8986873406767880963270798653721342375858424065692847283096925440682645664689",
+      "question": "Will the highest temperature in Miami be between 72-73°F on April 23?",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "volume": 1989.8488659999998,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "88630171729056651636995765893626484262110250079881249530141931766467406706169",
+      "question": "Will the highest temperature in Miami be between 74-75°F on April 23?",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "volume": 5272.453833000006,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "27581845735394063621704892124492429336068720190529997951293357777938679192697",
+      "question": "Will the highest temperature in Miami be between 76-77°F on April 23?",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "volume": 7145.154515999997,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "102945660382333542433696298797172867749737711574486278224609106529486424904153",
+      "question": "Will the highest temperature in Miami be between 78-79°F on April 23?",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "volume": 4402.593321999999,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "18606497460078726178576476157020269341489778133818779800994758413728696373932",
+      "question": "Will the highest temperature in Miami be between 80-81°F on April 23?",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "volume": 3906.5696010000024,
+      "best_ask": 0.99,
+      "best_bid": 0.01
+    },
+    {
+      "token_id": "57069025625228232976877695701588002399857950792489325380828683524361316081864",
+      "question": "Will the highest temperature in Miami be between 82-83°F on April 23?",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "volume": 5356.304315000005,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "103949181650901558836702689718792535250031256753135000693953220047094170257846",
+      "question": "Will the highest temperature in Miami be between 84-85°F on April 23?",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "volume": 1715.6086080000007,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "79885924651143121532095551130288834828115429616603019601711492098428632104080",
+      "question": "Will the highest temperature in Miami be between 86-87°F on April 23?",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "volume": 1897.8740350000003,
+      "best_ask": 0.999,
+      "best_bid": 0.001
+    },
+    {
+      "token_id": "102631404911557716148115123640778052248778626829682007793000853542858992457646",
+      "question": "Will the highest temperature in Miami be 88°F or higher on April 23?",
+      "range": [
+        88.0,
+        999.0
+      ],
+      "volume": 3097.311797000002,
+      "best_ask": 0.999,
+      "best_bid": 0
+    }
+  ],
+  "created_at": "2026-04-22T20:22:55.329414+00:00"
+}

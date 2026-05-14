@@ -1,0 +1,520 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 53.4,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:04.644813+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.4,
+      "ecmwf": 30.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T07:39:56.018337+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 30.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T08:42:31.909661+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T09:44:38.618707+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.3,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T10:46:29.736114+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.2,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T11:48:26.961558+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.2,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T12:50:36.267042+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.2,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T13:52:38.632015+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T14:54:55.624360+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T15:57:08.202733+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:59:22.600778+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T18:01:34.247114+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T19:03:45.245441+00:00",
+      "horizon": "D+2",
+      "hours_left": 40.9,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T20:06:41.875594+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:08:55.184853+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.9,
+      "ecmwf": 29.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:10:52.458258+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.8,
+      "ecmwf": 29.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T23:12:39.938582+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 29.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T05:30:33.555762+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.5,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:19.089235+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.4,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:35:07.678799+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.4,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:37:06.530804+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.4,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:39:03.199958+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.3,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:47.609588+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.3,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T06:38:04.644813+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.21
+    },
+    {
+      "ts": "2026-04-25T07:39:56.018337+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.215
+    },
+    {
+      "ts": "2026-04-25T08:42:31.909661+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.215
+    },
+    {
+      "ts": "2026-04-25T09:44:38.618707+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.2
+    },
+    {
+      "ts": "2026-04-25T10:46:29.736114+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.215
+    },
+    {
+      "ts": "2026-04-25T11:48:26.961558+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T12:50:36.267042+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T13:52:38.632015+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T14:54:55.624360+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T15:57:08.202733+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T16:59:22.600778+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T18:01:34.247114+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T19:03:45.245441+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.27
+    },
+    {
+      "ts": "2026-04-25T20:06:41.875594+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-04-25T21:08:55.184853+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T22:10:52.458258+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-25T23:12:39.938582+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-26T05:30:33.555762+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T06:33:19.089235+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-26T07:35:07.678799+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-26T08:37:06.530804+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-04-26T09:39:03.199958+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-04-26T10:40:47.609588+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.415
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C or below on April 27?",
+      "gamma_id": "2074284",
+      "token_id": "43203650683576795978212926303567461192586174807744976027702446152918695615092",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.013,
+      "ask": 0.987,
+      "price": 0.013,
+      "spread": 0.974,
+      "volume": 1773.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C on April 27?",
+      "gamma_id": "2074285",
+      "token_id": "23145656756793029568558004488673510106253821474582246614836828335987571893974",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.0165,
+      "ask": 0.9835,
+      "price": 0.0165,
+      "spread": 0.967,
+      "volume": 1309.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 27°C on April 27?",
+      "gamma_id": "2074286",
+      "token_id": "37488729013624169113269440229351623385051491635345080681103987952661467596760",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.09,
+      "ask": 0.91,
+      "price": 0.09,
+      "spread": 0.82,
+      "volume": 1188.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 28°C on April 27?",
+      "gamma_id": "2074287",
+      "token_id": "67635495627169588493024644959815524308174018244148923787494275778199777290831",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 974.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 29°C on April 27?",
+      "gamma_id": "2074288",
+      "token_id": "91193916418983113475325694870734292526250002269146826459986949011120354298968",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.415,
+      "ask": 0.585,
+      "price": 0.415,
+      "spread": 0.17,
+      "volume": 935.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 30°C on April 27?",
+      "gamma_id": "2074289",
+      "token_id": "48589915131421724550386545119255427318044226387442872713063563604522160160228",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 1004.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 31°C on April 27?",
+      "gamma_id": "2074290",
+      "token_id": "92705470368646512373751951098147930094049267746113920108289107171486615546829",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.082,
+      "ask": 0.918,
+      "price": 0.082,
+      "spread": 0.836,
+      "volume": 1280.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 32°C on April 27?",
+      "gamma_id": "2074291",
+      "token_id": "19884522197207015577782294209722362251319507103023435838670774613951659115665",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0195,
+      "ask": 0.9805,
+      "price": 0.0195,
+      "spread": 0.961,
+      "volume": 818.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 33°C on April 27?",
+      "gamma_id": "2074292",
+      "token_id": "2069509437707301981910971505008811603160217872596217661588352487563836622290",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 516.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 34°C on April 27?",
+      "gamma_id": "2074293",
+      "token_id": "37817333679803898143840268136186815969984955370585264723348346121032070356422",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1528.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 35°C or higher on April 27?",
+      "gamma_id": "2074294",
+      "token_id": "96432471437710290029312105135877972785127160862572488761363065672637801137066",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 2366.0
+    }
+  ],
+  "created_at": "2026-04-25T06:38:08.438039+00:00"
+}

@@ -1,0 +1,775 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-04-26",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-04-26T12:00:00Z",
+  "hours_at_discovery": 55.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-24T04:53:49.412759+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.1,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T05:03:01.168081+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.9,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T06:05:21.230042+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.9,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T07:02:31.545613+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T08:04:41.297266+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.9,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T09:06:46.535830+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.9,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T10:09:20.894263+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T11:11:43.022707+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T12:13:53.073460+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:15:55.733617+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.7,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:51:56.992941+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T13:59:35.198036+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.0,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T15:01:54.344324+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.0,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T16:04:06.666012+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.9,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T17:07:04.490774+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.9,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:09:23.116769+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.8,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-24T18:48:58.558707+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.2,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T06:37:47.530792+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.4,
+      "ecmwf": 30.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T07:39:39.084809+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 30.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T08:42:07.914575+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T09:44:19.158169+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.3,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T10:46:12.334919+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.2,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T11:48:02.326944+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.2,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T12:50:16.339921+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.2,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T13:52:19.544869+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.1,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T14:54:33.593209+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T15:56:41.515505+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.1,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:58:56.994564+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.0,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T18:01:14.546386+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T19:03:23.489460+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.9,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T20:06:19.758672+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:08:35.344901+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.9,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:10:32.604622+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.8,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T23:12:24.204909+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.8,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T05:30:15.965585+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.5,
+      "ecmwf": 30.0,
+      "hrrr": null,
+      "metar": 30.0,
+      "best": 30.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:33:00.678961+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.4,
+      "ecmwf": 30.0,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 30.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:34:50.526131+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.4,
+      "ecmwf": 30.0,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 30.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:36:44.821148+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.4,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 30.0,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T09:38:43.033119+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.4,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 31.0,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T10:40:28.137524+00:00",
+      "horizon": "D+0",
+      "hours_left": 1.3,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 30.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-24T04:53:49.412759+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.5
+    },
+    {
+      "ts": "2026-04-24T05:03:01.168081+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.225
+    },
+    {
+      "ts": "2026-04-24T06:05:21.230042+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-24T07:02:31.545613+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-24T08:04:41.297266+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-24T09:06:46.535830+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-24T10:09:20.894263+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T11:11:43.022707+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-24T12:13:53.073460+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T13:15:55.733617+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-24T13:51:56.992941+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-24T13:59:35.198036+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-24T15:01:54.344324+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-24T16:04:06.666012+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-24T17:07:04.490774+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-24T18:09:23.116769+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-24T18:48:58.558707+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-25T06:37:47.530792+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-25T07:39:39.084809+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-25T08:42:07.914575+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-25T09:44:19.158169+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T10:46:12.334919+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-25T11:48:02.326944+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-04-25T12:50:16.339921+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-25T13:52:19.544869+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T14:54:33.593209+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T15:56:41.515505+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T16:58:56.994564+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T18:01:14.546386+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-04-25T19:03:23.489460+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-04-25T20:06:19.758672+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-25T21:08:35.344901+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-04-25T22:10:32.604622+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-04-25T23:12:24.204909+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-26T05:30:15.965585+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.9
+    },
+    {
+      "ts": "2026-04-26T06:33:00.678961+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.955
+    },
+    {
+      "ts": "2026-04-26T07:34:50.526131+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.992
+    },
+    {
+      "ts": "2026-04-26T08:36:44.821148+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.9885
+    },
+    {
+      "ts": "2026-04-26T09:38:43.033119+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-26T10:40:28.137524+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 26°C or below on April 26?",
+      "gamma_id": "2065040",
+      "token_id": "84143036466307188678990201875934143335227572482113142168973175782151235553911",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1216.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on April 26?",
+      "gamma_id": "2065041",
+      "token_id": "109912454541794321053464630314818344494085054480452334937400245416893408920497",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1376.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on April 26?",
+      "gamma_id": "2065042",
+      "token_id": "61860888160196639817508566599309787205623946495481937293795647536277872538384",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2152.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on April 26?",
+      "gamma_id": "2065043",
+      "token_id": "8421211895215438585578904468393702921832403002535705667765957499758240198067",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4149.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on April 26?",
+      "gamma_id": "2065044",
+      "token_id": "18359049675951942638361372277090214950176381958622120957984235630558237212889",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6703.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on April 26?",
+      "gamma_id": "2065045",
+      "token_id": "87894948075115149511496205048758959048425604212966630748783361427559427692659",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 8462.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on April 26?",
+      "gamma_id": "2065046",
+      "token_id": "20350280020209600889292678326121279864738159244162465361972690543611234751853",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 22315.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on April 26?",
+      "gamma_id": "2065047",
+      "token_id": "39287031893250083049996832058062031963863895879193976039875931009386521896819",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 10091.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on April 26?",
+      "gamma_id": "2065048",
+      "token_id": "77518580672071639129803730205118284056483495185007964856726130342133316393928",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 16531.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C on April 26?",
+      "gamma_id": "2065049",
+      "token_id": "42003411510761972620278797618684817770801707313836627472712494462618815611119",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 11402.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 36°C or higher on April 26?",
+      "gamma_id": "2065050",
+      "token_id": "8902895848114075778007816654909936841465972959328993940308425971685560440706",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7847.0
+    }
+  ],
+  "created_at": "2026-04-24T04:53:54.273493+00:00"
+}

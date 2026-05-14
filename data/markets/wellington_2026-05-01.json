@@ -1,0 +1,205 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:45.447061+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 14.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 14.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:46:23.623158+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 14.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 14.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:45.447061+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-29T08:46:23.623158+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.34
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 9°C or below on May 1?",
+      "gamma_id": "2112328",
+      "token_id": "70100184617414256233457532795161011658325056151373204278098325255680938559110",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 10°C on May 1?",
+      "gamma_id": "2112329",
+      "token_id": "7569718588106502999037291290151570674362983493588793155006374515104120060079",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 15.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on May 1?",
+      "gamma_id": "2112330",
+      "token_id": "57475022339301105876657922319224549551958028593887250113667818598330132441051",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 126.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on May 1?",
+      "gamma_id": "2112331",
+      "token_id": "37079549403314627507112837580663290215483690073322594700159555950813535677720",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 12.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on May 1?",
+      "gamma_id": "2112332",
+      "token_id": "98002103229412406250972154435351968675988203745148759613461995344332190125316",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 238.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on May 1?",
+      "gamma_id": "2112333",
+      "token_id": "115508259645737237774880595914682187188133288110693733688461073179940806439165",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.135,
+      "ask": 0.865,
+      "price": 0.135,
+      "spread": 0.73,
+      "volume": 161.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on May 1?",
+      "gamma_id": "2112334",
+      "token_id": "63302369842623941440515314975765521291156590293666372879586268656651949543273",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.34,
+      "ask": 0.66,
+      "price": 0.34,
+      "spread": 0.32,
+      "volume": 12.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on May 1?",
+      "gamma_id": "2112335",
+      "token_id": "91638214191657610058293928175396878045238431613533039106005244185807954257662",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.33,
+      "ask": 0.67,
+      "price": 0.33,
+      "spread": 0.34,
+      "volume": 60.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on May 1?",
+      "gamma_id": "2112336",
+      "token_id": "41298332985615579309042742356765184661182991791914042278237149356873835841574",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.225,
+      "ask": 0.775,
+      "price": 0.225,
+      "spread": 0.55,
+      "volume": 2.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C on May 1?",
+      "gamma_id": "2112337",
+      "token_id": "74615213400530919345189187883121164455851447124260161449382780769252914228351",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.036,
+      "ask": 0.964,
+      "price": 0.036,
+      "spread": 0.928,
+      "volume": 9.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 19°C or higher on May 1?",
+      "gamma_id": "2112338",
+      "token_id": "34246787745915574419367485966572823812331646062808095231131500830907154641356",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 8.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:51.012846+00:00"
+}

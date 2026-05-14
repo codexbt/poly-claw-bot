@@ -1,0 +1,205 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-04-29",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:43.565151+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 71,
+      "hrrr": 76,
+      "metar": 69,
+      "best": 76,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:15.111632+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.3,
+      "ecmwf": 72,
+      "hrrr": 76,
+      "metar": 68,
+      "best": 76,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:43.565151+00:00",
+      "top_bucket": "74.0-75.0F",
+      "top_price": 0.963
+    },
+    {
+      "ts": "2026-04-29T08:44:15.111632+00:00",
+      "top_bucket": "74.0-75.0F",
+      "top_price": 0.9855
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 73°F or below on April 29?",
+      "gamma_id": "2091571",
+      "token_id": "4133523866283116785599196782664654423807190530310410538050859919597262200138",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 16460.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 74-75°F on April 29?",
+      "gamma_id": "2091572",
+      "token_id": "42515885031753545526626641549955226253348066148239573467741483715945222439893",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.9855,
+      "ask": 0.0145,
+      "price": 0.9855,
+      "spread": -0.971,
+      "volume": 12030.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 76-77°F on April 29?",
+      "gamma_id": "2091573",
+      "token_id": "41859867194092130126520683884477978478002333759591751140977136288817252412229",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0175,
+      "ask": 0.9825,
+      "price": 0.0175,
+      "spread": 0.965,
+      "volume": 8163.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 78-79°F on April 29?",
+      "gamma_id": "2091574",
+      "token_id": "56861490180074570772570139451312622291426034452957285735828805315934981599183",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.01,
+      "ask": 0.99,
+      "price": 0.01,
+      "spread": 0.98,
+      "volume": 4255.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 80-81°F on April 29?",
+      "gamma_id": "2091575",
+      "token_id": "75707824720756221376080819396037503038701604587825932500156903392451319609983",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3472.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on April 29?",
+      "gamma_id": "2091576",
+      "token_id": "95205972615900843595354376872393377393784735416911457850853294511954321847928",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4719.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on April 29?",
+      "gamma_id": "2091577",
+      "token_id": "92032939392137565087786723700828515126833494408338062817791477454735018172614",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3114.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on April 29?",
+      "gamma_id": "2091578",
+      "token_id": "9727025650863949950944709189144890479783937811795610236205317618532616944963",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3157.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on April 29?",
+      "gamma_id": "2091579",
+      "token_id": "60852251651294131258576876736080888074943255579692330396326970985880822483138",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2487.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on April 29?",
+      "gamma_id": "2091580",
+      "token_id": "18924175364230306598573014575746499313781368018393583931293530525484434318457",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3709.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 92°F or higher on April 29?",
+      "gamma_id": "2091581",
+      "token_id": "35122029000992315390504731511388852891836227602861249671048845098937164001807",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6486.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:48.376968+00:00"
+}

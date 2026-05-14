@@ -1,0 +1,36 @@
+TRADE SUMMARY REPORT
+====================
+
+Game Condition ID : 0x3e14e6b80c761dcb58a57dcc4d3b4559fc8ba3111fb5c715dc8ac511912533d9
+Market Name       : Ethereum Up or Down - May 11, 4:40PM-4:45PM ET
+Reason            : market resolved — winner: Down
+Winner            : Down
+Closed At         : 2026-05-12 02:11:27
+
+TRADING STATISTICS
+------------------
+Total Trades : 3
+Wins         : 3
+Losses       : 0
+Total Invest : $3.00
+P&L          : +$1.17
+Old Balance  : $247.01
+New Balance  : $248.18
+
+TRADE DETAILS
+-------------
+  [WIN  +$0.43] Down | size=$1.00 | price=0.7000 | shares=1.43 | token=888672121030
+  [WIN  +$0.37] Down | size=$1.00 | price=0.7300 | shares=1.37 | token=888672121030
+  [WIN  +$0.37] Down | size=$1.00 | price=0.7300 | shares=1.37 | token=888672121030
+
+CONFIGURATION
+-------------
+Size Multiplier   : 1.0x
+Max per Game      : $150.0
+Max Trade Size    : $500.0
+Min Trade Size    : $1.0
+
+MARKET LINK: https://polymarket.com/market/0x3e14e6b80c761dcb58a57dcc4d3b4559fc8ba3111fb5c715dc8ac511912533d9
+
+End of Report
+=============

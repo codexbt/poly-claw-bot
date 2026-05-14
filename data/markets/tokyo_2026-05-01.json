@@ -1,0 +1,205 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:53.064185+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 22.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:35.869532+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 21.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:53.064185+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-29T08:45:35.869532+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.36
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 11°C or below on May 1?",
+      "gamma_id": "2112372",
+      "token_id": "80510378127937349673517819868255713771395304140735231202865624256136470263098",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 227.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 12°C on May 1?",
+      "gamma_id": "2112373",
+      "token_id": "102010876780828736290892867629279840983746033786345162092130996401039561249820",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 135.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 13°C on May 1?",
+      "gamma_id": "2112374",
+      "token_id": "92120252348335126699643086017341731445877370329318469037109285104919873455939",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 36.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 14°C on May 1?",
+      "gamma_id": "2112375",
+      "token_id": "46831940623609229475655072035718950704911681401865159772332458834225870211595",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 241.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 15°C on May 1?",
+      "gamma_id": "2112376",
+      "token_id": "56111390991314483357807064630183063613972497816518608486399588617698981318575",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 256.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 16°C on May 1?",
+      "gamma_id": "2112377",
+      "token_id": "39904811647027646059855968439458211518867340739392328926691291783693433359984",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 241.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 17°C on May 1?",
+      "gamma_id": "2112378",
+      "token_id": "40975233085403985521762969007608290200085622949232294489144164157487398888711",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 113.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 18°C on May 1?",
+      "gamma_id": "2112379",
+      "token_id": "97325062464099537691815019846415547228587349561369728265902643423216887485665",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 44.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 19°C on May 1?",
+      "gamma_id": "2112380",
+      "token_id": "3859730329923049080257803211789119940253817130946284678651486314332605668098",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 52.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 20°C on May 1?",
+      "gamma_id": "2112381",
+      "token_id": "84959639287020564117072992825946298969064296594675751462698022740030396983913",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.36,
+      "ask": 0.64,
+      "price": 0.36,
+      "spread": 0.28,
+      "volume": 102.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 21°C or higher on May 1?",
+      "gamma_id": "2112382",
+      "token_id": "19035148615272642573759060173925058300841610293334141531232933887064541739780",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.2695,
+      "ask": 0.7305,
+      "price": 0.2695,
+      "spread": 0.461,
+      "volume": 118.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:57.649409+00:00"
+}

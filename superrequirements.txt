@@ -1,0 +1,29 @@
+# ============================================================
+# Polymarket BTC 5-Min Sniper Bot — Requirements
+# Python 3.9+ required
+# ============================================================
+
+# Polymarket CLOB client (official)
+py-clob-client>=0.17.0
+
+# Async HTTP + WebSocket
+aiohttp>=3.9.0
+websockets>=12.0
+
+# CCXT — Binance price feed
+ccxt>=4.2.0
+
+# Data & Technical Indicators
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Telegram Bot (notification placeholder)
+python-telegram-bot>=20.7
+
+# Utilities
+aiofiles>=23.2.1
+python-dateutil>=2.8.2
+requests>=2.31.0

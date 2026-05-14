@@ -1,0 +1,265 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-04-28",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 54.5,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T05:29:31.033769+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.5,
+      "ecmwf": 73,
+      "hrrr": null,
+      "metar": null,
+      "best": 73,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T06:31:27.843756+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.5,
+      "ecmwf": 73,
+      "hrrr": null,
+      "metar": null,
+      "best": 73,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:34:05.985319+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.4,
+      "ecmwf": 73,
+      "hrrr": 65,
+      "metar": null,
+      "best": 65,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:36:03.918564+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.4,
+      "ecmwf": 74,
+      "hrrr": 65,
+      "metar": null,
+      "best": 65,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T09:37:52.917249+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.4,
+      "ecmwf": 74,
+      "hrrr": 65,
+      "metar": null,
+      "best": 65,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T10:39:46.257086+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.3,
+      "ecmwf": 74,
+      "hrrr": 65,
+      "metar": null,
+      "best": 65,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T05:29:31.033769+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.24
+    },
+    {
+      "ts": "2026-04-26T06:31:27.843756+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.23
+    },
+    {
+      "ts": "2026-04-26T07:34:05.985319+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-04-26T08:36:03.918564+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-26T09:37:52.917249+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-26T10:39:46.257086+00:00",
+      "top_bucket": "70.0-999.0F",
+      "top_price": 0.43
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Los Angeles be 51°F or below on April 28?",
+      "gamma_id": "2082653",
+      "token_id": "82090515137377291035595996240940017271246137158716127321565236871476082698053",
+      "range": [
+        -999.0,
+        51.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 733.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 52-53°F on April 28?",
+      "gamma_id": "2082654",
+      "token_id": "23406677099690207141236194425591696516297802557288148450643781358923572339133",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 209.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 54-55°F on April 28?",
+      "gamma_id": "2082655",
+      "token_id": "75326760188264901515091039308274250897448310821018169306767521123369076899056",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 233.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 56-57°F on April 28?",
+      "gamma_id": "2082656",
+      "token_id": "27480105362958529741593168883001099900274379776561837830383573440158955775011",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 193.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 58-59°F on April 28?",
+      "gamma_id": "2082657",
+      "token_id": "12412241523322050928820628743149524281320288745033731364809672080440411757200",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 124.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 60-61°F on April 28?",
+      "gamma_id": "2082658",
+      "token_id": "4491861911309764213804438543152732455310672681255141395918184697130706729518",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0095,
+      "ask": 0.9905,
+      "price": 0.0095,
+      "spread": 0.981,
+      "volume": 788.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 62-63°F on April 28?",
+      "gamma_id": "2082659",
+      "token_id": "79470672934244540788185871013730428167052033055438158423940440890345779849271",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 902.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 64-65°F on April 28?",
+      "gamma_id": "2082660",
+      "token_id": "77105842762779759085305449915830301411182412110842275778096528817813709659424",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.09,
+      "ask": 0.91,
+      "price": 0.09,
+      "spread": 0.82,
+      "volume": 787.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 66-67°F on April 28?",
+      "gamma_id": "2082661",
+      "token_id": "54835667718365320923282541763971912681808262443075115438988208292153042893912",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 264.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on April 28?",
+      "gamma_id": "2082662",
+      "token_id": "68641363596783942421469248451536616222456688970742936916708196580889900677786",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 287.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be 70°F or higher on April 28?",
+      "gamma_id": "2082663",
+      "token_id": "64149077714297348300989841430687660614924439584711174887642030469453084331137",
+      "range": [
+        70.0,
+        999.0
+      ],
+      "bid": 0.43,
+      "ask": 0.57,
+      "price": 0.43,
+      "spread": 0.14,
+      "volume": 529.0
+    }
+  ],
+  "created_at": "2026-04-26T05:29:35.540979+00:00"
+}

@@ -1,0 +1,1076 @@
+2026-04-22 00:46:03,903 | INFO | ========================================================================
+2026-04-22 00:46:03,903 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:46:03,903 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:46:03,903 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:46:03,904 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:46:03,904 | INFO | ========================================================================
+
+2026-04-22 00:46:03,904 | INFO | [Iteration #1  2026-04-22 00:46:03]
+2026-04-22 00:46:04,935 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x01c4867a4412e2...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x01c4867a4412e2d65c6464c41979932daefd6738cde9c2190bfc45499e62a2e8
+2026-04-22 00:46:05,223 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x4bbcf615ffcb7f...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x4bbcf615ffcb7f5cc8c23db66400033b879450e6820ea8c4ab3007acdaa96897
+2026-04-22 00:46:05,523 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x29880c68fbe574...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x29880c68fbe5746f795670bc25ef30ef69a255d567b962e6ec265dcdd7b244f4
+2026-04-22 00:46:05,801 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x935805334f27a1...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x935805334f27a1ef8ed2adbdc4717afbb8a647c1628baa44333186886621084b
+2026-04-22 00:46:06,088 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x5f5c8d8fa28d77...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x5f5c8d8fa28d77b5552562f32393ac199fb6b92ed1c1e2239e29c09f7e4eb3f5
+2026-04-22 00:46:06,359 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0xf950a9738d53da...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0xf950a9738d53da09f155d60f723d873dd425204b480c2bc78f082be300c0e126
+2026-04-22 00:46:06,688 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x25ae0b3ce0af14...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x25ae0b3ce0af14431a45ce7f36f7f07f5ea0fc8a0fa8051a9ed61db5ceeb79c1
+2026-04-22 00:46:06,985 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x0f3ee900642ece...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x0f3ee900642ecee897ba009495eaa842fbbc18bfefdb927726d9a59aa61e79b4
+2026-04-22 00:46:07,314 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0x0f897962828b30...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0x0f897962828b30476bcb321821f341964e6633923f3d97d36039a53c4dff143b
+2026-04-22 00:46:07,582 | WARNING | API fail [https://clob.polymarket.com/book?token_id=0xcc02ec8059f1a6...] -> 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0xcc02ec8059f1a6a877b29d1de039027768cb7d8989d0bb390abe2c459d2ff560
+2026-04-22 00:46:08,548 | INFO | 
+========================================================================
+2026-04-22 00:46:08,548 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:46:08
+2026-04-22 00:46:08,548 | INFO | ========================================================================
+2026-04-22 00:46:08,549 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:46:08,549 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:46:08,551 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:46:08,552 | INFO |   0x01c4867a4412e2d65c...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,552 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,553 | INFO |   0x4bbcf615ffcb7f5cc8...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,553 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,553 | INFO |   0x29880c68fbe5746f79...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,554 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,554 | INFO |   0x935805334f27a1ef8e...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,554 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,556 | INFO |   0x5f5c8d8fa28d77b555...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,556 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,556 | INFO |   0xf950a9738d53da09f1...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,556 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,556 | INFO |   0x25ae0b3ce0af14431a...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,556 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,557 | INFO |   0x0f3ee900642ecee897...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,558 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,558 | INFO |   0x0f897962828b30476b...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,558 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,558 | INFO |   0xcc02ec8059f1a6a877...  NEUTRAL       imbal=?  spread=0%  liq=?  [skip]
+2026-04-22 00:46:08,558 | INFO |     bid_wall={}  ask_wall={}
+2026-04-22 00:46:08,558 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:46:08,559 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:46:08,559 | INFO |   Bias       : NO-heavy
+2026-04-22 00:46:08,559 | INFO |   Value      : $623360.07  Invested: $14647012.19
+2026-04-22 00:46:08,560 | INFO |   Unrealized : -14023652.12 USDC  Drawdown: 95.74% *** DRAWDOWN ALERT ***
+2026-04-22 00:46:08,560 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:46:08,560 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:46:08,561 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:46:08,561 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:46:08,562 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:46:08,562 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:46:08,563 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:46:08,563 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:46:08,563 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:46:08,564 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:46:08,565 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:46:08,565 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:46:08,565 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:46:08,566 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:46:08,566 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:46:08,567 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:46:08,567 | INFO | ========================================================================
+
+2026-04-22 00:50:13,488 | INFO | ========================================================================
+2026-04-22 00:50:13,488 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:50:13,488 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:50:13,488 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:50:13,489 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:50:13,489 | INFO | ========================================================================
+
+2026-04-22 00:50:13,489 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:50:13,489 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:50:13,489 | INFO | [Iteration #1  2026-04-22 00:50:13]
+2026-04-22 00:50:17,488 | INFO | Analyzing 10 token order books...
+2026-04-22 00:50:26,532 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:50:27,072 | INFO | 
+========================================================================
+2026-04-22 00:50:27,072 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:50:27
+2026-04-22 00:50:27,072 | INFO | ========================================================================
+2026-04-22 00:50:27,073 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:50:27,073 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:50:27,073 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:50:27,074 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:50:27,074 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:50:27,074 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:50:27,074 | INFO |   Bias       : NO-heavy
+2026-04-22 00:50:27,074 | INFO |   Value      : $618935.81  Invested: $14647494.63
+2026-04-22 00:50:27,074 | INFO |   Unrealized : -14028558.82 USDC  Drawdown: 95.77% *** DRAWDOWN ALERT ***
+2026-04-22 00:50:27,074 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:50:27,074 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:50:27,074 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:50:27,075 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:50:27,075 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:50:27,075 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:50:27,075 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:50:27,075 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:50:27,075 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:50:27,075 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:50:27,077 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:50:27,078 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:50:27,078 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:50:27,078 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:50:27,078 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:50:27,079 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:50:27,079 | INFO | ========================================================================
+
+2026-04-22 00:50:27,080 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:50:48,520 | INFO | ========================================================================
+2026-04-22 00:50:48,520 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:50:48,520 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:50:48,520 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:50:48,520 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:50:48,522 | INFO | ========================================================================
+
+2026-04-22 00:50:48,522 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:50:48,522 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:50:48,522 | INFO | [Iteration #1  2026-04-22 00:50:48]
+2026-04-22 00:50:52,189 | INFO | Analyzing 10 token order books...
+2026-04-22 00:51:01,075 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:51:01,477 | INFO | 
+========================================================================
+2026-04-22 00:51:01,477 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:51:01
+2026-04-22 00:51:01,477 | INFO | ========================================================================
+2026-04-22 00:51:01,478 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:51:01,478 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:51:01,479 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:51:01,479 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:51:01,479 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:51:01,480 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:51:01,481 | INFO |   Bias       : NO-heavy
+2026-04-22 00:51:01,482 | INFO |   Value      : $618935.81  Invested: $14647494.63
+2026-04-22 00:51:01,482 | INFO |   Unrealized : -14028558.82 USDC  Drawdown: 95.77% *** DRAWDOWN ALERT ***
+2026-04-22 00:51:01,483 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:51:01,483 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:51:01,484 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:51:01,485 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:51:01,485 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:51:01,486 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:51:01,487 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:51:01,487 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:51:01,488 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:51:01,488 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:51:01,489 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:51:01,490 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:51:01,491 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:51:01,491 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:51:01,492 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:51:01,492 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:51:01,493 | INFO | ========================================================================
+
+2026-04-22 00:51:01,493 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:51:31,514 | INFO | [Iteration #2  2026-04-22 00:51:31]
+2026-04-22 00:51:35,081 | INFO | Analyzing 10 token order books...
+2026-04-22 00:51:43,719 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:51:44,140 | INFO | 
+========================================================================
+2026-04-22 00:51:44,140 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:51:44
+2026-04-22 00:51:44,140 | INFO | ========================================================================
+2026-04-22 00:51:44,141 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:51:44,141 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:51:44,141 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:51:44,141 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:51:44,141 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:51:44,141 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:51:44,141 | INFO |   Bias       : NO-heavy
+2026-04-22 00:51:44,141 | INFO |   Value      : $618935.81  Invested: $14647494.63
+2026-04-22 00:51:44,143 | INFO |   Unrealized : -14028558.82 USDC  Drawdown: 95.77% *** DRAWDOWN ALERT ***
+2026-04-22 00:51:44,143 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:51:44,143 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:51:44,143 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:51:44,143 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:51:44,144 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:51:44,144 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:51:44,144 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:51:44,144 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:51:44,144 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:51:44,144 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:51:44,144 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:51:44,144 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:51:44,145 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:51:44,145 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:51:44,145 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:51:44,145 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:51:44,146 | INFO | ========================================================================
+
+2026-04-22 00:51:44,146 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:52:14,158 | INFO | [Iteration #3  2026-04-22 00:52:14]
+2026-04-22 00:52:17,612 | INFO | Analyzing 10 token order books...
+2026-04-22 00:52:26,216 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:52:26,588 | INFO | 
+========================================================================
+2026-04-22 00:52:26,588 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:52:26
+2026-04-22 00:52:26,589 | INFO | ========================================================================
+2026-04-22 00:52:26,589 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:52:26,589 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:52:26,590 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:52:26,590 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:52:26,590 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:52:26,590 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:52:26,591 | INFO |   Bias       : NO-heavy
+2026-04-22 00:52:26,591 | INFO |   Value      : $618935.81  Invested: $14647494.63
+2026-04-22 00:52:26,591 | INFO |   Unrealized : -14028558.82 USDC  Drawdown: 95.77% *** DRAWDOWN ALERT ***
+2026-04-22 00:52:26,592 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:52:26,592 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:52:26,592 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:52:26,592 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:52:26,593 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:52:26,593 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:52:26,593 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:52:26,593 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:52:26,594 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:52:26,594 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:52:26,594 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:52:26,594 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:52:26,594 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:52:26,594 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:52:26,595 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:52:26,595 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:52:26,596 | INFO | ========================================================================
+
+2026-04-22 00:52:26,596 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:52:56,607 | INFO | [Iteration #4  2026-04-22 00:52:56]
+2026-04-22 00:53:00,357 | INFO | Analyzing 10 token order books...
+2026-04-22 00:53:09,315 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:53:09,695 | INFO | 
+========================================================================
+2026-04-22 00:53:09,695 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:53:09
+2026-04-22 00:53:09,696 | INFO | ========================================================================
+2026-04-22 00:53:09,696 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:53:09,696 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:53:09,696 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:53:09,696 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:53:09,696 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:53:09,696 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:53:09,697 | INFO |   Bias       : NO-heavy
+2026-04-22 00:53:09,697 | INFO |   Value      : $615294.6  Invested: $14647494.63
+2026-04-22 00:53:09,697 | INFO |   Unrealized : -14032200.04 USDC  Drawdown: 95.8% *** DRAWDOWN ALERT ***
+2026-04-22 00:53:09,697 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:53:09,697 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:53:09,697 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:53:09,697 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:53:09,697 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:53:09,698 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:53:09,698 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:53:09,698 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:53:09,699 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:53:09,699 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:53:09,699 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:53:09,699 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:53:09,699 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:53:09,699 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:53:09,699 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:53:09,699 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:53:09,699 | INFO | ========================================================================
+
+2026-04-22 00:53:09,699 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:53:39,702 | INFO | [Iteration #5  2026-04-22 00:53:39]
+2026-04-22 00:53:43,455 | INFO | Analyzing 10 token order books...
+2026-04-22 00:53:52,341 | WARNING | Order book analysis returned no valid data
+2026-04-22 00:53:52,745 | INFO | 
+========================================================================
+2026-04-22 00:53:52,745 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:53:52
+2026-04-22 00:53:52,745 | INFO | ========================================================================
+2026-04-22 00:53:52,745 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:53:52,745 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:53:52,746 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:53:52,746 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:53:52,746 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:53:52,746 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:53:52,747 | INFO |   Bias       : NO-heavy
+2026-04-22 00:53:52,747 | INFO |   Value      : $615294.6  Invested: $14647494.63
+2026-04-22 00:53:52,748 | INFO |   Unrealized : -14032200.04 USDC  Drawdown: 95.8% *** DRAWDOWN ALERT ***
+2026-04-22 00:53:52,748 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:53:52,748 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:53:52,748 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:53:52,749 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:53:52,749 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:53:52,749 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:53:52,749 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:53:52,749 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:53:52,750 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:53:52,750 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:53:52,750 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:53:52,750 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:53:52,751 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:53:52,751 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:53:52,751 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:53:52,752 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:53:52,752 | INFO | ========================================================================
+
+2026-04-22 00:53:52,752 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:55:31,153 | INFO | ========================================================================
+2026-04-22 00:55:31,153 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:55:31,153 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:55:31,153 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:55:31,153 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:55:31,153 | INFO | ========================================================================
+
+2026-04-22 00:55:31,153 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:55:31,153 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:55:31,153 | INFO | [Iteration #1  2026-04-22 00:55:31]
+2026-04-22 00:55:31,856 | INFO | ✅ Got 100 positions from API
+2026-04-22 00:55:35,081 | INFO |   Pos#1: market lookup failed | {'idx': 1, 'conditionId': '0x01c4867a4412e2d65c', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#2: market lookup failed | {'idx': 2, 'conditionId': '0x4bbcf615ffcb7f5cc8', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#3: market lookup failed | {'idx': 3, 'conditionId': '0x29880c68fbe5746f79', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#4: market lookup failed | {'idx': 4, 'conditionId': '0x935805334f27a1ef8e', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#5: market lookup failed | {'idx': 5, 'conditionId': '0x5f5c8d8fa28d77b555', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#6: market lookup failed | {'idx': 6, 'conditionId': '0xf950a9738d53da09f1', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#7: market lookup failed | {'idx': 7, 'conditionId': '0x25ae0b3ce0af14431a', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#8: market lookup failed | {'idx': 8, 'conditionId': '0x0f3ee900642ecee897', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#9: market lookup failed | {'idx': 9, 'conditionId': '0x0f897962828b30476b', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO |   Pos#10: market lookup failed | {'idx': 10, 'conditionId': '0xcc02ec8059f1a6a877', 'tokenId': 'NONE', 'assets': '[proxyWallet, asset, conditionId, size, avgPrice, initialValue, currentValue, cashPnl, percentPnl, totalBought]'}
+2026-04-22 00:55:35,082 | INFO | ⚠️  No order token mapping — using 10 direct IDs from positions
+2026-04-22 00:55:35,083 | INFO | 📊 Analyzing 10 token order books (CLOB API)...
+2026-04-22 00:55:36,014 | WARNING |   [1/10] FAIL: 0x01c4867a4412e2d6... → API unavailable
+2026-04-22 00:55:36,955 | WARNING |   [2/10] FAIL: 0x4bbcf615ffcb7f5c... → API unavailable
+2026-04-22 00:55:37,787 | WARNING |   [3/10] FAIL: 0x29880c68fbe5746f... → API unavailable
+2026-04-22 00:55:38,806 | WARNING |   [4/10] FAIL: 0x935805334f27a1ef... → API unavailable
+2026-04-22 00:55:39,692 | WARNING |   [5/10] FAIL: 0x5f5c8d8fa28d77b5... → API unavailable
+2026-04-22 00:55:40,596 | WARNING |   [6/10] FAIL: 0xf950a9738d53da09... → API unavailable
+2026-04-22 00:55:41,507 | WARNING |   [7/10] FAIL: 0x25ae0b3ce0af1443... → API unavailable
+2026-04-22 00:55:42,325 | WARNING |   [8/10] FAIL: 0x0f3ee900642ecee8... → API unavailable
+2026-04-22 00:55:43,219 | WARNING |   [9/10] FAIL: 0x0f897962828b3047... → API unavailable
+2026-04-22 00:55:44,104 | WARNING |   [10/10] FAIL: 0xcc02ec8059f1a6a8... → API unavailable
+2026-04-22 00:55:44,104 | INFO | 📊 Order book summary: 0 valid / 10 errors / 0 tradeable
+2026-04-22 00:55:44,104 | WARNING | ❌ ALL order book queries failed — token ID format may be incompatible with CLOB API
+2026-04-22 00:55:44,104 | WARNING |    Check if positions API returns 'tokenId' field (CLOB format) not just 'conditionId'
+2026-04-22 00:55:44,850 | INFO | 
+========================================================================
+2026-04-22 00:55:44,852 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:55:44
+2026-04-22 00:55:44,852 | INFO | ========================================================================
+2026-04-22 00:55:44,852 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:55:44,852 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:55:44,852 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:55:44,853 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:55:44,853 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:55:44,853 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:55:44,853 | INFO |   Bias       : NO-heavy
+2026-04-22 00:55:44,853 | INFO |   Value      : $615294.6  Invested: $14647494.63
+2026-04-22 00:55:44,853 | INFO |   Unrealized : -14032200.04 USDC  Drawdown: 95.8% *** DRAWDOWN ALERT ***
+2026-04-22 00:55:44,854 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:55:44,854 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:55:44,854 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:55:44,854 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:55:44,855 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:55:44,855 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:55:44,855 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:55:44,855 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:55:44,855 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:55:44,855 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:55:44,855 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:55:44,855 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:55:44,855 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:55:44,855 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:55:44,856 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:55:44,856 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:55:44,856 | INFO | ========================================================================
+
+2026-04-22 00:55:44,856 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:56:26,625 | INFO | ========================================================================
+2026-04-22 00:56:26,625 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:56:26,625 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:56:26,625 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:56:26,625 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:56:26,625 | INFO | ========================================================================
+
+2026-04-22 00:56:26,625 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:56:26,625 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:56:26,625 | INFO | [Iteration #1  2026-04-22 00:56:26]
+2026-04-22 00:56:27,577 | INFO | ✅ Got 100 positions from API — extracting CLOB token IDs...
+2026-04-22 00:56:27,578 | INFO |   Pos#1: asset        -> 23561011456839630483...
+2026-04-22 00:56:27,579 | INFO |   Pos#2: asset        -> 89871421122206020427...
+2026-04-22 00:56:27,579 | INFO |   Pos#3: asset        -> 68280570186240015456...
+2026-04-22 00:56:27,579 | INFO |   Pos#4: asset        -> 11375868593829341712...
+2026-04-22 00:56:27,579 | INFO |   Pos#5: asset        -> 30241576782565932393...
+2026-04-22 00:56:27,579 | INFO |   Pos#6: asset        -> 27711990890069830252...
+2026-04-22 00:56:27,579 | INFO |   Pos#7: asset        -> 65107413243926488023...
+2026-04-22 00:56:27,579 | INFO |   Pos#8: asset        -> 16736607457308526637...
+2026-04-22 00:56:27,579 | INFO |   Pos#9: asset        -> 56817997803930189621...
+2026-04-22 00:56:27,579 | INFO |   Pos#10: asset        -> 67295218805011759626...
+2026-04-22 00:56:27,579 | INFO | ✅ Extracted 10 token IDs for CLOB API analysis
+2026-04-22 00:56:27,580 | INFO | 📊 Analyzing 10 token order books (CLOB API)...
+2026-04-22 00:56:28,871 | WARNING |   [1/10] FAIL: 235610114568396304... → API unavailable
+2026-04-22 00:56:30,086 | WARNING |   [2/10] FAIL: 898714211222060204... → API unavailable
+2026-04-22 00:56:31,106 | WARNING |   [3/10] FAIL: 682805701862400154... → API unavailable
+2026-04-22 00:56:32,037 | WARNING |   [4/10] FAIL: 113758685938293417... → API unavailable
+2026-04-22 00:56:32,910 | WARNING |   [5/10] FAIL: 302415767825659323... → API unavailable
+2026-04-22 00:56:33,816 | WARNING |   [6/10] FAIL: 277119908900698302... → API unavailable
+2026-04-22 00:56:34,731 | WARNING |   [7/10] FAIL: 651074132439264880... → API unavailable
+2026-04-22 00:56:35,627 | WARNING |   [8/10] FAIL: 167366074573085266... → API unavailable
+2026-04-22 00:56:36,515 | WARNING |   [9/10] FAIL: 568179978039301896... → API unavailable
+2026-04-22 00:56:37,372 | WARNING |   [10/10] FAIL: 672952188050117596... → API unavailable
+2026-04-22 00:56:37,372 | INFO | 📊 Order book summary: 0 valid / 10 errors / 0 tradeable
+2026-04-22 00:56:37,372 | WARNING | ❌ ALL order book queries failed — token ID format may be incompatible with CLOB API
+2026-04-22 00:56:37,372 | WARNING |    Check if positions API returns 'tokenId' field (CLOB format) not just 'conditionId'
+2026-04-22 00:56:37,750 | INFO | 
+========================================================================
+2026-04-22 00:56:37,751 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:56:37
+2026-04-22 00:56:37,751 | INFO | ========================================================================
+2026-04-22 00:56:37,751 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:56:37,751 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:56:37,751 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:56:37,751 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:56:37,751 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:56:37,751 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:56:37,751 | INFO |   Bias       : NO-heavy
+2026-04-22 00:56:37,751 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 00:56:37,752 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 00:56:37,752 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:56:37,752 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:56:37,752 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:56:37,752 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:56:37,752 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:56:37,752 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:56:37,752 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:56:37,752 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:56:37,752 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:56:37,753 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:56:37,753 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:56:37,753 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:56:37,753 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:56:37,753 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:56:37,753 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:56:37,753 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:56:37,753 | INFO | ========================================================================
+
+2026-04-22 00:56:37,753 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:57:07,754 | INFO | [Iteration #2  2026-04-22 00:57:07]
+2026-04-22 00:57:08,387 | INFO | ✅ Got 100 positions from API — extracting CLOB token IDs...
+2026-04-22 00:57:08,387 | INFO |   Pos#1: asset        -> 23561011456839630483...
+2026-04-22 00:57:08,387 | INFO |   Pos#2: asset        -> 89871421122206020427...
+2026-04-22 00:57:08,387 | INFO |   Pos#3: asset        -> 68280570186240015456...
+2026-04-22 00:57:08,388 | INFO |   Pos#4: asset        -> 11375868593829341712...
+2026-04-22 00:57:08,388 | INFO |   Pos#5: asset        -> 30241576782565932393...
+2026-04-22 00:57:08,388 | INFO |   Pos#6: asset        -> 27711990890069830252...
+2026-04-22 00:57:08,388 | INFO |   Pos#7: asset        -> 65107413243926488023...
+2026-04-22 00:57:08,388 | INFO |   Pos#8: asset        -> 16736607457308526637...
+2026-04-22 00:57:08,388 | INFO |   Pos#9: asset        -> 56817997803930189621...
+2026-04-22 00:57:08,388 | INFO |   Pos#10: asset        -> 67295218805011759626...
+2026-04-22 00:57:08,388 | INFO | ✅ Extracted 10 token IDs for CLOB API analysis
+2026-04-22 00:57:08,388 | INFO | 📊 Analyzing 10 token order books (CLOB API)...
+2026-04-22 00:57:09,356 | WARNING |   [1/10] FAIL: 235610114568396304... → API unavailable
+2026-04-22 00:57:10,202 | WARNING |   [2/10] FAIL: 898714211222060204... → API unavailable
+2026-04-22 00:57:11,134 | WARNING |   [3/10] FAIL: 682805701862400154... → API unavailable
+2026-04-22 00:57:12,014 | WARNING |   [4/10] FAIL: 113758685938293417... → API unavailable
+2026-04-22 00:57:12,863 | WARNING |   [5/10] FAIL: 302415767825659323... → API unavailable
+2026-04-22 00:57:13,710 | WARNING |   [6/10] FAIL: 277119908900698302... → API unavailable
+2026-04-22 00:57:14,605 | WARNING |   [7/10] FAIL: 651074132439264880... → API unavailable
+2026-04-22 00:57:15,487 | WARNING |   [8/10] FAIL: 167366074573085266... → API unavailable
+2026-04-22 00:57:16,422 | WARNING |   [9/10] FAIL: 568179978039301896... → API unavailable
+2026-04-22 00:57:17,284 | WARNING |   [10/10] FAIL: 672952188050117596... → API unavailable
+2026-04-22 00:57:17,284 | INFO | 📊 Order book summary: 0 valid / 10 errors / 0 tradeable
+2026-04-22 00:57:17,286 | WARNING | ❌ ALL order book queries failed — token ID format may be incompatible with CLOB API
+2026-04-22 00:57:17,286 | WARNING |    Check if positions API returns 'tokenId' field (CLOB format) not just 'conditionId'
+2026-04-22 00:57:17,681 | INFO | 
+========================================================================
+2026-04-22 00:57:17,682 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:57:17
+2026-04-22 00:57:17,682 | INFO | ========================================================================
+2026-04-22 00:57:17,682 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:57:17,682 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:57:17,682 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:57:17,682 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:57:17,682 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:57:17,682 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:57:17,683 | INFO |   Bias       : NO-heavy
+2026-04-22 00:57:17,683 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 00:57:17,683 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 00:57:17,683 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:57:17,683 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:57:17,683 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:57:17,683 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:57:17,683 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:57:17,683 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:57:17,683 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:57:17,683 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:57:17,683 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:57:17,683 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:57:17,683 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:57:17,685 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:57:17,685 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:57:17,685 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:57:17,685 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:57:17,685 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:57:17,685 | INFO | ========================================================================
+
+2026-04-22 00:57:17,685 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:57:35,554 | INFO | ========================================================================
+2026-04-22 00:57:35,554 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:57:35,554 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:57:35,555 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:57:35,555 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:57:35,555 | INFO | ========================================================================
+
+2026-04-22 00:57:35,555 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:57:35,555 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:57:35,555 | INFO | [Iteration #1  2026-04-22 00:57:35]
+2026-04-22 00:57:36,189 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 00:57:36,189 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 00:57:36,568 | INFO | 
+========================================================================
+2026-04-22 00:57:36,568 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:57:36
+2026-04-22 00:57:36,568 | INFO | ========================================================================
+2026-04-22 00:57:36,568 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:57:36,568 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:57:36,569 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:57:36,569 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:57:36,569 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:57:36,569 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:57:36,569 | INFO |   Bias       : NO-heavy
+2026-04-22 00:57:36,569 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 00:57:36,569 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 00:57:36,569 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:57:36,569 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:57:36,569 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:57:36,569 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:57:36,570 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:57:36,570 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:57:36,570 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:57:36,570 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:57:36,570 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:57:36,570 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:57:36,570 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:57:36,570 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:57:36,570 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:57:36,570 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:57:36,570 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:57:36,572 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:57:36,572 | INFO | ========================================================================
+
+2026-04-22 00:57:36,572 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:58:06,577 | INFO | [Iteration #2  2026-04-22 00:58:06]
+2026-04-22 00:58:07,042 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 00:58:07,042 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 00:58:07,439 | INFO | 
+========================================================================
+2026-04-22 00:58:07,440 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:58:07
+2026-04-22 00:58:07,440 | INFO | ========================================================================
+2026-04-22 00:58:07,440 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:58:07,440 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:58:07,440 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:58:07,440 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:58:07,440 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:58:07,440 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:58:07,440 | INFO |   Bias       : NO-heavy
+2026-04-22 00:58:07,441 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 00:58:07,441 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 00:58:07,441 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:58:07,441 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:58:07,441 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:58:07,441 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:58:07,441 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:58:07,441 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:58:07,441 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:58:07,442 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:58:07,442 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:58:07,442 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:58:07,442 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:58:07,442 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:58:07,442 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:58:07,442 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:58:07,442 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:58:07,442 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:58:07,442 | INFO | ========================================================================
+
+2026-04-22 00:58:07,443 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:59:27,785 | INFO | ========================================================================
+2026-04-22 00:59:27,785 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 00:59:27,785 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 00:59:27,785 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 00:59:27,785 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 00:59:27,786 | INFO | ========================================================================
+
+2026-04-22 00:59:27,786 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 00:59:27,786 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 00:59:27,786 | INFO | [Iteration #1  2026-04-22 00:59:27]
+2026-04-22 00:59:28,422 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 00:59:28,423 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 00:59:29,160 | INFO | 
+========================================================================
+2026-04-22 00:59:29,160 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 00:59:29
+2026-04-22 00:59:29,160 | INFO | ========================================================================
+2026-04-22 00:59:29,160 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 00:59:29,161 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 00:59:29,161 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 00:59:29,162 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 00:59:29,162 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 00:59:29,162 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 00:59:29,162 | INFO |   Bias       : NO-heavy
+2026-04-22 00:59:29,162 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 00:59:29,163 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 00:59:29,163 | INFO |   W/L open   : 4 / 96
+2026-04-22 00:59:29,163 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 00:59:29,163 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 00:59:29,164 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 00:59:29,164 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 00:59:29,164 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 00:59:29,164 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 00:59:29,164 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 00:59:29,165 | INFO |   Buy Bias   : 99.01%
+2026-04-22 00:59:29,165 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 00:59:29,165 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 00:59:29,165 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 00:59:29,170 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 00:59:29,171 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 00:59:29,171 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 00:59:29,171 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 00:59:29,172 | INFO | ========================================================================
+
+2026-04-22 00:59:29,172 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 00:59:59,181 | INFO | [Iteration #2  2026-04-22 00:59:59]
+2026-04-22 00:59:59,617 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 00:59:59,617 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:00:00,032 | INFO | 
+========================================================================
+2026-04-22 01:00:00,033 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:00:00
+2026-04-22 01:00:00,033 | INFO | ========================================================================
+2026-04-22 01:00:00,033 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:00:00,035 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:00:00,035 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:00:00,035 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:00:00,036 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:00:00,037 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:00:00,037 | INFO |   Bias       : NO-heavy
+2026-04-22 01:00:00,038 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 01:00:00,038 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 01:00:00,039 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:00:00,039 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:00:00,039 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:00:00,040 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:00:00,040 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:00:00,041 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:00:00,041 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:00:00,042 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:00:00,042 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:00:00,042 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:00:00,043 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:00:00,043 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:00:00,043 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:00:00,043 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:00:00,045 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:00:00,045 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:00:00,045 | INFO | ========================================================================
+
+2026-04-22 01:00:00,046 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:00:30,051 | INFO | [Iteration #3  2026-04-22 01:00:30]
+2026-04-22 01:00:30,857 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:00:30,858 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:00:31,363 | INFO | 
+========================================================================
+2026-04-22 01:00:31,364 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:00:31
+2026-04-22 01:00:31,364 | INFO | ========================================================================
+2026-04-22 01:00:31,364 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:00:31,365 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:00:31,366 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:00:31,366 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:00:31,367 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:00:31,368 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:00:31,368 | INFO |   Bias       : NO-heavy
+2026-04-22 01:00:31,369 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 01:00:31,370 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 01:00:31,370 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:00:31,371 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:00:31,372 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:00:31,373 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:00:31,374 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:00:31,375 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:00:31,375 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:00:31,376 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:00:31,376 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:00:31,377 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:00:31,378 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:00:31,378 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:00:31,379 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:00:31,379 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:00:31,380 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:00:31,380 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:00:31,381 | INFO | ========================================================================
+
+2026-04-22 01:00:31,382 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:01:01,397 | INFO | [Iteration #4  2026-04-22 01:01:01]
+2026-04-22 01:01:01,856 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:01:01,856 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:01:02,240 | INFO | 
+========================================================================
+2026-04-22 01:01:02,240 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:01:02
+2026-04-22 01:01:02,241 | INFO | ========================================================================
+2026-04-22 01:01:02,241 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:01:02,242 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:01:02,242 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:01:02,242 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:01:02,243 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:01:02,243 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:01:02,243 | INFO |   Bias       : NO-heavy
+2026-04-22 01:01:02,244 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 01:01:02,244 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 01:01:02,244 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:01:02,244 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:01:02,245 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:01:02,245 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:01:02,245 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:01:02,245 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:01:02,245 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:01:02,246 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:01:02,246 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:01:02,246 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:01:02,246 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:01:02,246 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:01:02,246 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:01:02,246 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:01:02,247 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:01:02,247 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:01:02,247 | INFO | ========================================================================
+
+2026-04-22 01:01:02,247 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:01:32,260 | INFO | [Iteration #5  2026-04-22 01:01:32]
+2026-04-22 01:01:32,738 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:01:32,738 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:01:33,166 | INFO | 
+========================================================================
+2026-04-22 01:01:33,167 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:01:33
+2026-04-22 01:01:33,168 | INFO | ========================================================================
+2026-04-22 01:01:33,168 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:01:33,169 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:01:33,170 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:01:33,171 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:01:33,172 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:01:33,173 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:01:33,173 | INFO |   Bias       : NO-heavy
+2026-04-22 01:01:33,174 | INFO |   Value      : $616516.48  Invested: $14647494.63
+2026-04-22 01:01:33,175 | INFO |   Unrealized : -14030978.15 USDC  Drawdown: 95.79% *** DRAWDOWN ALERT ***
+2026-04-22 01:01:33,175 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:01:33,176 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:01:33,177 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:01:33,178 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:01:33,179 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:01:33,179 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:01:33,180 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:01:33,181 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:01:33,182 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:01:33,182 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:01:33,183 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:01:33,184 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:01:33,184 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:01:33,185 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:01:33,185 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:01:33,186 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:01:33,187 | INFO | ========================================================================
+
+2026-04-22 01:01:33,187 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:02:03,197 | INFO | [Iteration #6  2026-04-22 01:02:03]
+2026-04-22 01:02:03,661 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:02:03,661 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:02:04,020 | INFO | 
+========================================================================
+2026-04-22 01:02:04,021 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:02:04
+2026-04-22 01:02:04,021 | INFO | ========================================================================
+2026-04-22 01:02:04,022 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:02:04,022 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:02:04,022 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:02:04,022 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:02:04,022 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:02:04,022 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:02:04,023 | INFO |   Bias       : NO-heavy
+2026-04-22 01:02:04,023 | INFO |   Value      : $606741.4  Invested: $14647494.63
+2026-04-22 01:02:04,023 | INFO |   Unrealized : -14040753.24 USDC  Drawdown: 95.86% *** DRAWDOWN ALERT ***
+2026-04-22 01:02:04,023 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:02:04,024 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:02:04,024 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:02:04,024 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:02:04,024 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:02:04,025 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:02:04,025 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:02:04,025 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:02:04,025 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:02:04,025 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:02:04,025 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:02:04,026 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:02:04,026 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:02:04,026 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:02:04,026 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:02:04,026 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:02:04,026 | INFO | ========================================================================
+
+2026-04-22 01:02:04,026 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:02:34,035 | INFO | [Iteration #7  2026-04-22 01:02:34]
+2026-04-22 01:02:34,651 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:02:34,651 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:02:35,049 | INFO | 
+========================================================================
+2026-04-22 01:02:35,049 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:02:35
+2026-04-22 01:02:35,050 | INFO | ========================================================================
+2026-04-22 01:02:35,050 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:02:35,051 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:02:35,051 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:02:35,052 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:02:35,053 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:02:35,053 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:02:35,053 | INFO |   Bias       : NO-heavy
+2026-04-22 01:02:35,053 | INFO |   Value      : $606741.4  Invested: $14647494.63
+2026-04-22 01:02:35,054 | INFO |   Unrealized : -14040753.24 USDC  Drawdown: 95.86% *** DRAWDOWN ALERT ***
+2026-04-22 01:02:35,054 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:02:35,054 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:02:35,054 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:02:35,055 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:02:35,055 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:02:35,056 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:02:35,056 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:02:35,057 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:02:35,057 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:02:35,058 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:02:35,058 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:02:35,058 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:02:35,059 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:02:35,059 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:02:35,059 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:02:35,059 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:02:35,059 | INFO | ========================================================================
+
+2026-04-22 01:02:35,060 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:03:05,066 | INFO | [Iteration #8  2026-04-22 01:03:05]
+2026-04-22 01:03:05,528 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:03:05,528 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:03:05,920 | INFO | 
+========================================================================
+2026-04-22 01:03:05,920 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:03:05
+2026-04-22 01:03:05,921 | INFO | ========================================================================
+2026-04-22 01:03:05,921 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:03:05,922 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:03:05,922 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:03:05,922 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:03:05,922 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:03:05,923 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:03:05,923 | INFO |   Bias       : NO-heavy
+2026-04-22 01:03:05,923 | INFO |   Value      : $606741.4  Invested: $14647494.63
+2026-04-22 01:03:05,923 | INFO |   Unrealized : -14040753.24 USDC  Drawdown: 95.86% *** DRAWDOWN ALERT ***
+2026-04-22 01:03:05,923 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:03:05,924 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:03:05,924 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:03:05,925 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:03:05,925 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:03:05,925 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:03:05,926 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:03:05,926 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:03:05,932 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:03:05,933 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:03:05,933 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:03:05,934 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:03:05,934 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:03:05,934 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:03:05,935 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:03:05,935 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:03:05,935 | INFO | ========================================================================
+
+2026-04-22 01:03:05,935 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 01:03:35,939 | INFO | [Iteration #9  2026-04-22 01:03:35]
+2026-04-22 01:03:36,427 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 01:03:36,427 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 01:03:36,837 | INFO | 
+========================================================================
+2026-04-22 01:03:36,837 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 01:03:36
+2026-04-22 01:03:36,837 | INFO | ========================================================================
+2026-04-22 01:03:36,837 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 01:03:36,837 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 01:03:36,838 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 01:03:36,838 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 01:03:36,838 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 01:03:36,838 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 01:03:36,838 | INFO |   Bias       : NO-heavy
+2026-04-22 01:03:36,838 | INFO |   Value      : $606741.4  Invested: $14647494.63
+2026-04-22 01:03:36,839 | INFO |   Unrealized : -14040753.24 USDC  Drawdown: 95.86% *** DRAWDOWN ALERT ***
+2026-04-22 01:03:36,839 | INFO |   W/L open   : 4 / 96
+2026-04-22 01:03:36,839 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 01:03:36,839 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Will Rayo Vallecano de Madrid win on 2026-03-16?
+2026-04-22 01:03:36,839 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 01:03:36,839 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 01:03:36,839 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 01:03:36,840 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 01:03:36,840 | INFO |   Avg Hold   : None h  Size: 2389.15 USDC
+2026-04-22 01:03:36,840 | INFO |   Buy Bias   : 99.01%
+2026-04-22 01:03:36,840 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 01:03:36,840 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 01:03:36,840 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 01:03:36,840 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 01:03:36,840 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 01:03:36,840 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 01:03:36,840 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 01:03:36,841 | INFO | ========================================================================
+
+2026-04-22 01:03:36,841 | INFO |   Sleeping 30s until next iteration...
+
+2026-04-22 17:39:00,830 | INFO | ========================================================================
+2026-04-22 17:39:00,830 | INFO |   CemeterySun Copy Bot  |  PAPER TRADING MODE  |  userbot.py
+2026-04-22 17:39:00,831 | INFO |   Target  : 0x37c1874a60d348903594a96703e0507c518fc53a
+2026-04-22 17:39:00,831 | INFO |   Interval: 30s   Prompt: generated_strategy_prompt.txt   Log: polymarket_intelligence_log.txt
+2026-04-22 17:39:00,831 | INFO |   No real orders will be placed (paper mode).
+2026-04-22 17:39:00,831 | INFO | ========================================================================
+
+2026-04-22 17:39:00,831 | INFO |   NOTE: Order book data requires valid token ID mapping from Polymarket API
+2026-04-22 17:39:00,831 | INFO |         If all book queries fail (404), check token ID format compatibility
+
+2026-04-22 17:39:00,832 | INFO | [Iteration #1  2026-04-22 17:39:00]
+2026-04-22 17:39:01,719 | INFO | 📊 Order book analysis: Skipped (see note above)
+2026-04-22 17:39:01,720 | INFO |    Bot continues with position analysis, trade history, and paper trading.
+2026-04-22 17:39:02,349 | INFO | 
+========================================================================
+2026-04-22 17:39:02,349 | INFO |   INTELLIGENCE REPORT  |  2026-04-22 17:39:02
+2026-04-22 17:39:02,350 | INFO | ========================================================================
+2026-04-22 17:39:02,350 | INFO | 
+--- [1] OTHER BOT CSV INTELLIGENCE ---
+2026-04-22 17:39:02,350 | INFO |   [!] CSV not found or empty — place other_bot_trades.csv to enable
+2026-04-22 17:39:02,350 | INFO | 
+--- [2] ORDER BOOK INTELLIGENCE (real token IDs) ---
+2026-04-22 17:39:02,350 | INFO |   [!] No tokens fetched — user may have no open positions right now
+2026-04-22 17:39:02,350 | INFO | 
+--- [3] USER RUNNING POSITIONS ---
+2026-04-22 17:39:02,350 | INFO |   Open       : 100  YES:7  NO:18
+2026-04-22 17:39:02,350 | INFO |   Bias       : NO-heavy
+2026-04-22 17:39:02,350 | INFO |   Value      : $1502350.7  Invested: $14884487.76
+2026-04-22 17:39:02,351 | INFO |   Unrealized : -13382137.06 USDC  Drawdown: 89.91% *** DRAWDOWN ALERT ***
+2026-04-22 17:39:02,351 | INFO |   W/L open   : 6 / 94
+2026-04-22 17:39:02,351 | INFO |   Risk level : HIGH (>10K)
+2026-04-22 17:39:02,351 | INFO |   Top mkts   : Spread: Bulls (-6.5), Spread: Pistons (-14.5), Trail Blazers vs. Spurs
+2026-04-22 17:39:02,351 | INFO | 
+--- [4] USER PREVIOUS TRADES ---
+2026-04-22 17:39:02,351 | INFO |   Closed     : 50  PnL: 12536527.65 USDC -> HIGHLY PROFITABLE
+2026-04-22 17:39:02,351 | INFO |   Win Rate   : 100.0%  RR: 0
+2026-04-22 17:39:02,351 | INFO |   Avg W/L    : 250730.55 / 0 USDC
+2026-04-22 17:39:02,351 | INFO |   Avg Hold   : None h  Size: 2031.4 USDC
+2026-04-22 17:39:02,351 | INFO |   Buy Bias   : 99.01%
+2026-04-22 17:39:02,351 | INFO |   Strategy   : Adaptive Mixed Trader
+2026-04-22 17:39:02,352 | INFO |   Detail     : Market ke hisaab se style change karta hai
+2026-04-22 17:39:02,352 | INFO | 
+--- [PAPER TRADING] ---
+2026-04-22 17:39:02,352 | INFO |   Open  : 0  |  Closed: 0  W:0 L:0  WR:0.0%
+2026-04-22 17:39:02,352 | INFO |   PnL   : +0.00 realized  |  +0.00 open (paper)
+2026-04-22 17:39:02,352 | INFO |   Size  : 10000 USDC (auto-adjusted)
+2026-04-22 17:39:02,352 | INFO |   Prompt saved -> generated_strategy_prompt.txt
+2026-04-22 17:39:02,352 | INFO | ========================================================================
+
+2026-04-22 17:39:02,352 | INFO |   Sleeping 30s until next iteration...
+

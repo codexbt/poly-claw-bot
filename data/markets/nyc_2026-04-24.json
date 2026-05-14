@@ -1,0 +1,835 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-04-24",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 16.5,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-23T19:30:20.225023+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:35:23.850926+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.4,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:36:39.290022+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.4,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:38:10.743128+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.4,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:38:49.556837+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.4,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:43:30.365472+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.3,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:46:45.300280+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.2,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T19:59:18.362662+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:05:16.030171+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:07:25.034506+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:11:53.519928+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.8,
+      "ecmwf": 63,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T20:15:13.895695+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.7,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T21:17:24.212749+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.7,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T22:19:22.650842+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.7,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-23T23:21:31.928598+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.6,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": null,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T00:23:39.281513+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.6,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 68,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T01:25:40.182014+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 64,
+      "hrrr": 65,
+      "metar": 67,
+      "best": 65,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T02:27:35.445854+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 67,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T03:29:45.952658+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 65,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T03:48:05.230289+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.2,
+      "ecmwf": 64,
+      "hrrr": 68,
+      "metar": 65,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T04:23:49.688946+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.6,
+      "ecmwf": 64,
+      "hrrr": 68,
+      "metar": 64,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T04:52:41.424273+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 64,
+      "hrrr": 70,
+      "metar": 64,
+      "best": 70,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T05:01:44.733635+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.0,
+      "ecmwf": 64,
+      "hrrr": 70,
+      "metar": 62,
+      "best": 70,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:03:59.805375+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.9,
+      "ecmwf": 64,
+      "hrrr": 68,
+      "metar": 62,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:50:43.436565+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.2,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:52:02.510580+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.1,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:53:21.857648+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.1,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:54:39.818808+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.1,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:55:59.884156+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.1,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 60,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T06:57:16.883502+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 60,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T07:01:19.120199+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 64,
+      "hrrr": 66,
+      "metar": 60,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T08:03:17.468023+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.9,
+      "ecmwf": 64,
+      "hrrr": 68,
+      "metar": 59,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T09:05:29.718885+00:00",
+      "horizon": "D+0",
+      "hours_left": 2.9,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 52,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T10:07:40.899908+00:00",
+      "horizon": "D+0",
+      "hours_left": 1.9,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 50,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T11:10:21.104613+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.8,
+      "ecmwf": 65,
+      "hrrr": 68,
+      "metar": 49,
+      "best": 68,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T12:12:22.964560+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 49,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:14:38.550116+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 51,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:50:32.789967+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 51,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T13:58:11.783338+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 67,
+      "metar": 53,
+      "best": 67,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T15:00:24.671793+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 66,
+      "metar": 56,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T16:02:42.184850+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 66,
+      "metar": 59,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T17:04:46.434408+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 66,
+      "metar": 60,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T18:08:00.640396+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-24T18:47:44.808101+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 65,
+      "hrrr": 66,
+      "metar": 62,
+      "best": 66,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-23T19:30:20.225023+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T19:35:23.850926+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-23T19:36:39.290022+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-23T19:38:10.743128+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T19:38:49.556837+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T19:43:30.365472+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T19:46:45.300280+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T19:59:18.362662+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T20:05:16.030171+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T20:07:25.034506+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T20:11:53.519928+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-23T20:15:13.895695+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-23T21:17:24.212749+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-23T22:19:22.650842+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-23T23:21:31.928598+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-24T00:23:39.281513+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-24T01:25:40.182014+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T02:27:35.445854+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-24T03:29:45.952658+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-04-24T03:48:05.230289+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-04-24T04:23:49.688946+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-24T04:52:41.424273+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-24T05:01:44.733635+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-24T06:03:59.805375+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-04-24T06:50:43.436565+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-24T06:52:02.510580+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-24T06:53:21.857648+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-24T06:54:39.818808+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-24T06:55:59.884156+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-24T06:57:16.883502+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-04-24T07:01:19.120199+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-04-24T08:03:17.468023+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-24T09:05:29.718885+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-24T10:07:40.899908+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-24T11:10:21.104613+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.43
+    },
+    {
+      "ts": "2026-04-24T12:12:22.964560+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.62
+    },
+    {
+      "ts": "2026-04-24T13:14:38.550116+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.62
+    },
+    {
+      "ts": "2026-04-24T13:50:32.789967+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.645
+    },
+    {
+      "ts": "2026-04-24T13:58:11.783338+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.64
+    },
+    {
+      "ts": "2026-04-24T15:00:24.671793+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.615
+    },
+    {
+      "ts": "2026-04-24T16:02:42.184850+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.54
+    },
+    {
+      "ts": "2026-04-24T17:04:46.434408+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-24T18:08:00.640396+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-24T18:47:44.808101+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.615
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 47°F or below on April 24?",
+      "gamma_id": "2049443",
+      "token_id": "38788521060456294535969747516548448133613735160672944637414587701897840063678",
+      "range": [
+        -999.0,
+        47.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 5130.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 48-49°F on April 24?",
+      "gamma_id": "2049444",
+      "token_id": "84419757550998904668646427624825798262817241812893719911354182326036826140327",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2969.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 50-51°F on April 24?",
+      "gamma_id": "2049445",
+      "token_id": "80036643888941560671876263498384208370589384630756482155678859497838797540847",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4735.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 52-53°F on April 24?",
+      "gamma_id": "2049446",
+      "token_id": "37471248521332322114332919727589897430034766044906264831514513744079602937689",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7747.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 54-55°F on April 24?",
+      "gamma_id": "2049447",
+      "token_id": "46593592977434242360581289991837502492459150841665748674287796771805502364719",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 5544.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 56-57°F on April 24?",
+      "gamma_id": "2049448",
+      "token_id": "93507832207839803218781929516135577054593558978683126224221532673728049647087",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7171.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 58-59°F on April 24?",
+      "gamma_id": "2049449",
+      "token_id": "28372299804332930848982096382579615209323070227590756282405314700063419686997",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 13691.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 60-61°F on April 24?",
+      "gamma_id": "2049450",
+      "token_id": "79360416810486879195629392525970961392489797321531826059253288730634816505201",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 22393.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 62-63°F on April 24?",
+      "gamma_id": "2049451",
+      "token_id": "906286402306979260343945389724061362564388866496378676051202663229194814514",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 34582.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 64-65°F on April 24?",
+      "gamma_id": "2049452",
+      "token_id": "7305370343667557596234640364999693293335681623613084006894275419715154835105",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.615,
+      "ask": 0.385,
+      "price": 0.615,
+      "spread": -0.23,
+      "volume": 16599.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 66°F or higher on April 24?",
+      "gamma_id": "2049453",
+      "token_id": "78338397304660068885571622559821363820641084085740621133736711643616316222877",
+      "range": [
+        66.0,
+        999.0
+      ],
+      "bid": 0.207,
+      "ask": 0.793,
+      "price": 0.207,
+      "spread": 0.586,
+      "volume": 35540.0
+    }
+  ],
+  "created_at": "2026-04-23T19:30:23.671631+00:00"
+}

@@ -1,0 +1,205 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-04-29",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-04-29T12:00:00Z",
+  "hours_at_discovery": 4.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:19.563244+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.3,
+      "ecmwf": 25.7,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 25.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:56.673640+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.2,
+      "ecmwf": 25.6,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 25.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:19.563244+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-04-29T08:45:56.673640+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.565
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 18°C or below on April 29?",
+      "gamma_id": "2091659",
+      "token_id": "65889093303911758540602021088524405112005144305401786101765941401404745875960",
+      "range": [
+        -999.0,
+        18.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1588.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 19°C on April 29?",
+      "gamma_id": "2091660",
+      "token_id": "94204036646667381585537250788796511277753994165285194902256397699382016865100",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 921.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 20°C on April 29?",
+      "gamma_id": "2091661",
+      "token_id": "114086746789062725306678330612047955722669776398430923782902263095574987352759",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1438.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 21°C on April 29?",
+      "gamma_id": "2091662",
+      "token_id": "107490162567888755180165552664207860595356819648061178718251581325508826199112",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1625.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 22°C on April 29?",
+      "gamma_id": "2091663",
+      "token_id": "76206844498930261957196126055949861300576441164125958961659863977079246639323",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2672.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 23°C on April 29?",
+      "gamma_id": "2091664",
+      "token_id": "110452278835475109498629622656514625344129177043360649762229102852282612888338",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2833.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 24°C on April 29?",
+      "gamma_id": "2091665",
+      "token_id": "18062915240523722456726321175499043488217791169953314205596786398488325614914",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.18,
+      "ask": 0.82,
+      "price": 0.18,
+      "spread": 0.64,
+      "volume": 1465.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 25°C on April 29?",
+      "gamma_id": "2091666",
+      "token_id": "110861750148599888478468013534977240534174450385867544679757965051337625981547",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.565,
+      "ask": 0.435,
+      "price": 0.565,
+      "spread": -0.13,
+      "volume": 1564.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 26°C on April 29?",
+      "gamma_id": "2091667",
+      "token_id": "51266670233730657767679130006259587201521051929176635664911902447376075213452",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.2305,
+      "ask": 0.7695,
+      "price": 0.2305,
+      "spread": 0.539,
+      "volume": 1521.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 27°C on April 29?",
+      "gamma_id": "2091668",
+      "token_id": "20775978895378496081017278504692790629515011243306403973607923814622643824789",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.028,
+      "ask": 0.972,
+      "price": 0.028,
+      "spread": 0.944,
+      "volume": 1917.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 28°C or higher on April 29?",
+      "gamma_id": "2091669",
+      "token_id": "83159257915321910344291240181900915908291790626199895441216111425764985782028",
+      "range": [
+        28.0,
+        999.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1209.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:22.557383+00:00"
+}

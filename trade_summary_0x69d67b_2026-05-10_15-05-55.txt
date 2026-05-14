@@ -1,0 +1,48 @@
+TRADE SUMMARY REPORT
+====================
+
+Game Condition ID: 0x69d67b8f7172c7b5b5f66524eeedb8e29cd6d3791ddf938a66f35d1d7af60b38
+Market Name: Bitcoin Up or Down - May 10, 5:25AM-5:30AM ET
+Reason for Closing: resolved winner:UNKNOWN
+Closed At: 2026-05-10 15:05:55
+
+TRADING STATISTICS
+------------------
+Total Trades Copied: 10
+Total USD Invested: $34.17
+Average Trade Size: $3.42 (if trades > 0)
+
+PROFIT/LOSS ANALYSIS
+--------------------
+Market not yet resolved. Estimated PnL range: $-34.17 to $34.17 (assuming binary outcomes)
+
+Note: This bot copies trades without position management.
+Actual profits depend on market resolution and outcome winners.
+
+TRADE DETAILS
+-------------
+- Bought $3.36 of 'Down' @ $0.5100
+- Bought $2.42 of 'Up' @ $0.3600
+- Bought $8.87 of 'Up' @ $0.3500
+- Bought $2.23 of 'Up' @ $0.3700
+- Bought $1.00 of 'Up' @ $0.3800
+- Bought $3.13 of 'Down' @ $0.5300
+- Bought $2.82 of 'Down' @ $0.5500
+- Bought $3.13 of 'Down' @ $0.5500
+- Bought $5.88 of 'Down' @ $0.5500
+- Bought $1.34 of 'Up' @ $0.4000
+
+CONFIGURATION USED
+------------------
+- Size Multiplier: 1.0x
+- Concentration Boost: 3.0x
+- Max per Game: $150.0
+- Max Trade Size: $500.0
+- Min Trade Size: $1.0
+
+MARKET LINK
+-----------
+https://polymarket.com/market/0x69d67b8f7172c7b5b5f66524eeedb8e29cd6d3791ddf938a66f35d1d7af60b38
+
+End of Report
+=============

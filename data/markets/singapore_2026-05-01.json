@@ -1,0 +1,205 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:05.981196+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 29.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:45.892517+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 29.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:43:05.981196+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-29T08:45:45.892517+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.355
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 25°C or below on May 1?",
+      "gamma_id": "2112405",
+      "token_id": "76033580553641644368061109292397068768520885914571682964065047420981277739674",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 424.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 26°C on May 1?",
+      "gamma_id": "2112406",
+      "token_id": "42032523243391640000808472122559309267523088592790590933339807851055213400624",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 327.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on May 1?",
+      "gamma_id": "2112407",
+      "token_id": "27525851002508089880934643435479574789939600454683158329836482840867082871850",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 109.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on May 1?",
+      "gamma_id": "2112408",
+      "token_id": "90434528200549705807191401928795006519095577301060587167667360958513613796847",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 226.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on May 1?",
+      "gamma_id": "2112409",
+      "token_id": "22114948788634081007394100675583358022254450625580476978079498199575787863418",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.023,
+      "ask": 0.977,
+      "price": 0.023,
+      "spread": 0.954,
+      "volume": 115.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on May 1?",
+      "gamma_id": "2112410",
+      "token_id": "81505539134949917172001307249361665586314296949494584717973950703950361155752",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 148.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on May 1?",
+      "gamma_id": "2112411",
+      "token_id": "83946907488658258991498081947595835758850056651936365991967665597301593280702",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 73.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on May 1?",
+      "gamma_id": "2112412",
+      "token_id": "79869596121813426192493164610855641851639163976221209619888226824229790615924",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 325.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on May 1?",
+      "gamma_id": "2112413",
+      "token_id": "66022541454069739103013748963794020452986986714098333014143260727873306925193",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 254.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on May 1?",
+      "gamma_id": "2112414",
+      "token_id": "60943008834540623424102960952055538144403290797910610966447976064701378866250",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0775,
+      "ask": 0.9225,
+      "price": 0.0775,
+      "spread": 0.845,
+      "volume": 480.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C or higher on May 1?",
+      "gamma_id": "2112415",
+      "token_id": "23174873665708130717997143137832834713580857705071965453950746562201928815219",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.0265,
+      "ask": 0.9735,
+      "price": 0.0265,
+      "spread": 0.947,
+      "volume": 58.0
+    }
+  ],
+  "created_at": "2026-04-29T07:43:12.976597+00:00"
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Polymarket Sniper Dashboard</title>
+<style>
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #061318; color: #eef8ff; }
+    .page { display: grid; gap: 18px; padding: 18px; }
+    .header { display: grid; grid-template-columns: repeat(6, minmax(140px, 1fr)); gap: 12px; }
+    .card { background: rgba(9,24,45,.9); border: 1px solid rgba(92,214,255,.12); border-radius: 18px; padding: 18px; box-shadow: 0 10px 40px rgba(0,0,0,.25); }
+    .card h3 { margin: 0 0 8px; font-size: .9rem; letter-spacing: .08em; color: #7fd4ff; }
+    .card .value { font-size: 1.9rem; font-weight: 700; line-height: 1; }
+    .card .sub { color: #8fb9cc; font-size: .86rem; margin-top: 8px; }
+    .grid-2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+    .section { background: rgba(9,24,45,.95); border: 1px solid rgba(92,214,255,.08); border-radius: 20px; overflow: hidden; }
+    .section h2 { margin: 0; padding: 18px; font-size: 1rem; color: #8fdfff; background: rgba(15,44,73,.8); }
+    .terminal, .history, .panels, .confidence, .chart { padding: 18px; }
+    .terminal pre { margin: 0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92rem; line-height: 1.5; color: #c3f4ff; max-height: 380px; overflow-y: auto; }
+    .ticker-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .symbol-card { border-radius: 18px; padding: 16px; background: rgba(11, 38, 68, .95); min-height: 180px; }
+    .symbol-card h3 { margin: 0 0 12px; font-size: 1.05rem; color: #9df4ff; }
+    .symbol-card .price { font-size: 2rem; font-weight: 700; }
+    .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+    .stat-row div { background: rgba(0,0,0,.18); border-radius: 14px; padding: 10px; }
+    .small-label { color: #8fb9cc; font-size: .84rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+    th, td { padding: 10px 8px; text-align: left; border-bottom: 1px solid rgba(255,255,255,.08); }
+    th { font-size: .82rem; letter-spacing: .08em; color: #7fc5ff; }
+    tr:hover { background: rgba(255,255,255,.04); }
+    .pill { display: inline-flex; gap: 6px; align-items: center; padding: 4px 10px; border-radius: 999px; font-size: .78rem; font-weight: 700; text-transform: uppercase; }
+    .pill.yes { background: rgba(17, 105, 78, .22); color: #7bf2b9; }
+    .pill.no { background: rgba(142, 38, 58, .22); color: #ff8aa3; }
+    .bar-row { display: grid; gap: 10px; }
+    .bar { height: 16px; border-radius: 8px; background: rgba(255,255,255,.08); overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 8px; transform-origin: left center; }
+    .status-chip { display: inline-flex; min-width: 64px; justify-content: center; border-radius: 999px; padding: 6px 10px; color: #fff; font-size: .8rem; }
+    .status-good { background: #1ac8a7; }
+    .status-warn { background: #f5b729; }
+    .status-bad { background: #ea5f5f; }
+    .small-note { color: #7aa7c3; font-size: .8rem; margin-top: 8px; }
+    .chart-root { width: 100%; height: 220px; background: rgba(0,0,0,.12); border-radius: 18px; position: relative; }
+    .chart-root canvas { width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+<div class="page">
+    <div class="header">
+        <div class="card"><h3>INITIAL BALANCE</h3><div class="value" id="initialBalance">$0.00</div></div>
+        <div class="card"><h3>CURRENT BALANCE</h3><div class="value" id="currentBalance">$0.00</div></div>
+        <div class="card"><h3>TOTAL TRADES</h3><div class="value" id="totalTrades">0</div></div>
+        <div class="card"><h3>WIN RATE</h3><div class="value" id="winRate">0%</div></div>
+        <div class="card"><h3>TODAY P&L</h3><div class="value" id="todayPnl">$0.00</div></div>
+        <div class="card"><h3>DAILY SPENT</h3><div class="value" id="dailySpent">$0.00</div><div class="sub">LLM calls: <span id="llmCalls">0</span></div></div>
+    </div>
+
+    <div class="grid-2">
+        <div class="section">
+            <h2>LIVE TERMINAL</h2>
+            <div class="terminal"><pre id="liveTerminal">Loading live terminal...</pre></div>
+        </div>
+        <div class="grid-3">
+            <div class="section symbol-card">
+                <h3>BTC / 5m Window</h3>
+                <div class="price" id="btcPrice">$0.00</div>
+                <div class="stat-row"><div><div class="small-label">Window Δ</div><strong id="btcWindowDelta">0.00%</strong></div><div><div class="small-label">Momentum 30s</div><strong id="btcMomentum">0.00%</strong></div></div>
+                <div class="stat-row"><div><div class="small-label">Vol Surge</div><strong id="btcVolSurge">0.00x</strong></div><div><div class="small-label">Countdown</div><strong id="btcCountdown">0s</strong></div></div>
+            </div>
+            <div class="section symbol-card">
+                <h3>ETH / 5m Window</h3>
+                <div class="price" id="ethPrice">$0.00</div>
+                <div class="stat-row"><div><div class="small-label">Window Δ</div><strong id="ethWindowDelta">0.00%</strong></div><div><div class="small-label">Momentum 30s</div><strong id="ethMomentum">0.00%</strong></div></div>
+                <div class="stat-row"><div><div class="small-label">Vol Surge</div><strong id="ethVolSurge">0.00x</strong></div><div><div class="small-label">Countdown</div><strong id="ethCountdown">0s</strong></div></div>
+            </div>
+            <div class="section confidence">
+                <h2>LLM Confidence History</h2>
+                <div id="confidenceBars"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-2">
+        <div class="section history">
+            <h2>Trade History</h2>
+            <div style="overflow-x:auto;">
+                <table><thead><tr><th>Time</th><th>SYM</th><th>DIR</th><th>Price</th><th>Size</th><th>Conf</th><th>Outcome</th><th>PnL</th></tr></thead><tbody id="tradeHistory"></tbody></table>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Balance Chart</h2>
+            <div class="chart-root"><canvas id="balanceChart"></canvas></div>
+            <div class="small-note">Balance history updates after each trade.</div>
+        </div>
+    </div>
+
+    <div class="section panels">
+        <h2>Layer-1 Signals</h2>
+        <div id="layer1Panel"></div>
+    </div>
+</div>
+<script>
+const endpoint = '/api/dashboard';
+const liveTerminal = document.getElementById('liveTerminal');
+const tradeHistory = document.getElementById('tradeHistory');
+const confidenceBars = document.getElementById('confidenceBars');
+const layer1Panel = document.getElementById('layer1Panel');
+const chartCanvas = document.getElementById('balanceChart');
+const ctx = chartCanvas.getContext('2d');
+chartCanvas.width = 860;
+chartCanvas.height = 220;
+
+async function fetchDashboard() {
+  try {
+    const res = await fetch(endpoint);
+    if (!res.ok) throw new Error('Data not ready');
+    return await res.json();
+  } catch (error) {
+    return null;
+  }
+}
+
+function formatMoney(value) {
+  const sign = value >= 0 ? '$' : '-$';
+  return sign + Math.abs(value).toFixed(2);
+}
+
+function setText(id, text) { document.getElementById(id).textContent = text; }
+
+function updateStats(stats) {
+  setText('initialBalance', formatMoney(stats.initial_balance));
+  setText('currentBalance', formatMoney(stats.current_balance));
+  setText('totalTrades', stats.total_trades);
+  setText('winRate', stats.win_rate.toFixed(1) + '%');
+  setText('todayPnl', formatMoney(stats.today_pnl));
+  setText('dailySpent', formatMoney(stats.daily_spent));
+  setText('llmCalls', stats.llm_calls);
+}
+
+function updateSymbolCard(prefix, summary) {
+  setText(prefix + 'Price', '$' + summary.current_price.toFixed(4));
+  setText(prefix + 'WindowDelta', summary.window_delta_pct.toFixed(4) + '%');
+  setText(prefix + 'Momentum', summary.momentum_30s.toFixed(4) + '%');
+  setText(prefix + 'VolSurge', summary.vol_surge.toFixed(2) + 'x');
+  setText(prefix + 'Countdown', summary.seconds_left + 's');
+}
+
+function updateLiveEvents(events) {
+  if (!events || !events.length) {
+    liveTerminal.textContent = 'Waiting for bot events...';
+    return;
+  }
+  liveTerminal.textContent = events.slice(-20).map(e => `[${e.timestamp}] ${e.message}`).join('\n');
+}
+
+function updateTradeHistory(history) {
+  tradeHistory.innerHTML = '';
+  history.slice(-20).reverse().forEach(trade => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${trade.timestamp}</td>
+      <td>${trade.symbol}</td>
+      <td><span class="pill ${trade.direction.includes('YES') ? 'yes' : 'no'}">${trade.direction}</span></td>
+      <td>$${trade.entry_price.toFixed(4)}</td>
+      <td>$${trade.trade_size_usd.toFixed(2)}</td>
+      <td>${trade.confidence}%</td>
+      <td>${trade.outcome}</td>
+      <td>${trade.pnl.toFixed(2)}</td>
+    `;
+    tradeHistory.appendChild(row);
+  });
+}
+
+function updateConfidenceHistory(items) {
+  confidenceBars.innerHTML = '';
+  if (!items) return;
+  items.forEach(item => {
+    const barBox = document.createElement('div');
+    barBox.style.display = 'grid';
+    barBox.style.gridTemplateColumns = '1.2fr 0.8fr';
+    barBox.style.gap = '10px';
+    barBox.style.alignItems = 'center';
+    const label = document.createElement('div');
+    label.textContent = `${item.timestamp} ${item.symbol} ${item.action || ''}`.trim();
+    label.style.fontSize = '.84rem';
+    const value = document.createElement('div');
+    const percentage = item.confidence;
+    const fill = document.createElement('div');
+    fill.className = 'bar-fill';
+    fill.style.width = Math.max(5, percentage) + '%';
+    fill.style.background = percentage >= 80 ? '#29e6a6' : percentage >= 60 ? '#f9d94d' : '#ff6d78';
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.appendChild(fill);
+    value.appendChild(bar);
+    const badge = document.createElement('div');
+    badge.className = 'status-chip ' + (percentage >= 80 ? 'status-good' : percentage >= 60 ? 'status-warn' : 'status-bad');
+    badge.textContent = percentage + '%';
+    value.appendChild(badge);
+    barBox.append(label, value);
+    confidenceBars.appendChild(barBox);
+  });
+}
+
+function drawBalanceChart(history) {
+  ctx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+  if (!history || history.length < 2) return;
+  const points = history.slice(-20);
+  const values = points.map(p => p.balance);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = Math.max(max - min, 1);
+  const padding = 24;
+  const width = chartCanvas.width - padding * 2;
+  const height = chartCanvas.height - padding * 2;
+  ctx.strokeStyle = '#4ae0ff';
+  ctx.lineWidth = 2.5;
+  ctx.beginPath();
+  points.forEach((point, idx) => {
+    const x = padding + (idx / (points.length - 1)) * width;
+    const y = padding + height - ((point.balance - min) / range) * height;
+    if (idx === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+  ctx.fillStyle = 'rgba(74, 224, 255, .22)';
+  ctx.lineTo(padding + width, padding + height);
+  ctx.lineTo(padding, padding + height);
+  ctx.closePath();
+  ctx.fill();
+}
+
+function updateLayer1(summary) {
+  layer1Panel.innerHTML = '';
+  for (const symbol of ['BTC','ETH']) {
+    const data = summary[symbol] || {};
+    const block = document.createElement('div');
+    block.style.display = 'grid';
+    block.style.gridTemplateColumns = '1fr 1fr 1fr';
+    block.style.gap = '8px';
+    block.style.marginBottom = '12px';
+    block.style.padding = '12px';
+    block.style.borderRadius = '18px';
+    block.style.background = 'rgba(255,255,255,.03)';
+    block.innerHTML = `
+      <div><strong>${symbol}</strong><div class="small-note">Price</div><div>$${data.current_price?.toFixed(4) || '0.00'}</div></div>
+      <div><strong>${data.window_delta_pct?.toFixed(4) || '0.00'}%</strong><div class="small-note">Window Δ</div></div>
+      <div><strong>${data.momentum_30s?.toFixed(4) || '0.00'}%</strong><div class="small-note">Momentum</div></div>
+      <div><strong>${data.vol_surge?.toFixed(2) || '0.00'}x</strong><div class="small-note">Vol Surge</div></div>
+      <div><strong>${data.seconds_left || 0}s</strong><div class="small-note">Countdown</div></div>
+      <div></div>
+    `;
+    layer1Panel.appendChild(block);
+  }
+}
+
+async function refresh() {
+  const payload = await fetchDashboard();
+  if (!payload) return;
+  updateStats(payload.stats);
+  updateLiveEvents(payload.live_events);
+  updateTradeHistory(payload.trade_history);
+  updateConfidenceHistory(payload.llm_confidence_history);
+  drawBalanceChart(payload.balance_history);
+  updateLayer1(payload.symbol_summary || {});
+  if (payload.symbol_summary?.BTC) updateSymbolCard('btc', payload.symbol_summary.BTC);
+  if (payload.symbol_summary?.ETH) updateSymbolCard('eth', payload.symbol_summary.ETH);
+}
+
+setInterval(refresh, 2500);
+refresh();
+</script>
+</body>
+</html>

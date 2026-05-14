@@ -1,0 +1,205 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-05-01",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:14.041638+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 24.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-29T08:45:01.346890+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.2,
+      "ecmwf": 24.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:42:14.041638+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-29T08:45:01.346890+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.265
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 17°C or below on May 1?",
+      "gamma_id": "2112184",
+      "token_id": "81699801896422591811329950373382513699337778391814193923701143013204602829865",
+      "range": [
+        -999.0,
+        17.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 579.0
+    },
+    {
+      "question": "Will the highest temperature in London be 18°C on May 1?",
+      "gamma_id": "2112185",
+      "token_id": "72446400189975812652701556639191629360576334305787031825826054447276173401294",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 359.0
+    },
+    {
+      "question": "Will the highest temperature in London be 19°C on May 1?",
+      "gamma_id": "2112186",
+      "token_id": "91992759690588258172148878109630281886813485789917875961610279847005673351293",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 363.0
+    },
+    {
+      "question": "Will the highest temperature in London be 20°C on May 1?",
+      "gamma_id": "2112187",
+      "token_id": "82067472352945448784348078850814039721880686969309697991646319568577564434048",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 323.0
+    },
+    {
+      "question": "Will the highest temperature in London be 21°C on May 1?",
+      "gamma_id": "2112188",
+      "token_id": "103990781874408068834975459980343561032699273553953684276876719448264467019550",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.045,
+      "ask": 0.955,
+      "price": 0.045,
+      "spread": 0.91,
+      "volume": 781.0
+    },
+    {
+      "question": "Will the highest temperature in London be 22°C on May 1?",
+      "gamma_id": "2112189",
+      "token_id": "41067842273182693343497959425676801285102203527537461026717585780793153253553",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.089,
+      "ask": 0.911,
+      "price": 0.089,
+      "spread": 0.822,
+      "volume": 662.0
+    },
+    {
+      "question": "Will the highest temperature in London be 23°C on May 1?",
+      "gamma_id": "2112190",
+      "token_id": "93607387939474912219147181037621867580245085004915125130052775770885632206514",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 723.0
+    },
+    {
+      "question": "Will the highest temperature in London be 24°C on May 1?",
+      "gamma_id": "2112191",
+      "token_id": "30798024474577961039549921945688957779808362910208899696070688111792202108658",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 734.0
+    },
+    {
+      "question": "Will the highest temperature in London be 25°C on May 1?",
+      "gamma_id": "2112192",
+      "token_id": "24428912710679196118500487338193306211079635884533191663055633606483899397086",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.25,
+      "ask": 0.75,
+      "price": 0.25,
+      "spread": 0.5,
+      "volume": 731.0
+    },
+    {
+      "question": "Will the highest temperature in London be 26°C on May 1?",
+      "gamma_id": "2112193",
+      "token_id": "59842331856451789036359334185216588859965937674431347126097021034788940018550",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 248.0
+    },
+    {
+      "question": "Will the highest temperature in London be 27°C or higher on May 1?",
+      "gamma_id": "2112194",
+      "token_id": "44081275901717210024099537017589635180827257506939022813000708906915319613445",
+      "range": [
+        27.0,
+        999.0
+      ],
+      "bid": 0.0275,
+      "ask": 0.9725,
+      "price": 0.0275,
+      "spread": 0.945,
+      "volume": 142.0
+    }
+  ],
+  "created_at": "2026-04-29T07:42:19.566431+00:00"
+}

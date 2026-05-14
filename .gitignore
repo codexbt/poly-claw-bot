@@ -1,0 +1,8 @@
+.env
+.env copy
+.env.tennis
+logs/
+__pycache__/
+*.pyc
+venv/
+.venv/

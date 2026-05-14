@@ -1,0 +1,205 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-04-30",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-04-30T12:00:00Z",
+  "hours_at_discovery": 28.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:33.813547+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.3,
+      "ecmwf": 86,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:09.896114+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.3,
+      "ecmwf": 87,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:33.813547+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-04-29T08:44:09.896114+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.445
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 77°F or below on April 30?",
+      "gamma_id": "2102192",
+      "token_id": "31477811215785318650095025810619595518986385656838199400191006536296279054099",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 1372.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on April 30?",
+      "gamma_id": "2102193",
+      "token_id": "1002058147801980049738291925230052979854945212364533488671491802716318049758",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 673.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on April 30?",
+      "gamma_id": "2102194",
+      "token_id": "41546305614194221184663368256265017807424226281573327839522030717358266293803",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 781.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on April 30?",
+      "gamma_id": "2102195",
+      "token_id": "62963302974534610730672621118269539906039100212707183035485109173027826887218",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.013,
+      "ask": 0.987,
+      "price": 0.013,
+      "spread": 0.974,
+      "volume": 1228.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on April 30?",
+      "gamma_id": "2102196",
+      "token_id": "39963285764405860504232894872142036085461590171994126151782757290821645652935",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0495,
+      "ask": 0.9505,
+      "price": 0.0495,
+      "spread": 0.901,
+      "volume": 802.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on April 30?",
+      "gamma_id": "2102197",
+      "token_id": "13012084996531381494351785237037740878540179075111910030922177130747457636665",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.25,
+      "ask": 0.75,
+      "price": 0.25,
+      "spread": 0.5,
+      "volume": 1366.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on April 30?",
+      "gamma_id": "2102198",
+      "token_id": "111409987767380723270011479121663042129085830888732028620138769589493263462193",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.445,
+      "ask": 0.555,
+      "price": 0.445,
+      "spread": 0.11,
+      "volume": 589.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on April 30?",
+      "gamma_id": "2102199",
+      "token_id": "31629425548204218000001900945611438414504782449511710362139906742669664120174",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.197,
+      "ask": 0.803,
+      "price": 0.197,
+      "spread": 0.606,
+      "volume": 889.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on April 30?",
+      "gamma_id": "2102200",
+      "token_id": "62289716136418833516770712783050218134174698842102884645683524944188091772761",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.031,
+      "ask": 0.969,
+      "price": 0.031,
+      "spread": 0.938,
+      "volume": 914.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on April 30?",
+      "gamma_id": "2102201",
+      "token_id": "49140403209903383329174440257975405983823662552523775655106466934757840805503",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.0115,
+      "ask": 0.9885,
+      "price": 0.0115,
+      "spread": 0.977,
+      "volume": 753.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 96°F or higher on April 30?",
+      "gamma_id": "2102202",
+      "token_id": "26407436366242178565445154185381300904311942652514723315913507161861645344627",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1399.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:40.969473+00:00"
+}

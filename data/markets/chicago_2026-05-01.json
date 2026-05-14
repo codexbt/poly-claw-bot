@@ -1,0 +1,205 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-05-01",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-05-01T12:00:00Z",
+  "hours_at_discovery": 52.3,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:25.885766+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 47,
+      "hrrr": 49,
+      "metar": null,
+      "best": 49,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-29T08:44:04.013829+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 46,
+      "hrrr": 49,
+      "metar": null,
+      "best": 49,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-29T07:41:25.885766+00:00",
+      "top_bucket": "-999.0-51.0F",
+      "top_price": 0.69
+    },
+    {
+      "ts": "2026-04-29T08:44:04.013829+00:00",
+      "top_bucket": "-999.0-51.0F",
+      "top_price": 0.685
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 51°F or below on May 1?",
+      "gamma_id": "2112306",
+      "token_id": "23575135843924131062179883482854145300975161815661327044845510251602768350419",
+      "range": [
+        -999.0,
+        51.0
+      ],
+      "bid": 0.685,
+      "ask": 0.315,
+      "price": 0.685,
+      "spread": -0.37,
+      "volume": 773.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 52-53°F on May 1?",
+      "gamma_id": "2112307",
+      "token_id": "25574875618248413082997921897191962431362361524793096476587928582546121488128",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 175.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 54-55°F on May 1?",
+      "gamma_id": "2112308",
+      "token_id": "31601544973251029766420653556407923312938780555139248816283108110156006814944",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 61.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 56-57°F on May 1?",
+      "gamma_id": "2112309",
+      "token_id": "63641328223708284449764034539789343843252173669340753140670240881358593786652",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0355,
+      "ask": 0.9645,
+      "price": 0.0355,
+      "spread": 0.929,
+      "volume": 196.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 58-59°F on May 1?",
+      "gamma_id": "2112310",
+      "token_id": "96497595936305452133400114462709812671230911712447553374354554421610370147061",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.022,
+      "ask": 0.978,
+      "price": 0.022,
+      "spread": 0.956,
+      "volume": 134.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 60-61°F on May 1?",
+      "gamma_id": "2112311",
+      "token_id": "12255944159134852082694042089172705597473500788163272131638270439835556487338",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 373.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 62-63°F on May 1?",
+      "gamma_id": "2112312",
+      "token_id": "80892077740365632001363252210171201476704857823457599879525034612119592202214",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 64-65°F on May 1?",
+      "gamma_id": "2112313",
+      "token_id": "57323285841921506256686457621421732379628962982170424675732649622878619180296",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 66-67°F on May 1?",
+      "gamma_id": "2112314",
+      "token_id": "37301548410242970394492470144571275186636106951426252395863053351851253399914",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 68-69°F on May 1?",
+      "gamma_id": "2112315",
+      "token_id": "61359720237304605697584451182108798871698376056518496454800879459253238546734",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 70°F or higher on May 1?",
+      "gamma_id": "2112316",
+      "token_id": "47993847569953731831355657741338860298806307395686751803544147062219829262748",
+      "range": [
+        70.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 35.0
+    }
+  ],
+  "created_at": "2026-04-29T07:41:33.086853+00:00"
+}

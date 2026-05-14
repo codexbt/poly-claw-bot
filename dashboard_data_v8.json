@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-04-29T07:40:13+00:00",
+  "mode": "v8-volume-reversal",
+  "stats": {
+    "initial_balance": 100.0,
+    "current_balance": 100.0,
+    "total_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "wallet_delta": 0.0,
+    "realized_pnl": 0.0,
+    "daily_spent": 0.0,
+    "redeemed_count": 0
+  },
+  "live_events": [],
+  "open_trades": [],
+  "symbol_summary": {},
+  "balance_history": [
+    {
+      "timestamp": "2026-04-24T04:54:51+00:00",
+      "balance": 100.0
+    }
+  ]
+}
