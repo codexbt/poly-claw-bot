@@ -1,87 +1,128 @@
-﻿# Poly Claw Bot
+﻿# 🚀 Poly Claw Bot
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/codexbt/poly-claw-bot)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://github.com/codexbt/poly-claw-bot)
+[![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/network)
+[![GitHub issues](https://img.shields.io/github/issues/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/issues)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot)
 
-AI-powered live trading suite for Polymarket and sports markets.
-A clean, professional repository built for `codexbt` with modular bot strategies, secure configuration, and optional LLM signal validation.
+> 🤖 AI-powered live trading suite for Polymarket and sports markets. Built for `codexbt` with modular strategies, secure configs, and LLM validation.
 
----
-
-## 🚀 What this project delivers
-
-- **Professional bot architecture** with a polished folder layout and focused core scripts.
-- **Multi-strategy execution**: Polymarket momentum, sports scanning, LLM validation, and arbitrage support.
-- **Config-driven operation** using environment variables and a centralized `config/` directory.
-- **Live execution ready** with relayer support, dry-run mode, and robust trade tracking.
-- **AI signal validation** for smarter entries, not blind automation.
+![Demo](https://via.placeholder.com/800x400/007bff/ffffff?text=Trading+Dashboard+Demo) <!-- Replace with actual demo image -->
 
 ---
 
-## 📁 Repository structure
+## ✨ Features
 
-| Folder / File | Purpose |
-|---|---|
-| `bots/poly-claw.py` | Main Polymarket momentum trading engine |
-| `bots/sports_bot.py` | Sports market scanner and execution bot |
-| `bots/poly5min_llm_bot.py` | LLM-enhanced decision engine for Polymarket |
-| `poly5min_all.py` | Broad multi-market scanning tool |
-| `polyarbi.py` | Arbitrage and spread trading support |
-| `config/env.example` | Secure environment template and secret handling |
+- 🚀 **Professional Architecture**: Clean layout with modular, focused scripts
+- 🤖 **Multi-Strategy Bots**: Polymarket momentum, sports scanning, arbitrage, LLM-enhanced decisions
+- ⚙️ **Config-Driven**: Environment variables in secure `.env` files
+- 🔄 **Live Trading Ready**: Relayer integration, paper trading mode, comprehensive tracking
+- 🧠 **AI Validation**: LLM-powered signal confidence for smarter trades
+- 📊 **Advanced Metrics**: Win/loss ratios, PnL tracking, real-time logging
+- 🔒 **Security First**: Encrypted secrets, no hardcoded credentials
+- 🎯 **Risk Management**: Trade limits, position sizing, automated stops
 
 ---
 
-## ⚡ Recommended quick start
+## 📁 Project Structure
 
+| File | Description |
+|------|-------------|
+| `poly5min_llm_bot.py` | 🤖 LLM-enhanced Polymarket 5-min momentum bot |
+| `sports_bot.py` | ⚽ Sports market scanner and automated trader |
+| `polyarbi.py` | 📈 Arbitrage and spread trading engine |
+| `swissbot.py` | 🏔️ Swiss market trading bot |
+| `sniperbot.py` | 🎯 Precision sniper bot for opportunities |
+| `poly5min_all.py` | 🔍 Multi-market scanning and analysis tool |
+| `requirements.txt` | 📦 Python dependencies |
+| `.env` (example) | 🔐 Secure configuration template |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.10+
+- Git
+
+### Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/codexbt/poly-claw-bot.git
+   cd poly-claw-bot
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure environment**
+   ```bash
+   cp .env.example .env  # Edit with your keys
+   ```
+
+### Run a Bot
+
+**Polymarket LLM Bot:**
 ```bash
-pip install -r requirements.txt
+python poly5min_llm_bot.py
 ```
 
+**Sports Bot:**
 ```bash
-cp config/env.example config/.env
+python sports_bot.py
 ```
 
+**Arbitrage Bot:**
 ```bash
-python bots/poly-claw.py
+python polyarbi.py
 ```
 
-For Windows PowerShell:
-
+**Windows PowerShell (parallel):**
 ```powershell
-start powershell -NoExit python bots/poly-claw.py
-start powershell -NoExit python bots/sports_bot.py
-start powershell -NoExit python bots/poly5min_llm_bot.py
+start powershell -NoExit python poly5min_llm_bot.py
+start powershell -NoExit python sports_bot.py
+start powershell -NoExit python polyarbi.py
 ```
 
 ---
 
 ## 🔧 Configuration
 
-Create a `config/.env` file and add your credentials securely.
+Create a `.env` file in the root directory with your secure credentials:
 
-Example variables:
-
-```ini
+```env
+# Polymarket/Clob Credentials
 PRIVATE_KEY=0xYOUR_PRIVATE_KEY
-OPENROUTER_API_KEY=sk-or-YOUR_KEY
-API_KEY=YOUR_API_KEY
-API_SECRET=YOUR_API_SECRET
 RELAYER_API_KEY=YOUR_RELAYER_API_KEY
 RELAYER_API_KEY_ADDRESS=0xYOUR_SIGNER_ADDRESS
-PAPER_MODE=true
+
+# AI/LLM Integration
+OPENROUTER_API_KEY=sk-or-YOUR_OPENROUTER_KEY
+
+# Trading Mode
+PAPER_MODE=true  # Set to false for live trading
+
+# Optional: Additional API keys for sports data
+SPORTS_API_KEY=YOUR_SPORTS_API_KEY
 ```
+
+> ⚠️ **Security Note**: Never commit `.env` files. Use `.gitignore` to exclude them.
 
 ---
 
-## 🧠 Core capabilities
+## 🧠 Capabilities
 
-- **Polymarket trading engine** with momentum filters, volume triggers, and trade risk controls.
-- **LLM validation layer** using OpenRouter for signal confidence checks.
-- **Trade metrics** including win/loss tracking, realized PnL, and live logging.
-- **Modular design** for easier strategy extension and cleaner GitHub presentation.
-- **Secure `.env` handling** from the `config/` folder, avoiding secrets in source control.
+- 🎯 **Advanced Trading Engines**: Momentum-based Polymarket trading with volume triggers and risk controls
+- 🤖 **AI-Powered Validation**: OpenRouter LLM integration for trade signal confidence scoring
+- 📊 **Comprehensive Metrics**: Real-time win/loss tracking, PnL calculations, and detailed logging
+- 🔧 **Modular Architecture**: Easily extensible strategies and clean codebase
+- 🔒 **Enterprise Security**: Secure `.env` handling, encrypted communications, no secrets in code
+- ⚡ **High Performance**: Optimized for low-latency execution and concurrent operations
 
 ---
 
@@ -94,29 +135,60 @@ PAPER_MODE=true
 
 ---
 
-## 💡 Best practices
+## 💡 Best Practices
 
-- Use `PAPER_MODE=true` for testing before running live.
-- Keep secrets inside `config/.env` and never commit them.
-- Monitor logs and trade performance when tuning thresholds.
+- 🧪 **Test First**: Always use `PAPER_MODE=true` for testing strategies
+- 🔐 **Secure Secrets**: Store all credentials in `.env`, never in code
+- 📈 **Monitor Performance**: Track logs and metrics when adjusting parameters
+- 🚦 **Risk Management**: Start with small positions and scale gradually
+- 🔄 **Regular Updates**: Keep dependencies updated and review code periodically
 
----
+## 📖 Examples
 
-## ⭐ Support
+### Running Multiple Bots
 
-If this project improves your workflow, please star the repo and consider supporting continued development.
+```bash
+# Start all bots in background
+python poly5min_llm_bot.py &
+python sports_bot.py &
+python polyarbi.py &
+```
+
+### Custom Configuration
+
+```python
+# Example: Modify risk parameters
+MAX_POSITION_SIZE = 0.1  # 10% of portfolio
+STOP_LOSS_PERCENT = 0.05  # 5% stop loss
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 🐛 Issues & Support
+
+- 📋 [Report Issues](https://github.com/codexbt/poly-claw-bot/issues)
+- 💬 [Discussions](https://github.com/codexbt/poly-claw-bot/discussions)
+- 📧 Contact: Built for `codexbt`
+
+## ⭐ Support the Project
+
+If Poly Claw Bot helps your trading, please:
+- ⭐ Star the repository
+- 🍴 Fork and contribute
+- 💝 Share with fellow traders
 
 ---
 
 ## 📄 License
 
-MIT License
+Licensed under MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## Contact
-
-Built for `codexbt` with production-ready structure and a professional GitHub presentation.
-
-
-Built for `codexbt` with production-ready structure and a professional GitHub presentation.
+*Built with ❤️ for `codexbt` - Professional trading automation made simple.*

@@ -1,1 +1,0 @@
-2026-05-06T17:10:59.025307 | BUY_CHAMPION | Who will win Djokovic | shares=27.160493827160494 | price=0.81 | cost=22.0 | dry=True
