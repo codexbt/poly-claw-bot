@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="state/ChatGPT Image May 15, 2026, 12_30_51 AM.png" alt="Poly Claw Bot" width="420" />
   
   [![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
@@ -10,6 +10,8 @@
 </div>
 
 > 🤖 AI-powered live trading suite for Polymarket and sports markets. Built for `codexbt` with modular strategies, secure configs, and LLM validation.
+>
+> GRZFGTFNbNxTTRCVDrMvhE9Pp86HQ1ehpZ7DqgGTpump
 
 ---
 
