@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="state/ChatGPT Image May 15, 2026, 12_30_51 AM.png" alt="Poly Claw Bot" width="420" />
-  
+ 
   [![GitHub stars](https://img.shields.io/github/stars/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/network)
   [![GitHub issues](https://img.shields.io/github/issues/codexbt/poly-claw-bot.svg?style=flat-square)](https://github.com/codexbt/poly-claw-bot/issues)
