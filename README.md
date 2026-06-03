@@ -10,8 +10,6 @@
 </div>
 
 > 🤖 AI-powered live trading suite for Polymarket and sports markets. Built for `codexbt` with modular strategies, secure configs, and LLM validation.
->
-> GRZFGTFNbNxTTRCVDrMvhE9Pp86HQ1ehpZ7DqgGTpump
 
 ---
 
